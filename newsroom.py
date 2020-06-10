@@ -12,7 +12,10 @@ from dotenv import load_dotenv
 from discord.ext import commands, tasks
 import asyncio
 import os
-from newsroom1 import scrap
+from newsroom1 import newsroom_scrap
+from bussineswire import scrap_bussinewire
+from prnewswire import scrap_prnewswire
+from globenewswire import scrap_globenewswire
 
 load_dotenv() #loading environment variable
 TOKEN = os.getenv('DISCORD_TOKEN') #storing token
@@ -25,13 +28,36 @@ client = discord.Client()
 bot = commands.Bot(command_prefix='$')
 @tasks.loop(seconds=1200) #run this task every 4 minutes
 async def my_background_task():
-    channel = client.get_channel(717657784681758720) #connect with the given channel id 
+    channel = client.get_channel(718477618823037001) #connect with the given channel id 
     print(channel)
     if channel is not None:
-        my_list = scrap()
-        if(my_list):
-            for elem in my_list:
-                await channel.send(elem)
+            eastern = timezone('US/Eastern')
+            us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
+            last_run_time = us_curr_time+ timedelta(minutes=-10)
+            print("Accesswire Job Started")
+            my_list = newsroom_scrap(us_curr_time,last_run_time)
+            print(my_list)
+            if(my_list):
+                await channel.send(my_list)
+            print("Accesswire Job Completed")
+
+            print("Bussieswire Job Started")
+            my_list = scrap_bussinewire(us_curr_time,last_run_time)
+            if(my_list):
+                await channel.send(my_list)
+            print("Bussieswire Job Completed")
+
+            print("prnnewswire Job Started")
+            my_list = scrap_prnewswire(us_curr_time,last_run_time)            
+            if(my_list):
+                await channel.send(my_list)
+            print("prnnewswire Job completed")            
+
+            print("globenewswire Job Started")
+            my_list = scrap_globenewswire()
+            if(my_list):
+                await channel.send(my_list)
+            print("globenewswire Job Completed")
         # driver = webdriver.Chrome("chromedriver.exe")
 
 @my_background_task.before_loop
@@ -64,29 +90,3 @@ async def on_message(message):
         await message.channel.send("Yes!")
 
 client.run(TOKEN)    
-# driver = webdriver.Chrome("chromedriver.exe")
-# driver.maximize_window()
-# wait = WebDriverWait(driver, 20)
-# eastern = timezone('US/Eastern')
-# us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-# print(us_curr_time)
-# last_run_time = us_curr_time+ timedelta(minutes=-30)
-# driver.get("https://www.accesswire.com/newsroom/")
-# main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="w-embed"]')))
-# print(main_div) 
-# # time.sleep(10)
-# article = main_div.find_elements_by_xpath('//div[@class="w-col w-col-9"]')
-# print(len(article))
-# for a in article:    
-#     # print(a)    
-#     head = a.find_element_by_xpath('.//div[@class="headlinelink"]')
-#     link = head.find_element_by_xpath('.//a')
-    
-#     date_element  = a.find_element_by_xpath('.//div[@class="date"]')
-#     news_date = date_element.text
-#     news_date = news_date.replace(" EST","")
-#     news_date = datetime.strptime(news_date,'%A, %B %d, %Y %I:%M %p')
-#     # print(news_date)
-#     if(last_run_time<news_date<us_curr_time):
-#         print(link.get_attribute("href"))
-# print(us_curr_time)
