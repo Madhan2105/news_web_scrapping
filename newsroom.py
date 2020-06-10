@@ -26,47 +26,47 @@ print(TOKEN,GUILD)
 client = discord.Client() 
 
 bot = commands.Bot(command_prefix='$')
-@tasks.loop(seconds=1200) #run this task every 4 minutes
-async def my_background_task():
-    channel = client.get_channel(718477618823037001) #connect with the given channel id 
-    print(channel)
-    if channel is not None:
-            eastern = timezone('US/Eastern')
-            us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-            last_run_time = us_curr_time+ timedelta(minutes=-10)
-            print("Accesswire Job Started")
-            my_list = newsroom_scrap(us_curr_time,last_run_time)
-            print(my_list)
-            if(my_list):
-                await channel.send(my_list)
-            print("Accesswire Job Completed")
+# @tasks.loop(seconds=1200) #run this task every 4 minutes
+# async def my_background_task():
+#     channel = client.get_channel(718477618823037001) #connect with the given channel id 
+#     print(channel)
+#     if channel is not None:
+#             eastern = timezone('US/Eastern')
+#             us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
+#             last_run_time = us_curr_time + timedelta(minutes=-10)
+#             print("Accesswire Job Started")
+#             my_list = newsroom_scrap(us_curr_time,last_run_time)
+#             print(my_list)
+#             if(my_list):
+#                 await channel.send(my_list)
+#             print("Accesswire Job Completed")
 
-            print("Bussieswire Job Started")
-            my_list = scrap_bussinewire(us_curr_time,last_run_time)
-            if(my_list):
-                await channel.send(my_list)
-            print("Bussieswire Job Completed")
+#             print("Bussieswire Job Started")
+#             my_list = scrap_bussinewire(us_curr_time,last_run_time)
+#             if(my_list):
+#                 await channel.send(my_list)
+#             print("Bussieswire Job Completed")
 
-            print("prnnewswire Job Started")
-            my_list = scrap_prnewswire(us_curr_time,last_run_time)            
-            if(my_list):
-                await channel.send(my_list)
-            print("prnnewswire Job completed")            
+#             print("prnnewswire Job Started")
+#             my_list = scrap_prnewswire(us_curr_time,last_run_time)            
+#             if(my_list):
+#                 await channel.send(my_list)
+#             print("prnnewswire Job completed")            
 
-            print("globenewswire Job Started")
-            my_list = scrap_globenewswire()
-            if(my_list):
-                await channel.send(my_list)
-            print("globenewswire Job Completed")
-        # driver = webdriver.Chrome("chromedriver.exe")
+#             print("globenewswire Job Started")
+#             my_list = scrap_globenewswire()
+#             if(my_list):
+#                 await channel.send(my_list)
+#             print("globenewswire Job Completed")
+#         # driver = webdriver.Chrome("chromedriver.exe")
 
-@my_background_task.before_loop
-async def before_example():
-    await client.wait_until_ready()                
+# @my_background_task.before_loop
+# async def before_example():
+#     await client.wait_until_ready()                
 
 @client.event
 async def on_ready():
-    my_background_task.start()
+    # my_background_task.start()
     for guild in client.guilds:
         print("guild",guild)
         if guild.name == GUILD:
@@ -76,7 +76,36 @@ async def on_ready():
         f'{client.user} is connected to the following guild:\n'
         # f'{guild.name}(id: {guild.id})'
     )
+    channel = client.get_channel(717657784681758720) #connect with the given channel id 
+    print(channel)
+    if channel is not None:
+        eastern = timezone('US/Eastern')
+        us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
+        last_run_time = us_curr_time + timedelta(minutes=-10)
+        print("Accesswire Job Started")
+        my_list = newsroom_scrap(us_curr_time,last_run_time)
+        print(my_list)
+        if(my_list):
+            await channel.send(my_list)
+        print("Accesswire Job Completed")
 
+        print("Bussieswire Job Started")
+        my_list = scrap_bussinewire(us_curr_time,last_run_time)
+        if(my_list):
+            await channel.send(my_list)
+        print("Bussieswire Job Completed")
+
+        print("prnnewswire Job Started")
+        my_list = scrap_prnewswire(us_curr_time,last_run_time)            
+        if(my_list):
+            await channel.send(my_list)
+        print("prnnewswire Job completed")            
+
+        print("globenewswire Job Started")
+        my_list = scrap_globenewswire()
+        if(my_list):
+            await channel.send(my_list)
+        print("globenewswire Job Completed")
 @client.event
 async def on_member_join(member):
     await member.create_dm()
