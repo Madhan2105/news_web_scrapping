@@ -19,6 +19,7 @@ from globenewswire import scrap_globenewswire
 
 load_dotenv() #loading environment variable
 TOKEN = os.getenv('DISCORD_TOKEN') #storing token
+TOKEN = "NzE4NDc2NjAzNzQyNDg2NTU4.XuBpjg.UU3WoILoCh3L_t3N4MN2CZLbXvk"
 GUILD = os.getenv('DISCORD_GUILD')
 print(GUILD)
 
