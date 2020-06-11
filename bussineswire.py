@@ -7,7 +7,8 @@ from pytz import timezone
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
-
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.keys import Keys
 
 def scrap_bussinewire(us_curr_time,last_run_time):
     try:
@@ -34,17 +35,26 @@ def scrap_bussinewire(us_curr_time,last_run_time):
             # news_date = news_date.replace(" EST","")
             news_date = datetime.strptime(news_date,'%m/%d/%Y - %I:%M %p')
             # print(news_date)
-            keyword = ["nasdaq","nyse","amex"]
+            keyword = ["NASDAQ","NYSE","AMEX","Technavio"]
             my_list = []
             if(last_run_time<news_date<us_curr_time):
+                actions = ActionChains(driver)            
                 head = link.text
-                head = head.lower()
-                if any(x in head for x in keyword):
-                    print(head)
-                    my_list.append(link)
+                actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
+                driver.switch_to.window(driver.window_handles[-1])
+                data = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="bw-release-story"]')))
+                data = data.text
+                link = link.get_attribute("href")
+                # print("----------------------------")
+                # print("data",data)
+                driver.close()                
+                driver.switch_to.window(driver.window_handles[0])
+                if any(x in data for x in keyword):
+                    my_list.append([link,head])
+                print(my_list)
                 # print(link.get_attribute("href"))
             # break
-        print(my_list)
+        # print(my_list)
         return my_list    
     except Exception as e:
         print("Something went Wrong!!",e)

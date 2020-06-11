@@ -9,6 +9,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 import itertools  
 import re
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.keys import Keys
 
 def scrap_prnewswire(us_curr_time,last_run_time):
     try:
@@ -29,22 +31,34 @@ def scrap_prnewswire(us_curr_time,last_run_time):
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
             link = a.find_element_by_xpath('.//h3/a')
             head = link.text
-            link = link.get_attribute("href")
             news_date = a.find_element_by_xpath('.//h3/small')
             # print(link)
             news_date = news_date.text
             ans = re.search("^\d\d:\d\d ET$",news_date)
-            keyword = ["nasdaq","nyse","amex"]
+            keyword = ["NASDAQ","NYSE","AMEX"]
             my_list = []    
             if(ans):        
                 news_date = news_date.replace(" ET","")
                 news_date = datetime.strptime(news_date,'%H:%M')
                 news_date = news_date.time()
                 if(last_run_time<news_date<us_curr_time):
-                    head = head.lower()
-                    if any(x in head for x in keyword):
+                    actions = ActionChains(driver)            
+                    actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
+                    link = str(link.get_attribute("href"))
+                    driver.switch_to.window(driver.window_handles[-1])
+                    # driver.get(link)                
+                    data = wait.until(ec.visibility_of_all_elements_located((By.XPATH,'//div[@class="col-sm-10 col-sm-offset-1"]')))
+                    content = ""
+                    for child in data:
+                        # print(child.text)
+                        content = content + str(child.text)
+                    # print("----------------------------")
+                    # print("data",content)
+                    driver.close()                
+                    driver.switch_to.window(driver.window_handles[0])
+                    if any(x in data for x in keyword):
                         print(head)
-                        my_list.append(link)            
+                        my_list.append([link,head])                        
                         print(link)
             # break
         print("Current time",us_curr_time)        
@@ -57,6 +71,6 @@ def scrap_prnewswire(us_curr_time,last_run_time):
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-    last_run_time = us_curr_time + timedelta(minutes=-10)            
+    last_run_time = us_curr_time + timedelta(minutes=-60)            
     my_list = scrap_prnewswire(us_curr_time,last_run_time)
     print(my_list)    

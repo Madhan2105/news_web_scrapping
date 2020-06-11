@@ -12,6 +12,8 @@ from dotenv import load_dotenv
 from discord.ext import commands, tasks
 import asyncio
 import os
+from selenium.webdriver import ActionChains
+from selenium.webdriver.common.keys import Keys
 
 def newsroom_scrap(us_curr_time,last_run_time):
     try:
@@ -37,14 +39,27 @@ def newsroom_scrap(us_curr_time,last_run_time):
             news_date = date_element.text
             news_date = news_date.replace(" EST","")
             news_date = datetime.strptime(news_date,'%A, %B %d, %Y %I:%M %p')
-            keyword = ["nasdaq","nyse","amex"]
+            keyword = ["NASDAQ","NYSE","AMEX"]
             # print(news_date)
             if(last_run_time<news_date<us_curr_time):
-                link = str(link.get_attribute("href"))
-                link = link.lower()
-                print(link)
-                if any(x in link for x in keyword):
-                    my_list.append(link)
+                # link.click()
+                print(head.text)
+                actions = ActionChains(driver)            
+                actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
+                head = head.text
+                link = str(link.get_attribute("href"))                    
+                driver.switch_to.window(driver.window_handles[-1])
+                # driver.get(link)                
+                data = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="Article"]/div[4]')))
+                data = data.text
+                # print("----------------------------")
+                # print("data",data)
+                driver.close()                
+                driver.switch_to.window(driver.window_handles[0])
+                if any(x in data for x in keyword):
+                    my_list.append([link,head])
+                print(my_list)
+                # break
         print("Run Succesfully")
         print(us_curr_time)
         return my_list
@@ -56,6 +71,6 @@ def newsroom_scrap(us_curr_time,last_run_time):
 if( __name__ == "__main__"):
     eastern = timezone('US/Eastern')
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-    last_run_time = us_curr_time + timedelta(minutes=-10)    
+    last_run_time = us_curr_time - timedelta(minutes=90)    
     my_list = newsroom_scrap(us_curr_time,last_run_time)
     print(my_list)
