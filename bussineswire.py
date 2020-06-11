@@ -39,7 +39,6 @@ def scrap_bussinewire(us_curr_time,last_run_time):
             if(last_run_time<news_date<us_curr_time):
                 head = link.text
                 head = head.lower()
-
                 if any(x in head for x in keyword):
                     print(head)
                     my_list.append(link)

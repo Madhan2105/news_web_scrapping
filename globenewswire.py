@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as ec
 import itertools  
 import re
 
-def scrap_globenewswire():
+def scrap_globenewswire(temp_minute):
     try:
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
@@ -19,7 +19,7 @@ def scrap_globenewswire():
         eastern = timezone('US/Eastern')
         us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
         us_curr_time = us_curr_time.time()
-        minutes = 20
+        minutes = temp_minute
         driver.get("https://www.globenewswire.com/")
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]')))
         print(main_div) 
@@ -44,7 +44,6 @@ def scrap_globenewswire():
                         my_list.append(link)                           
                         # print(link)
                 else:            
-                    print("inside else=---")
                     news_date = news_date[0:2]                             
                     news_date = int(news_date.replace(" ",""))
                     # print(news_date)
@@ -62,5 +61,5 @@ def scrap_globenewswire():
         driver.close()
 
 if( __name__ == "__main__"):    
-    my_list = scrap_globenewswire()
+    my_list = scrap_globenewswire(4)
     print(my_list)    
