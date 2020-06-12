@@ -27,6 +27,7 @@ def scrap_prnewswire(us_curr_time,last_run_time):
         # time.sleep(10)
         # article = driver.find_elements_by_xpath('//div[@class="@class="col-sm-12 card"]"]')
         # print(len(article))
+        my_list = []    
         for a in itertools.chain(driver.find_elements_by_xpath('//div[@class="col-sm-8 col-lg-9 pull-left card"]'),driver.find_elements_by_xpath('//div[@class="col-sm-12 card"]')):    
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
             link = a.find_element_by_xpath('.//h3/a')
@@ -36,12 +37,12 @@ def scrap_prnewswire(us_curr_time,last_run_time):
             news_date = news_date.text
             ans = re.search("^\d\d:\d\d ET$",news_date)
             keyword = ["NASDAQ","NYSE","AMEX"]
-            my_list = []    
             if(ans):        
                 news_date = news_date.replace(" ET","")
                 news_date = datetime.strptime(news_date,'%H:%M')
                 news_date = news_date.time()
                 if(last_run_time<news_date<us_curr_time):
+                    print(head)
                     actions = ActionChains(driver)            
                     actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
                     link = str(link.get_attribute("href"))
@@ -56,11 +57,12 @@ def scrap_prnewswire(us_curr_time,last_run_time):
                     # print("data",content)
                     driver.close()                
                     driver.switch_to.window(driver.window_handles[0])
-                    if any(x in data for x in keyword):
+                    if any(x in content for x in keyword):
                         print(head)
                         my_list.append([link,head])                        
                         print(link)
             # break
+            # print(my_list)
         print("Current time",us_curr_time)        
         return my_list
     except Exception as e:

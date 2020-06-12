@@ -64,6 +64,6 @@ def scrap_bussinewire(us_curr_time,last_run_time):
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-    last_run_time = us_curr_time + timedelta(minutes=-10)        
+    last_run_time = us_curr_time + timedelta(minutes=-4)        
     my_list = scrap_bussinewire(us_curr_time,last_run_time)
     print(my_list)

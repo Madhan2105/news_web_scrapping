@@ -31,7 +31,9 @@ def scrap_globenewswire(temp_minute):
         # print(len(article))
         my_list = []    
         cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[7]/div/div/a')))
-        cookies.click()
+        actions = ActionChains(driver)                
+        actions.click(cookies).perform()        
+        # cookies.click()
         # time.sleep(2)
         wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="main-content-L1"]/div/h1/a')))
         for a in article:   
