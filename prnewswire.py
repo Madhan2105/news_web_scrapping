@@ -36,7 +36,7 @@ def scrap_prnewswire(us_curr_time,last_run_time):
             # print(link)
             news_date = news_date.text
             ans = re.search("^\d\d:\d\d ET$",news_date)
-            keyword = ["NASDAQ","NYSE","AMEX"]
+            keyword = ["nasdaq","nyse","amex"]
             if(ans):        
                 news_date = news_date.replace(" ET","")
                 news_date = datetime.strptime(news_date,'%H:%M')
@@ -57,6 +57,7 @@ def scrap_prnewswire(us_curr_time,last_run_time):
                     # print("data",content)
                     driver.close()                
                     driver.switch_to.window(driver.window_handles[0])
+                    content = content.lower()
                     if any(x in content for x in keyword):
                         print(head)
                         my_list.append([link,head])                        

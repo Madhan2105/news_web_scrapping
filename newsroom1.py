@@ -39,7 +39,7 @@ def newsroom_scrap(us_curr_time,last_run_time):
             news_date = date_element.text
             news_date = news_date.replace(" EST","")
             news_date = datetime.strptime(news_date,'%A, %B %d, %Y %I:%M %p')
-            keyword = ["NASDAQ","NYSE","AMEX"]
+            keyword = ["nasdaq","nyse","amex"]
             # print(news_date)
             if(last_run_time<news_date<us_curr_time):
                 # link.click()
@@ -56,6 +56,7 @@ def newsroom_scrap(us_curr_time,last_run_time):
                 # print("data",data)
                 driver.close()                
                 driver.switch_to.window(driver.window_handles[0])
+                data = data.lower()
                 if any(x in data for x in keyword):
                     my_list.append([link,head])
                 print(my_list)

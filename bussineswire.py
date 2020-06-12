@@ -36,7 +36,7 @@ def scrap_bussinewire(us_curr_time,last_run_time):
             # news_date = news_date.replace(" EST","")
             news_date = datetime.strptime(news_date,'%m/%d/%Y - %I:%M %p')
             # print(news_date)
-            keyword = ["NASDAQ","NYSE","AMEX","Technavio"]
+            keyword = ["nasdaq","nyse","amex"]
             if(last_run_time<news_date<us_curr_time):
                 actions = ActionChains(driver)            
                 head = link.text
@@ -49,6 +49,7 @@ def scrap_bussinewire(us_curr_time,last_run_time):
                 # print("data",data)
                 driver.close()                
                 driver.switch_to.window(driver.window_handles[0])
+                data = data.lower()
                 if any(x in data for x in keyword):
                     my_list.append([link,head])
                 print(my_list)
@@ -64,6 +65,6 @@ def scrap_bussinewire(us_curr_time,last_run_time):
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-    last_run_time = us_curr_time + timedelta(minutes=-4)        
+    last_run_time = us_curr_time + timedelta(minutes=-20)        
     my_list = scrap_bussinewire(us_curr_time,last_run_time)
     print(my_list)

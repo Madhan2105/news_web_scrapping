@@ -42,7 +42,7 @@ def scrap_globenewswire(temp_minute):
             # print(head)
             news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
             news_date = news_date.text               
-            keyword = ["NASDAQ","NYSE","AMEX"]
+            keyword = ["nasdaq","nyse","amex"]
             if "minutes" in news_date or "less than a minute ago"==news_date:           
                 if "less than a minute ago"==news_date:
                     print("inside less")
@@ -60,6 +60,7 @@ def scrap_globenewswire(temp_minute):
                     data = data.text                
                     driver.close()                
                     driver.switch_to.window(driver.window_handles[0])                                                                                                   
+                    data = data.lower()
                     if any(x in data for x in keyword):
                         print(head)
                         my_list.append([link,head])                
@@ -83,6 +84,7 @@ def scrap_globenewswire(temp_minute):
                         data = data.text                
                         driver.close()                
                         driver.switch_to.window(driver.window_handles[0])                                       
+                        data = data.lower()
                         if any(x in data for x in keyword):
                             my_list.append([link,head])                        
                             # print(link)
