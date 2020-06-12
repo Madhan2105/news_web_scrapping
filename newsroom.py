@@ -40,7 +40,7 @@ async def my_background_task():
         print(my_list)
         if(my_list):
             await channel.send(my_list)
-        print("Accesswire Job Completed")
+        print("Accesswire Job Completed S")
 
         print("Bussieswire Job Started",last_run_time,us_curr_time)
         my_list = scrap_bussinewire(us_curr_time,last_run_time)
