@@ -41,10 +41,10 @@ def scrap_bussinewire(us_curr_time,last_run_time):
                 actions = ActionChains(driver)            
                 head = link.text
                 actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
+                link = link.get_attribute("href")
                 driver.switch_to.window(driver.window_handles[-1])
                 data = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="bw-release-story"]')))
                 data = data.text
-                link = link.get_attribute("href")
                 # print("----------------------------")
                 # print("data",data)
                 driver.close()                
