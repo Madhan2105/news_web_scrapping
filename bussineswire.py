@@ -23,6 +23,7 @@ def scrap_bussinewire(us_curr_time,last_run_time):
         # time.sleep(10)
         article = main_div.find_elements_by_xpath('//div[@itemscope="itemscope"]')
         print(len(article))
+        my_list = []
         for a in article:    
             # print(a)    
             link = a.find_element_by_xpath('.//a[@class="bwTitleLink"]')
@@ -36,7 +37,6 @@ def scrap_bussinewire(us_curr_time,last_run_time):
             news_date = datetime.strptime(news_date,'%m/%d/%Y - %I:%M %p')
             # print(news_date)
             keyword = ["NASDAQ","NYSE","AMEX","Technavio"]
-            my_list = []
             if(last_run_time<news_date<us_curr_time):
                 actions = ActionChains(driver)            
                 head = link.text

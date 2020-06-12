@@ -16,7 +16,7 @@ def scrap_globenewswire(temp_minute):
     try:
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
-        options.add_argument('-headless')
+        # options.add_argument('-headless')
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         eastern = timezone('US/Eastern')
