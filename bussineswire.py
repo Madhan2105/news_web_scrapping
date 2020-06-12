@@ -13,7 +13,7 @@ from selenium.webdriver.common.keys import Keys
 def scrap_bussinewire(us_curr_time,last_run_time):
     try:
         options  = webdriver.ChromeOptions()        
-        options.add_argument('-headless')
+        # options.add_argument('-headless')
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
