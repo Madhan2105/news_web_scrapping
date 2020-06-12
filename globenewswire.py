@@ -25,7 +25,7 @@ def scrap_globenewswire(temp_minute):
         minutes = temp_minute
         driver.get("https://www.globenewswire.com/")
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]')))
-        print(main_div) 
+        # print(main_div) 
         # time.sleep(10)
         article = driver.find_elements_by_xpath('//div[@class="rl-container"]')
         # print(len(article))
@@ -34,48 +34,53 @@ def scrap_globenewswire(temp_minute):
         cookies.click()
         # time.sleep(2)
         wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="main-content-L1"]/div/h1/a')))
-        for a in article:
+        for a in article:   
+            # print("1")
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
-            link = a.find_element_by_xpath('.//h1/a')
             # print(head)
             news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
-            news_date = news_date.text
+            news_date = news_date.text               
             keyword = ["NASDAQ","NYSE","AMEX"]
             if "minutes" in news_date or "less than a minute ago"==news_date:           
                 if "less than a minute ago"==news_date:
-                    actions = ActionChains(driver)            
-                    head = str(link.text)
-                    print(link)
+                    print("inside less")
+                    actions = ActionChains(driver)                
+                    link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))        
+                    # link = a.find_element_by_xpath('.//h1/a')
+                    print(link.text)
+                    import time
+                    time.sleep(1)
                     actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
-                    link = link.get_attribute("href")
-                    driver.switch_to.window(driver.window_handles[-1])
+                    head = str(link.text)
+                    link = str(link.get_attribute("href"))
+                    driver.switch_to.window(driver.window_handles[-1])                                         
                     data = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="content-L2"]/span')))
-                    data = data.text
-                    # print("----------------------------")
-                    # print("data",data)
+                    data = data.text                
                     driver.close()                
-                    driver.switch_to.window(driver.window_handles[0])                
+                    driver.switch_to.window(driver.window_handles[0])                                                                                                   
                     if any(x in data for x in keyword):
                         print(head)
                         my_list.append([link,head])                
                         # print(link)
                 else:            
-                    # print(news_date)
+                    print("inside else")                                                                                    
                     news_date = news_date[0:2]                             
                     news_date = int(news_date.replace(" ",""))
                     if news_date<=minutes:
-                        actions = ActionChains(driver)            
-                        head = str(link.text)
-                        print(link)
+                        actions = ActionChains(driver)                
+                        link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))        
+                        # link = a.find_element_by_xpath('.//h1/a')
+                        print(link.text)
+                        import time
+                        time.sleep(1)
                         actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
-                        link = link.get_attribute("href")
-                        driver.switch_to.window(driver.window_handles[-1])
+                        head = str(link.text)
+                        link = str(link.get_attribute("href"))
+                        driver.switch_to.window(driver.window_handles[-1])                                         
                         data = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="content-L2"]/span')))
-                        data = data.text
-                        # print("----------------------------")
-                        # print("data",data)
+                        data = data.text                
                         driver.close()                
-                        driver.switch_to.window(driver.window_handles[0])                                    
+                        driver.switch_to.window(driver.window_handles[0])                                       
                         if any(x in data for x in keyword):
                             my_list.append([link,head])                        
                             # print(link)
@@ -90,5 +95,5 @@ def scrap_globenewswire(temp_minute):
         driver.close()
 
 if( __name__ == "__main__"):    
-    my_list = scrap_globenewswire(11)
+    my_list = scrap_globenewswire(4)
     print(my_list)    
