@@ -23,8 +23,8 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         eastern = timezone('US/Eastern')
-        us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-        us_curr_time = us_curr_time.time()
+        # us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
+        # us_curr_time = us_curr_time.time()
         minutes = temp_minute
         logger.info("Globe:Opening Website")
         driver.get("https://www.globenewswire.com/")   
@@ -103,6 +103,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         print("Something went Wrong!!",e)
         logger.info("Exception")
         logger.info(e)
+        print("time ---",us_curr_time)
         scrap_globenewswire(us_curr_time,temp_minute,logger)
     finally:
         pass
