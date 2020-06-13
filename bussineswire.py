@@ -10,10 +10,11 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-def scrap_bussinewire(us_curr_time,last_run_time):
+def scrap_bussinewire(us_curr_time,last_run_time,logger):
     try:
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
+        options.add_argument("--log-level=3")        
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
@@ -24,6 +25,7 @@ def scrap_bussinewire(us_curr_time,last_run_time):
         article = main_div.find_elements_by_xpath('//div[@itemscope="itemscope"]')
         print(len(article))
         my_list = []
+        logger.info("Buss:Iterating Article")
         for a in article:    
             # print(a)    
             link = a.find_element_by_xpath('.//a[@class="bwTitleLink"]')
@@ -59,6 +61,8 @@ def scrap_bussinewire(us_curr_time,last_run_time):
         return my_list    
     except Exception as e:
         print("Something went Wrong!!",e)
+        logger.info("Exception")
+        logger.info(e)
     finally:
         driver.close()    
 

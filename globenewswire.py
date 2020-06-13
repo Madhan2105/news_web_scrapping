@@ -12,30 +12,35 @@ import re
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-def scrap_globenewswire(temp_minute):
+def scrap_globenewswire(temp_minute,logger):
     try:
+        print("Did changes")
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
+        options.add_argument("--log-level=3")
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         eastern = timezone('US/Eastern')
         us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
         us_curr_time = us_curr_time.time()
         minutes = temp_minute
-        driver.get("https://www.globenewswire.com/")
+        driver.get("https://www.globenewswire.com/")   
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]')))
         # print(main_div) 
         # time.sleep(10)
         article = driver.find_elements_by_xpath('//div[@class="rl-container"]')
         # print(len(article))
         my_list = []    
+        
+        wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="hero"]/div/ul/li[1]/img')))
         cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[7]/div/div/a')))
         actions = ActionChains(driver)                
         actions.click(cookies).perform()        
         # cookies.click()
         # time.sleep(2)
         wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="main-content-L1"]/div/h1/a')))
+        logger.info("Globe:Iterating Article")
         for a in article:   
             # print("1")
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
@@ -74,8 +79,6 @@ def scrap_globenewswire(temp_minute):
                         link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))        
                         # link = a.find_element_by_xpath('.//h1/a')
                         print(link.text)
-                        import time
-                        time.sleep(1)
                         actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
                         head = str(link.text)
                         link = str(link.get_attribute("href"))
@@ -95,9 +98,13 @@ def scrap_globenewswire(temp_minute):
         return my_list
     except Exception as e:
         print("Something went Wrong!!",e)
+        logger.info("Exception")
+        logger.info(e)
     finally:
-        driver.close()
+        pass
+        # driver.close()
 
 if( __name__ == "__main__"):    
-    my_list = scrap_globenewswire(4)
-    print(my_list)    
+    while(1):
+        my_list = scrap_globenewswire(4)
+        print(my_list)    

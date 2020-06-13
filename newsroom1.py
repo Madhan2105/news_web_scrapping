@@ -15,20 +15,24 @@ import os
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-def newsroom_scrap(us_curr_time,last_run_time):
-    try:
+
+def newsroom_scrap(us_curr_time,last_run_time,logger):
+    try:        
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
+        options.add_argument("--log-level=3")        
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
         driver.get("https://www.accesswire.com/newsroom/")
+        logger.info("Newsroom : Opening Website")
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="w-embed"]')))
         print(main_div) 
         # time.sleep(10)
         article = main_div.find_elements_by_xpath('//div[@class="w-col w-col-9"]')
         print(len(article))
         my_list = []
+        logger.info("Newsroom : Iterating Article")
         for a in article:    
             # print(a)    
             head = a.find_element_by_xpath('.//div[@class="headlinelink"]')
@@ -66,6 +70,8 @@ def newsroom_scrap(us_curr_time,last_run_time):
         return my_list
     except Exception as e:
         print("Something went Wrong!!",e)
+        logger.info("Exception")
+        logger.info(e)
     finally:
         driver.close()    
 

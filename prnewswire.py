@@ -12,10 +12,12 @@ import re
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-def scrap_prnewswire(us_curr_time,last_run_time):
+
+def scrap_prnewswire(us_curr_time,last_run_time,logger):
     try:
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
+        options.add_argument("--log-level=3")        
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
@@ -28,6 +30,7 @@ def scrap_prnewswire(us_curr_time,last_run_time):
         # article = driver.find_elements_by_xpath('//div[@class="@class="col-sm-12 card"]"]')
         # print(len(article))
         my_list = []    
+        logger.info("Prn:Iterating Article")
         for a in itertools.chain(driver.find_elements_by_xpath('//div[@class="col-sm-8 col-lg-9 pull-left card"]'),driver.find_elements_by_xpath('//div[@class="col-sm-12 card"]')):    
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
             link = a.find_element_by_xpath('.//h3/a')
@@ -68,12 +71,14 @@ def scrap_prnewswire(us_curr_time,last_run_time):
         return my_list
     except Exception as e:
         print("Something went Wrong!!",e)
+        logger.info("Exception")
+        logger.info(e)
     finally:
         driver.close()            
 
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-    last_run_time = us_curr_time + timedelta(minutes=-60)            
+    last_run_time = us_curr_time + timedelta(minutes=-10)            
     my_list = scrap_prnewswire(us_curr_time,last_run_time)
     print(my_list)    

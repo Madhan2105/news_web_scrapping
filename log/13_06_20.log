@@ -1,0 +1,125 @@
+root - INFO - :runnin..
+root - INFO - Newsroom : Opening Website
+root - INFO - Newsroom : Iterating Article
+discord.client - INFO - Cleaning up tasks.
+discord.client - INFO - Cleaning up after 4 tasks.
+discord.client - INFO - All tasks finished cancelling.
+discord.client - INFO - Closing the event loop.
+root - INFO - :runnin..
+root - INFO - Newsroom : Opening Website
+root - INFO - Newsroom : Iterating Article
+root - INFO - Buss:Iterating Article
+discord.gateway - WARNING - Heartbeat blocked for more than 5 seconds.
+discord.gateway - WARNING - Heartbeat blocked for more than 10 seconds.
+root - INFO - Prn:Iterating Article
+discord.gateway - WARNING - Heartbeat blocked for more than 15 seconds.
+discord.gateway - WARNING - Heartbeat blocked for more than 20 seconds.
+discord.gateway - WARNING - Heartbeat blocked for more than 25 seconds.
+root - INFO - Globe:Iterating Article
+discord.gateway - INFO - Websocket closed with 1000 (), cannot reconnect.
+discord.client - ERROR - Attempting a reconnect in 1.30s
+Traceback (most recent call last):
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\gateway.py", line 470, in poll_event
+    msg = await self.recv()
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\websockets\protocol.py", line 509, in recv
+    await self.ensure_open()
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\websockets\protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: code = 1000 (OK), no reason
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\client.py", line 463, in _connect
+    await self.ws.poll_event()
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\gateway.py", line 478, in poll_event
+    raise ConnectionClosed(exc, shard_id=self.shard_id) from exc
+discord.errors.ConnectionClosed: code = 1000 (OK), no reason
+discord.gateway - INFO - Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+discord.gateway - INFO - Shard ID None has sent the IDENTIFY payload.
+discord.gateway - INFO - Shard ID None has connected to Gateway: ["gateway-prd-main-sdxs",{"micros":49365,"calls":["discord-sessions-prd-1-44",{"micros":47729,"calls":["start_session",{"micros":41712,"calls":["api-prd-main-us-east1-rl6h",{"micros":32405,"calls":["get_user",{"micros":9693},"add_authorized_ip",{"micros":1654},"get_guilds",{"micros":2167},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":4356,"calls":[]}]}]}] (Session ID: ab517baac269d4ce61737a5a1e24fb47).
+discord.gateway - WARNING - Shard ID None has stopped responding to the gateway. Closing and restarting.
+discord.client - INFO - Received signal to terminate bot and event loop.
+discord.client - INFO - Cleaning up tasks.
+discord.client - INFO - Cleaning up after 5 tasks.
+discord.client - INFO - Closing the event loop.
+2020-06-13 12:25:18,208 :runnin..
+2020-06-13 12:25:35,807 Newsroom : Opening Website
+2020-06-13 12:25:35,894 Newsroom : Iterating Article
+2020-06-13 12:25:48,395 Accesswire Job Completed
+2020-06-13 12:25:55,776 Buss:Iterating Article
+2020-06-13 12:25:57,944 Received signal to terminate bot and event loop.
+2020-06-13 12:25:57,945 Cleaning up tasks.
+2020-06-13 12:25:57,945 Cleaning up after 4 tasks.
+2020-06-13 12:25:59,306 Closing the event loop.
+2020-06-13 12:30:01,854 :runnin..
+2020-06-13 12:30:01,854 Accesswire Job Started
+2020-06-13 12:30:01,855 2020-06-13 03:00:01.853798
+2020-06-13 12:30:11,521 Newsroom : Opening Website
+2020-06-13 12:30:11,596 Newsroom : Iterating Article
+2020-06-13 12:30:23,099 Accesswire Job Completed
+2020-06-13 12:30:23,099 Bussieswire Job Started
+2020-06-13 12:30:30,237 Received signal to terminate bot and event loop.
+2020-06-13 12:30:30,237 Cleaning up tasks.
+2020-06-13 12:30:30,237 Cleaning up after 4 tasks.
+2020-06-13 12:30:40,246 Closing the event loop.
+2020-06-13 12:32:59,618 :Running..
+2020-06-13 12:32:59,618 2020-06-13 03:02:59.617656
+2020-06-13 12:32:59,619 Accesswire Job Started
+2020-06-13 12:33:15,060 Newsroom : Opening Website
+2020-06-13 12:33:15,132 Newsroom : Iterating Article
+2020-06-13 12:33:28,684 Accesswire Job Completed
+2020-06-13 12:33:28,684 Bussieswire Job Started
+2020-06-13 12:33:43,166 Heartbeat blocked for more than 5 seconds.
+2020-06-13 12:33:48,166 Heartbeat blocked for more than 10 seconds.
+2020-06-13 12:33:53,166 Heartbeat blocked for more than 15 seconds.
+2020-06-13 12:33:58,167 Heartbeat blocked for more than 20 seconds.
+2020-06-13 12:34:03,167 Heartbeat blocked for more than 25 seconds.
+2020-06-13 12:34:08,167 Heartbeat blocked for more than 30 seconds.
+2020-06-13 12:34:13,167 Heartbeat blocked for more than 35 seconds.
+2020-06-13 12:34:18,168 Heartbeat blocked for more than 40 seconds.
+2020-06-13 12:34:23,168 Heartbeat blocked for more than 45 seconds.
+2020-06-13 12:34:28,168 Heartbeat blocked for more than 50 seconds.
+2020-06-13 12:34:29,841 Buss:Iterating Article
+2020-06-13 12:34:33,168 Heartbeat blocked for more than 55 seconds.
+2020-06-13 12:34:36,702 Bussieswire Job Completed
+2020-06-13 12:34:36,702 prnnewswire Job Started
+2020-06-13 12:34:38,168 Heartbeat blocked for more than 60 seconds.
+2020-06-13 12:34:43,169 Heartbeat blocked for more than 65 seconds.
+2020-06-13 12:34:46,081 Prn:Iterating Article
+2020-06-13 12:34:47,897 prnnewswire Job completed
+2020-06-13 12:34:47,897 globenewswire Job Started
+2020-06-13 12:34:48,169 Heartbeat blocked for more than 70 seconds.
+2020-06-13 12:34:53,169 Heartbeat blocked for more than 75 seconds.
+2020-06-13 12:34:54,565 Globe:Iterating Article
+2020-06-13 12:34:54,913 globenewswire Job Completed
+2020-06-13 12:34:54,916 Websocket closed with 1000 (), cannot reconnect.
+2020-06-13 12:34:54,916 Attempting a reconnect in 0.42s
+Traceback (most recent call last):
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\gateway.py", line 470, in poll_event
+    msg = await self.recv()
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\websockets\protocol.py", line 509, in recv
+    await self.ensure_open()
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\websockets\protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: code = 1000 (OK), no reason
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\client.py", line 499, in connect
+    await self._connect()
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\client.py", line 463, in _connect
+    await self.ws.poll_event()
+  File "C:\Users\madhan\AppData\Local\Programs\Python\Python37-32\lib\site-packages\discord\gateway.py", line 478, in poll_event
+    raise ConnectionClosed(exc, shard_id=self.shard_id) from exc
+discord.errors.ConnectionClosed: code = 1000 (OK), no reason
+2020-06-13 12:35:02,357 Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-06-13 12:35:02,360 Shard ID None has sent the IDENTIFY payload.
+2020-06-13 12:35:02,775 Shard ID None has connected to Gateway: ["gateway-prd-main-zppd",{"micros":48499,"calls":["discord-sessions-prd-1-69",{"micros":40950,"calls":["start_session",{"micros":38994,"calls":["api-prd-main-us-east1-bcrq",{"micros":34446,"calls":["get_user",{"micros":3211},"add_authorized_ip",{"micros":1780},"get_guilds",{"micros":3100},"coros_wait",{"micros":0}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":1138,"calls":[]}]}]}] (Session ID: 7e6dc1a699c434a95a6032aba921b050).
+2020-06-13 12:35:17,917 Received signal to terminate bot and event loop.
+2020-06-13 12:35:17,918 Cleaning up tasks.
+2020-06-13 12:35:17,918 Cleaning up after 5 tasks.
+2020-06-13 12:35:27,927 Closing the event loop.
