@@ -18,7 +18,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         print("Did changes 2",us_curr_time)
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
-        # options.add_argument('-headless')
+        options.add_argument('-headless')
         options.add_argument("--log-level=3")
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
