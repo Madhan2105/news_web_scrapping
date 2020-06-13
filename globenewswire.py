@@ -11,10 +11,11 @@ import itertools
 import re
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
+import logging
 
 def scrap_globenewswire(temp_minute,logger):
     try:
-        print("Did changes")
+        print("Did changes 2")
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
@@ -25,6 +26,7 @@ def scrap_globenewswire(temp_minute,logger):
         us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
         us_curr_time = us_curr_time.time()
         minutes = temp_minute
+        logger.info("Globe:Opening Website")
         driver.get("https://www.globenewswire.com/")   
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]')))
         # print(main_div) 
@@ -32,10 +34,11 @@ def scrap_globenewswire(temp_minute,logger):
         article = driver.find_elements_by_xpath('//div[@class="rl-container"]')
         # print(len(article))
         my_list = []    
-        
+        logger.info("Globe:Clicking image")
         wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="hero"]/div/ul/li[1]/img')))
         cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[7]/div/div/a')))
-        actions = ActionChains(driver)                
+        actions = ActionChains(driver)     
+        logger.info("Globe:Clicking Cookies")           
         actions.click(cookies).perform()        
         # cookies.click()
         # time.sleep(2)
@@ -106,5 +109,12 @@ def scrap_globenewswire(temp_minute,logger):
 
 if( __name__ == "__main__"):    
     while(1):
-        my_list = scrap_globenewswire(4)
+        eastern = timezone('US/Eastern')        
+        us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
+        log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
+        print(log_file)        
+        logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
+        logger=logging.getLogger()
+        logger.setLevel(logging.INFO)    
+        my_list = scrap_globenewswire(4,logger)
         print(my_list)    
