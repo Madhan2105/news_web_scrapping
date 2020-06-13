@@ -72,6 +72,7 @@ async def my_background_task():
         logger.info("globenewswire Job Started")
         print("globenewswire Job Started",last_run_time,us_curr_time)
         my_list = scrap_globenewswire(us_curr_time,temp_minute,logger)
+
         if(my_list):
             await channel.send(my_list)
         print("globenewswire Job Completed")

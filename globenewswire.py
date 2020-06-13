@@ -106,8 +106,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         print("time ---",us_curr_time)
         scrap_globenewswire(us_curr_time,temp_minute,logger)
     finally:
-        pass
-        # driver.close()
+        driver.close()
 
 if( __name__ == "__main__"):    
     if(1):
