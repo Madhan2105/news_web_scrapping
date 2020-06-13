@@ -13,12 +13,12 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import logging
 
-def scrap_globenewswire(temp_minute,logger):
+def scrap_globenewswire(us_curr_time,temp_minute,logger):
     try:
-        print("Did changes 2")
+        print("Did changes 2",us_curr_time)
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
-        options.add_argument('-headless')
+        # options.add_argument('-headless')
         options.add_argument("--log-level=3")
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
@@ -103,12 +103,13 @@ def scrap_globenewswire(temp_minute,logger):
         print("Something went Wrong!!",e)
         logger.info("Exception")
         logger.info(e)
+        scrap_globenewswire(us_curr_time,temp_minute,logger)
     finally:
         pass
         # driver.close()
 
 if( __name__ == "__main__"):    
-    while(1):
+    if(1):
         eastern = timezone('US/Eastern')        
         us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
         log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
@@ -116,5 +117,5 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(4,logger)
+        my_list = scrap_globenewswire(us_curr_time,4,logger)
         print(my_list)    
