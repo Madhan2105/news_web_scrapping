@@ -36,7 +36,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         for a in article:               
             news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
             news_date = news_date.text               
-            if "hour" in news_date or "less than a minute ago"==news_date:                                          
+            if "minutes" in news_date or "less than a minute ago"==news_date:                                          
                 if "less than a minute ago"==news_date:
                     print("inside less")
                     link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))        
