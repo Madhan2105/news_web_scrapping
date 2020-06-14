@@ -15,6 +15,7 @@ from selenium.webdriver.common.keys import Keys
 
 def scrap_prnewswire(us_curr_time,last_run_time,logger):
     try:
+        logger.info("Prn:Scrapping....")
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
         options.add_argument("--log-level=3")        
@@ -41,10 +42,12 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
             ans = re.search("^\d\d:\d\d ET$",news_date)
             keyword = ["nasdaq","nyse","amex"]
             if(ans):        
+                logger.info("Prn:Found Article")
                 news_date = news_date.replace(" ET","")
                 news_date = datetime.strptime(news_date,'%H:%M')
                 news_date = news_date.time()
                 if(last_run_time<news_date<us_curr_time):
+                    logger.info("Prn:Article filtered")
                     print(head)
                     actions = ActionChains(driver)            
                     actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
@@ -61,6 +64,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                     driver.close()                
                     driver.switch_to.window(driver.window_handles[0])
                     content = content.lower()
+                    logger.info("Prn:Searching for Keyword")
                     if any(x in content for x in keyword):
                         print(head)
                         my_list.append([link,head])                        
@@ -68,6 +72,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
             # break
             # print(my_list)
         print("Current time",us_curr_time)        
+        logger.info("Prn:Run Complete")
         return my_list
     except Exception as e:
         print("Something went Wrong!!",e)

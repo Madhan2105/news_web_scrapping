@@ -15,6 +15,7 @@ import logging
 
 def scrap_globenewswire(us_curr_time,temp_minute,logger):
     try:
+        logger.info("Globe:Scrapping...")
         print("Did changes 3",us_curr_time)
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
@@ -37,7 +38,9 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
             news_date = news_date.text               
             if "minutes" in news_date or "less than a minute ago"==news_date:                                          
+                logger.info("Globe:Article Found")
                 if "less than a minute ago"==news_date:
+                    logger.info("Globe:Article Found less than a minute ago")
                     print("inside less")
                     link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))        
                     head = str(link.text)                    
@@ -47,6 +50,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                     news_date = news_date[0:2]                             
                     news_date = int(news_date.replace(" ",""))
                     if news_date<=minutes:
+                        logger.info("Globe:Article Found less than 4 minute ")
                         print("Minutes...")
                         link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))          
                         head = str(link.text)                                                         
@@ -56,17 +60,20 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                         my_list.append([link,head])                        
         print(len(my_list))
         data_list = []
+        logger.info("Globe:Iterating through link")
         if(my_list):
             for content in my_list:   
                 driver.get(content[0])         
                 data = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="content-L2"]/span')))
                 data = data.text                
                 data = data.lower()
+                logger.info("Globe:Searching for keyword")
                 if any(x in data for x in keyword):               
                     data_list.append(content)
                     print(content[1])            
         print("Current time",us_curr_time)
         print("Run Complete")        
+        logger.info("Globe:Run Complete")
         driver.close()
         return data_list
     except Exception as e:

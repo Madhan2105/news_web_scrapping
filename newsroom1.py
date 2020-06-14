@@ -18,6 +18,7 @@ from selenium.webdriver.common.keys import Keys
 
 def newsroom_scrap(us_curr_time,last_run_time,logger):
     try:        
+        logger.info("Newsroom : Scrapping..")
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
         options.add_argument("--log-level=3")        
@@ -46,9 +47,11 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
             keyword = ["nasdaq","nyse","amex"]
             # print(news_date)
             if(last_run_time<news_date<us_curr_time):
+                logger.info("Newsroom : Article Found")
                 # link.click()
                 print(head.text)
-                actions = ActionChains(driver)            
+                actions = ActionChains(driver)         
+                logger.info("Newsroom : Opening Tab")   
                 actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
                 head = head.text
                 link = str(link.get_attribute("href"))                    
@@ -61,10 +64,12 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
                 driver.close()                
                 driver.switch_to.window(driver.window_handles[0])
                 data = data.lower()
+                logger.info("Newsroom : Searching for keyword")
                 if any(x in data for x in keyword):
                     my_list.append([link,head])
                 print(my_list)
                 # break
+        logger.info("Newsroom : Run Succesfully")
         print("Run Succesfully")
         print(us_curr_time)
         return my_list

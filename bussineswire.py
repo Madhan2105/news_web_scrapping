@@ -12,6 +12,7 @@ from selenium.webdriver.common.keys import Keys
 
 def scrap_bussinewire(us_curr_time,last_run_time,logger):
     try:
+        logger.info("Buss:Scrapping...")
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
         options.add_argument("--log-level=3")        
@@ -40,6 +41,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
             # print(news_date)
             keyword = ["nasdaq","nyse","amex"]
             if(last_run_time<news_date<us_curr_time):
+                logger.info("Buss:Found Article")
                 actions = ActionChains(driver)            
                 head = link.text
                 actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
@@ -52,6 +54,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
                 driver.close()                
                 driver.switch_to.window(driver.window_handles[0])
                 data = data.lower()
+                logger.info("Buss:Searching keyword")
                 if any(x in data for x in keyword):
                     my_list.append([link,head])
                 print(my_list)
