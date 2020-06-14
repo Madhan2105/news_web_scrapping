@@ -15,98 +15,70 @@ import logging
 
 def scrap_globenewswire(us_curr_time,temp_minute,logger):
     try:
-        print("Did changes 2",us_curr_time)
+        print("Did changes 3",us_curr_time)
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
-        options.add_argument('-headless')
+        options.add_argument("--start-maximized")
+        # options.add_argument('-headless')
         options.add_argument("--log-level=3")
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         eastern = timezone('US/Eastern')
-        # us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-        # us_curr_time = us_curr_time.time()
         minutes = temp_minute
         logger.info("Globe:Opening Website")
         driver.get("https://www.globenewswire.com/")   
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]')))
-        # print(main_div) 
-        # time.sleep(10)
         article = driver.find_elements_by_xpath('//div[@class="rl-container"]')
-        # print(len(article))
-        my_list = []    
-        logger.info("Globe:Clicking image")
-        wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="hero"]/div/ul/li[1]/img')))
-        cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[7]/div/div/a')))
-        actions = ActionChains(driver)     
-        logger.info("Globe:Clicking Cookies")           
-        actions.click(cookies).perform()        
-        # cookies.click()
-        # time.sleep(2)
-        wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="main-content-L1"]/div/h1/a')))
+        my_list = []                        
         logger.info("Globe:Iterating Article")
-        for a in article:   
-            # print("1")
-            # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
-            # print(head)
+        print("Iterating Article")
+        for a in article:               
             news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
             news_date = news_date.text               
             keyword = ["nasdaq","nyse","amex"]
-            if "minutes" in news_date or "less than a minute ago"==news_date:           
+            if "minutes" in news_date or "less than a minute ago"==news_date:                                          
                 if "less than a minute ago"==news_date:
                     print("inside less")
-                    actions = ActionChains(driver)                
                     link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))        
-                    # link = a.find_element_by_xpath('.//h1/a')
-                    print(link.text)
-                    import time
-                    time.sleep(1)
-                    actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
-                    head = str(link.text)
+                    head = str(link.text)                    
                     link = str(link.get_attribute("href"))
-                    driver.switch_to.window(driver.window_handles[-1])                                         
-                    data = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="content-L2"]/span')))
-                    data = data.text                
-                    driver.close()                
-                    driver.switch_to.window(driver.window_handles[0])                                                                                                   
-                    data = data.lower()
-                    if any(x in data for x in keyword):
-                        print(head)
-                        my_list.append([link,head])                
-                        # print(link)
+                    my_list.append([link,head])                
                 else:            
-                    print("inside else")                                                                                    
                     news_date = news_date[0:2]                             
                     news_date = int(news_date.replace(" ",""))
                     if news_date<=minutes:
+                        print("Minutes...")
+                        link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))          
+                        head = str(link.text)                                                         
                         actions = ActionChains(driver)                
-                        link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))        
-                        # link = a.find_element_by_xpath('.//h1/a')
-                        print(link.text)
-                        actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
-                        head = str(link.text)
+                        # print(link.text)
                         link = str(link.get_attribute("href"))
-                        driver.switch_to.window(driver.window_handles[-1])                                         
-                        data = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="content-L2"]/span')))
-                        data = data.text                
-                        driver.close()                
-                        driver.switch_to.window(driver.window_handles[0])                                       
-                        data = data.lower()
-                        if any(x in data for x in keyword):
-                            my_list.append([link,head])                        
-                            # print(link)
-                print(my_list)
+                        my_list.append([link,head])                        
+        print(len(my_list))
+        data_list = []
+        if(my_list):
+            for content in my_list:   
+                driver.get(content[0])         
+                data = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="content-L2"]/span')))
+                data = data.text                
+                data = data.lower()
+                if any(x in data for x in keyword):               
+                    data_list.append(content)
+                    print(content[1])            
         print("Current time",us_curr_time)
-        print(my_list)
         print("Run Complete")        
-        return my_list
+        driver.close()
+        return data_list
     except Exception as e:
         print("Something went Wrong!!",e)
-        logger.info("Exception")
+        logger.info("Exception")        
         logger.info(e)
         print("time ---",us_curr_time)
+        driver.close()
         scrap_globenewswire(us_curr_time,temp_minute,logger)
     finally:
-        driver.close()
+        pass
+        # driver.close()
 
 if( __name__ == "__main__"):    
     if(1):
@@ -117,5 +89,5 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,4,logger)
-        print(my_list)    
+        my_list = scrap_globenewswire(us_curr_time,60,logger)
+        print(my_list)
