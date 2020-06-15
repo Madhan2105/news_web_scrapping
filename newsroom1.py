@@ -14,7 +14,7 @@ import asyncio
 import os
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
-
+import logging
 
 def newsroom_scrap(us_curr_time,last_run_time,logger):
     try:        
@@ -35,6 +35,7 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
         my_list = []
         logger.info("Newsroom : Iterating Article")
         for a in article:    
+            logger.info("Iterating...")
             # print(a)    
             head = a.find_element_by_xpath('.//div[@class="headlinelink"]')
             # print(head)
@@ -68,7 +69,9 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
                 if any(x in data for x in keyword):
                     my_list.append([link,head])
                 print(my_list)
-                # break
+            else:                
+                logger.info("No More Aricle")
+                break
         logger.info("Newsroom : Run Succesfully")
         print("Run Succesfully")
         print(us_curr_time)
@@ -81,8 +84,15 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
         driver.close()    
 
 if( __name__ == "__main__"):
-    eastern = timezone('US/Eastern')
-    us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-    last_run_time = us_curr_time - timedelta(minutes=90)    
-    my_list = newsroom_scrap(us_curr_time,last_run_time)
+    eastern = timezone('US/Eastern')     
+    temp_minute = 4   
+    us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
+    last_run_time = us_curr_time - timedelta(minutes=temp_minute)
+    log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
+    print(log_file)        
+
+    logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
+    logger=logging.getLogger()
+    logger.setLevel(logging.INFO)    
+    my_list = newsroom_scrap(us_curr_time,last_run_time,logger)
     print(my_list)

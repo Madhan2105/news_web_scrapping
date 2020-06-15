@@ -49,6 +49,7 @@ async def my_background_task():
         my_list = newsroom_scrap(us_curr_time,last_run_time,logger)
         print(my_list)
         if(my_list):
+            logger.info("Accesswire:Message Sent")
             await channel.send(my_list)
         print("Accesswire Job Completed")
         logging.info("Accesswire Job Completed")

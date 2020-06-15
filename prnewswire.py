@@ -11,7 +11,7 @@ import itertools
 import re
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
-
+import logging
 
 def scrap_prnewswire(us_curr_time,last_run_time,logger):
     try:
@@ -24,18 +24,16 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         print(us_curr_time)
         us_curr_time = us_curr_time.time()
         last_run_time = last_run_time.time()
-        driver.get("https://www.prnewswire.com/news-releases/news-releases-list/")
+        driver.get("https://www.prnewswire.com/news-releases/news-releases-list/?page=1&pagesize=50")
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="col-md-8 col-sm-8 card-list card-list-hr"]')))
         print(main_div) 
-        # time.sleep(10)
-        # article = driver.find_elements_by_xpath('//div[@class="@class="col-sm-12 card"]"]')
-        # print(len(article))
         my_list = []    
         logger.info("Prn:Iterating Article")
         for a in itertools.chain(driver.find_elements_by_xpath('//div[@class="col-sm-8 col-lg-9 pull-left card"]'),driver.find_elements_by_xpath('//div[@class="col-sm-12 card"]')):    
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
             link = a.find_element_by_xpath('.//h3/a')
             head = link.text
+            print(head)
             news_date = a.find_element_by_xpath('.//h3/small')
             # print(link)
             news_date = news_date.text
@@ -48,7 +46,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                 news_date = news_date.time()
                 if(last_run_time<news_date<us_curr_time):
                     logger.info("Prn:Article filtered")
-                    print(head)
+                    # print(head)
                     actions = ActionChains(driver)            
                     actions.key_down(Keys.CONTROL).click(link).key_up(Keys.CONTROL).perform()
                     link = str(link.get_attribute("href"))
@@ -82,8 +80,14 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         driver.close()            
 
 if( __name__ == "__main__"):    
-    eastern = timezone('US/Eastern')
-    us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)
-    last_run_time = us_curr_time + timedelta(minutes=-10)            
-    my_list = scrap_prnewswire(us_curr_time,last_run_time)
+    temp_minute = 4
+    eastern = timezone('US/Eastern')        
+    us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
+    last_run_time = us_curr_time - timedelta(minutes=temp_minute)
+    log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
+    print(log_file)        
+    logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
+    logger=logging.getLogger()
+    logger.setLevel(logging.INFO)    
+    my_list = scrap_prnewswire(us_curr_time,last_run_time,logger)
     print(my_list)    
