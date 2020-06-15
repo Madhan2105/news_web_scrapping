@@ -21,6 +21,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         print(us_curr_time)
         driver.get("https://www.businesswire.com/portal/site/home/news/")        
         my_list = []
+        flag = False
         logger.info("Buss:Iterating 3pages")
         for row in range(1,4):
             logger.info(row)
@@ -65,7 +66,10 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
                     # print(my_list)
                 else:
                     logger.info("Buss:No More Articles")                    
+                    flag = True
                     break
+            if(flag):
+                break
             next = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="paging"]/div[2]/div[2]')))
             next.click()
                 # print(link.get_attribute("href"))
@@ -81,7 +85,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
 
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')     
-    temp_minute = 60   
+    temp_minute = 4
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
     log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"

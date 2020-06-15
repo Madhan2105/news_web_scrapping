@@ -46,6 +46,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                 news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
                 news_date = news_date.text               
                 if "minutes" in news_date or "less than a minute ago"==news_date:                                          
+                    print("Globe:Article Found")
                     logger.info("Globe:Article Found")
                     if "less than a minute ago"==news_date:
                         logger.info("Globe:Article Found less than a minute ago")
@@ -69,6 +70,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                         else:
                             logger.info("Globe:No More Articles")
                             flag = True
+                            break
             print(len(my_list))
             logger.info("Globe:Iterating through link")
             if(my_list):
