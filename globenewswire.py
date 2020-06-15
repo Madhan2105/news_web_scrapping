@@ -20,7 +20,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
         options.add_argument("--start-maximized")
-        # options.add_argument('-headless')
+        options.add_argument('-headless')
         options.add_argument("--log-level=3")
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
@@ -86,7 +86,6 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         print("Current time",us_curr_time)
         print("Run Complete")        
         logger.info("Globe:Run Complete")
-        driver.close()
         return data_list
     except Exception as e:
         print("Something went Wrong!!",e)
@@ -96,8 +95,8 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         # driver.close()
         # scrap_globenewswire(us_curr_time,temp_minute,logger)
     finally:
-        pass
-        # driver.close()
+        # pass
+        driver.close()
 
 if( __name__ == "__main__"):    
     if(1):
@@ -108,5 +107,5 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,20,logger)
+        my_list = scrap_globenewswire(us_curr_time,4,logger)
         print(my_list)
