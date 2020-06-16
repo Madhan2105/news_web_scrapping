@@ -20,8 +20,8 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
         options.add_argument("--start-maximized")
-        proxy = "191.96.253.19:12345"
-        options.add_argument('--proxy-server=%s' % proxy)
+        # proxy = "191.96.253.19:12345"
+        # options.add_argument('--proxy-server=%s' % proxy)
         options.add_argument('-headless')
         options.add_argument("--log-level=3")
         driver = webdriver.Chrome(options=options)

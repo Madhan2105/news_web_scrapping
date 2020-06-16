@@ -26,7 +26,6 @@ print(GUILD)
 
 print(TOKEN,GUILD)
 client = discord.Client() 
-
 bot = commands.Bot(command_prefix='$')
 @tasks.loop(seconds=120) #run this task every 4 minutes
 async def my_background_task():
@@ -121,9 +120,6 @@ async def my_background_task1():
 async def before_example():
     await client.wait_until_ready()                
 
-@my_background_task.after_loop
-async def after_example():
-    await my_background_task.start()
 
 @my_background_task1.before_loop
 async def before_example():
@@ -132,7 +128,7 @@ async def before_example():
 @client.event
 async def on_ready():
     my_background_task.start()
-    # my_background_task1.start()
+    my_background_task1.start()
     for guild in client.guilds:
         print("guild",guild)
         if guild.name == GUILD:
