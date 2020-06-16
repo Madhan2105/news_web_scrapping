@@ -23,7 +23,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         my_list = []
         flag = False
         logger.info("Buss:Iterating 3pages")
-        for row in range(1,4):
+        for row in range(1,10):
             logger.info(row)
             print("-----"+str(row)+"-----")
             main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//ul[@class="bwNewsList"]')))
@@ -85,7 +85,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
 
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')     
-    temp_minute = 4
+    temp_minute = 20
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
     log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"

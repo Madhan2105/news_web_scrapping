@@ -20,6 +20,8 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
         options.add_argument("--start-maximized")
+        proxy = "191.96.253.19:12345"
+        options.add_argument('--proxy-server=%s' % proxy)
         options.add_argument('-headless')
         options.add_argument("--log-level=3")
         driver = webdriver.Chrome(options=options)
@@ -62,7 +64,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                             logger.info("Globe:Article Found less than 4 minute ")
                             print("Minutes...")
                             link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))          
-                            head = str(link.text)                                                         
+                            head = str(link.text)                                                                                     
                             actions = ActionChains(driver)                
                             # print(link.text)
                             link = str(link.get_attribute("href"))
@@ -74,7 +76,8 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             print(len(my_list))
             logger.info("Globe:Iterating through link")
             if(my_list):
-                for content in my_list:   
+                for index,content in enumerate(my_list):   
+                    time.sleep(2)
                     driver.get(content[0])         
                     data = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="content-L2"]/span')))
                     data = data.text                
@@ -85,6 +88,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                         print(content[1])            
             if(flag):
                 break
+        driver.close()
         print("Current time",us_curr_time)
         print("Run Complete")        
         logger.info("Globe:Run Complete")
@@ -95,10 +99,10 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         logger.info(e)
         print("time ---",us_curr_time)
         # driver.close()
-        # scrap_globenewswire(us_curr_time,temp_minute,logger)
+        # scrap_globenewswire(us_curr_time,temp_min ute,logger)
     finally:
-        # pass
-        driver.close()
+        pass
+        # driver.close()
 
 if( __name__ == "__main__"):    
     if(1):
@@ -109,5 +113,5 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,4,logger)
+        my_list = scrap_globenewswire(us_curr_time,10,logger)
         print(my_list)

@@ -28,6 +28,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="col-md-8 col-sm-8 card-list card-list-hr"]')))
         print(main_div) 
         my_list = []    
+        keyword = ["nasdaq","nyse","amex"]
         logger.info("Prn:Iterating Article")
         for a in itertools.chain(driver.find_elements_by_xpath('//div[@class="col-sm-8 col-lg-9 pull-left card"]'),driver.find_elements_by_xpath('//div[@class="col-sm-12 card"]')):    
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
@@ -38,7 +39,6 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
             # print(link)
             news_date = news_date.text
             ans = re.search("^\d\d:\d\d ET$",news_date)
-            keyword = ["nasdaq","nyse","amex"]
             if(ans):        
                 logger.info("Prn:Found Article")
                 news_date = news_date.replace(" ET","")
