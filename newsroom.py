@@ -138,16 +138,5 @@ async def on_ready():
         f'{client.user} is connected to the following guild:\n'
         # f'{guild.name}(id: {guild.id})'
     )
-@client.event
-async def on_member_join(member):
-    await member.create_dm()
-    await member.dm_channel.send(
-        f'Hi {member.name}, welcome to my Discord server!'
-    )
-@client.event
-async def on_message(message):    
-    print("message",message)
-    if message.content == 'check':
-        await message.channel.send("Yes!")
 
 client.run(TOKEN)    

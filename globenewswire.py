@@ -60,7 +60,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                     else:            
                         news_date = news_date[0:2]                             
                         news_date = int(news_date.replace(" ",""))
-                        if news_date<=minutes:
+                        if news_date<minutes:
                             logger.info("Globe:Article Found less than 4 minute ")
                             print("Minutes...")
                             link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))          
@@ -113,5 +113,5 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,10,logger)
+        my_list = scrap_globenewswire(us_curr_time,4,logger)
         print(my_list)
