@@ -18,6 +18,7 @@ import logging
 
 def newsroom_scrap(us_curr_time,last_run_time,logger):
     try:        
+        print(datetime.now())
         logger.info("Newsroom : Scrapping..")
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')

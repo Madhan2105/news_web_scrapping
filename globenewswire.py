@@ -19,7 +19,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         print("Did changes 4",us_curr_time)
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
-        options.add_argument("--start-maximized")
+        # options.add_argument("--start-maximized")
         # proxy = "191.96.253.19:12345"
         # options.add_argument('--proxy-server=%s' % proxy)
         options.add_argument('-headless')
@@ -33,7 +33,8 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         logger.info("Globe:3pages")
         for i in range(1,4):
             print("-----------"+str(i)+"----")
-            url = "https://www.globenewswire.com/Index?page={}#pagerPos".format(i)
+            # url = "https://www.globenewswire.com/Index?page={}#pagerPos".format(i)
+            url = "https://www.globenewswire.com/NewsRoom"
             # https://www.globenewswire.com/Index?page=1#pagerPos
             logger.info("Globe:Opening Website")
             driver.get(url)   
@@ -113,5 +114,5 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,4,logger)
+        my_list = scrap_globenewswire(us_curr_time,20,logger)
         print(my_list)
