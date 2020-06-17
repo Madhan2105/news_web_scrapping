@@ -44,7 +44,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                 news_date = news_date.replace(" ET","")
                 news_date = datetime.strptime(news_date,'%H:%M')
                 news_date = news_date.time()
-                if(last_run_time<news_date<us_curr_time):
+                if(last_run_time<news_date):
                     logger.info("Prn:Article filtered")
                     # print(head)
                     actions = ActionChains(driver)            
