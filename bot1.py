@@ -33,7 +33,7 @@ async def my_background_task():
     print("Background Task")
     eastern = timezone('US/Eastern')        
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
-    log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
+    log_file  = "log/bot1_" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
     print(log_file)
     logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
     logger=logging.getLogger()
