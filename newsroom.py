@@ -54,14 +54,6 @@ async def my_background_task():
             await channel.send(my_list)
         print("Accesswire Job Completed")
         logging.info("Accesswire Job Completed")
-
-        logger.info("Bussieswire Job Started")
-        print("Bussieswire Job Started",last_run_time,us_curr_time)
-        my_list = scrap_bussinewire(us_curr_time,last_run_time,logger)
-        if(my_list):
-            await channel.send(my_list)
-        print("Bussieswire Job Completed")
-        logging.info("Bussieswire Job Completed")
     print(datetime.now())    
 
 @tasks.loop(seconds=120) #run this task every 4 minutes
@@ -90,15 +82,6 @@ async def my_background_task1():
         print("prnnewswire Job completed")            
         logging.info("prnnewswire Job completed")            
 
-        logger.info("globenewswire Job Started")
-        print("globenewswire Job Started",last_run_time,us_curr_time)
-        my_list = scrap_globenewswire(us_curr_time,temp_minute,logger)
-
-        if(my_list):
-            await channel.send(my_list)
-        print("globenewswire Job Completed")
-        logger.info("globenewswire Job Completed")
-    print(datetime.now())    
 
 @tasks.loop(seconds=120) #run this task every 4 minutes
 async def my_background_task2():

@@ -22,7 +22,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         # options.add_argument("--start-maximized")
         # proxy = "191.96.253.19:12345"
         # options.add_argument('--proxy-server=%s' % proxy)
-        options.add_argument('-headless')
+        # options.add_argument('-headless')
         options.add_argument("--log-level=3")
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
@@ -33,11 +33,13 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         logger.info("Globe:3pages")
         for i in range(1,4):
             print("-----------"+str(i)+"----")
-            # url = "https://www.globenewswire.com/Index?page={}#pagerPos".format(i)
-            url = "https://www.globenewswire.com/NewsRoom"
+            url = "https://www.globenewswire.com/Index?page={}#pagerPos".format(i)
+            # url = "https://www.globenewswire.com/NewsRoom"
             # https://www.globenewswire.com/Index?page=1#pagerPos
             logger.info("Globe:Opening Website")
             driver.get(url)   
+            # stock = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@id="facet-stockExchange"]')))
+            # stock.click
             main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]')))
             article = driver.find_elements_by_xpath('//div[@class="rl-container"]')
             my_list = []                        
@@ -114,5 +116,17 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,20,logger)
+        my_list = scrap_globenewswire(us_curr_time,10,logger)
         print(my_list)
+
+# cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[6]/div/div')))
+# cookies.click()
+# time.sleep(5)
+# stock = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@rel="#facet-stockExchange"]')))
+# stock.click()
+# wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="Exchange"]/li[6]'))).click()            
+# wait.until(ec.visibility_of_element_located((By.XPATH,'//input[@id="facetfield_Exchange_nasdaq"]'))).click()                        
+# # wait.until(ec.visibility_of_element_located((By.XPATH,'//input[@value="NYSE"]'))).click()                                    
+# # wait.until(ec.visibility_of_element_located((By.XPATH,'//input[@value="AMEX"]'))).click()                        
+# main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@id="content-R3"]')))
+# article = driver.find_elements_by_xpath('//div[@class="results-link"]')        
