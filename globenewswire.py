@@ -61,24 +61,27 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                 news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
                 news_date = news_date.text               
                 if "minutes" in news_date or "less than a minute ago"==news_date:                                          
+                    print(news_date)
                     print("Globe:Article Found")
                     logger.info("Globe:Article Found")
                     if "less than a minute ago"==str(news_date):
                         logger.info("Globe:Article Found less than a minute ago")
                         print("inside less")
                         link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))        
-                        head = str(link.text)                    
+                        head = str(link.text)                   
+                        logger.info(head) 
                         link = str(link.get_attribute("href"))
                         my_list.append([link,head])                
                     else:            
                         news_date = news_date[0:2]                             
                         news_date = int(news_date.replace(" ",""))
-                        if news_date<minutes:
-                            logger.info("Globe:Article Found less than 4 minute ")
+                        if news_date<=minutes:
+                            logger.info("Globe:Article Found less than 2 minute ")
                             print("Minutes...")
                             link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))          
                             head = str(link.text)                                                                                     
-                            actions = ActionChains(driver)                
+                            logger.info(head) 
+                            # actions = ActionChains(driver)                
                             # print(link.text)
                             link = str(link.get_attribute("href"))
                             my_list.append([link,head])                        
@@ -90,6 +93,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             logger.info("Globe:Iterating through link")
             if(my_list):
                 for index,content in enumerate(my_list):   
+                    print(content[0])
                     driver.get(content[0])         
                     data = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="content-L2"]/span')))
                     data = data.text                
@@ -125,7 +129,7 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,4,logger)
+        my_list = scrap_globenewswire(us_curr_time,2,logger)
         print(my_list)
 
 # cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[6]/div/div')))
