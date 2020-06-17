@@ -63,7 +63,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                 if "minutes" in news_date or "less than a minute ago"==news_date:                                          
                     print("Globe:Article Found")
                     logger.info("Globe:Article Found")
-                    if "less than a minute ago"==news_date:
+                    if "less than a minute ago"==str(news_date):
                         logger.info("Globe:Article Found less than a minute ago")
                         print("inside less")
                         link = wait.until(lambda d: a.find_element_by_xpath('.//h1/a'))        
@@ -125,7 +125,7 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,2,logger)
+        my_list = scrap_globenewswire(us_curr_time,4,logger)
         print(my_list)
 
 # cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[6]/div/div')))
