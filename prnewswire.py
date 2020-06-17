@@ -24,6 +24,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         print(us_curr_time)
         us_curr_time = us_curr_time.time()
         last_run_time = last_run_time.time()
+        print(last_run_time)
         driver.get("https://www.prnewswire.com/news-releases/news-releases-list/?page=1&pagesize=50")
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="col-md-8 col-sm-8 card-list card-list-hr"]')))
         print(main_div) 
@@ -44,7 +45,8 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                 news_date = news_date.replace(" ET","")
                 news_date = datetime.strptime(news_date,'%H:%M')
                 news_date = news_date.time()
-                if(last_run_time<news_date):
+                if(last_run_time<=news_date):
+                    print(":inside")
                     logger.info("Prn:Article filtered")
                     # print(head)
                     actions = ActionChains(driver)            

@@ -48,7 +48,7 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
             news_date = datetime.strptime(news_date,'%A, %B %d, %Y %I:%M %p')
             keyword = ["nasdaq","nyse","amex"]
             # print(news_date)
-            if(last_run_time<news_date):
+            if(last_run_time<=news_date):
                 logger.info("Newsroom : Article Found")
                 # link.click()
                 print(head.text)
