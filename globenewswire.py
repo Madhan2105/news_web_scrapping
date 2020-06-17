@@ -38,6 +38,16 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             # https://www.globenewswire.com/Index?page=1#pagerPos
             logger.info("Globe:Opening Website")
             driver.get(url)   
+            # cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="action-container"]')))
+            # driver.implicitly_wait(3)
+            # cookies.click()
+            # print("waiting")
+            # wait.until(ec.invisibility_of_element_located((By.XPATH,'//div[@class="action-container"]')))
+            # stock = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@rel="#facet-stockExchange"]')))
+            # stock.click()
+            # wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="Exchange"]/li[6]'))).click()                        
+            # import sys
+            # sys.exit()
             # stock = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@id="facet-stockExchange"]')))
             # stock.click
             main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]')))
@@ -80,7 +90,6 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             logger.info("Globe:Iterating through link")
             if(my_list):
                 for index,content in enumerate(my_list):   
-                    time.sleep(2)
                     driver.get(content[0])         
                     data = wait.until(ec.visibility_of_element_located((By.XPATH,'//*[@id="content-L2"]/span')))
                     data = data.text                
@@ -116,7 +125,7 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,10,logger)
+        my_list = scrap_globenewswire(us_curr_time,2,logger)
         print(my_list)
 
 # cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[6]/div/div')))
