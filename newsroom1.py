@@ -26,6 +26,7 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
+        # last_run_time = last_run_time.time().replace(second=0, microsecond=0)
         driver.get("https://www.accesswire.com/newsroom/")
         logger.info("Newsroom : Opening Website")
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="w-embed"]')))
@@ -48,7 +49,7 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
             news_date = datetime.strptime(news_date,'%A, %B %d, %Y %I:%M %p')
             logger.info(news_date)
             keyword = ["nasdaq","nyse","amex"]
-            # print(news_date)
+            print(news_date)
             if(last_run_time<=news_date):
                 logger.info("Newsroom : Article Found")
                 # link.click()
