@@ -19,7 +19,7 @@ from globenewswire import scrap_globenewswire
 import logging
 
 load_dotenv() #loading environment variable
-TOKEN = os.getenv('DISCORD_TOKEN') #storing token
+TOKEN = os.getenv('BOT4_TOKEN') #storing token
 GUILD = os.getenv('DISCORD_GUILD')
 print(GUILD)
 
@@ -39,12 +39,11 @@ async def my_background_task3():
     logger.setLevel(logging.INFO)    
     logging.info(":Running..")
     logger.info(us_curr_time)
-    channel = client.get_channel(722415293925949440) #connect with the given channel id 
+    channel = client.get_channel(717657784681758720) #connect with the given channel id 
     print(channel)
     if channel is not None:
         temp_minute = 2
         last_run_time = us_curr_time - timedelta(minutes=temp_minute)
-
         logger.info("globenewswire Job Started")
         print("globenewswire Job Started",last_run_time,us_curr_time)
         my_list = scrap_globenewswire(us_curr_time,temp_minute,logger)

@@ -39,12 +39,14 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
             news_date = a.find_element_by_xpath('.//h3/small')
             # print(link)
             news_date = news_date.text
+            logger.info(news_date)
             ans = re.search("^\d\d:\d\d ET$",news_date)
             if(ans):        
                 logger.info("Prn:Found Article")
                 news_date = news_date.replace(" ET","")
                 news_date = datetime.strptime(news_date,'%H:%M')
                 news_date = news_date.time()
+                print("news_date",news_date)
                 if(last_run_time<=news_date):
                     print(":inside")
                     logger.info("Prn:Article filtered")
@@ -82,7 +84,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         driver.close()            
 
 if( __name__ == "__main__"):    
-    temp_minute = 4
+    temp_minute = 8
     eastern = timezone('US/Eastern')        
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)

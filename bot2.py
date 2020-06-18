@@ -20,13 +20,14 @@ import logging
 
 
 load_dotenv() #loading environment variable
-TOKEN = os.getenv('DISCORD_TOKEN') #storing token
+TOKEN = os.getenv('BOT2_TOKEN') #storing token
 GUILD = os.getenv('DISCORD_GUILD')
 print(GUILD)
 
 print(TOKEN,GUILD)
 client = discord.Client() 
 bot = commands.Bot(command_prefix='$')
+last_run_list = []
 @tasks.loop(seconds=120) #run this task every 4 minutes
 async def my_background_task1():
     print("Backgroud task1 ")
@@ -40,16 +41,26 @@ async def my_background_task1():
     logger.setLevel(logging.INFO)    
     logging.info(":Running..")
     logger.info(us_curr_time)
-    channel = client.get_channel(722415293925949440) #connect with the given channel id 
+    channel = client.get_channel(717657784681758720) #connect with the given channel id 
     print(channel)
     if channel is not None:
-        temp_minute = 2
+        temp_minute = 4
         last_run_time = us_curr_time - timedelta(minutes=temp_minute)
         logger.info("prnnewswire Job Started")
         print("prnnewswire Job Started",last_run_time,us_curr_time)
         my_list = scrap_prnewswire(us_curr_time,last_run_time,logger)        
+        global last_run_list
+        print("last_run_list",last_run_list)        
         if(my_list):
-            await channel.send(my_list)
+            my_list = [row[0] for row in my_list]
+            print("my_list",my_list)
+            my_list = list(set(my_list)- set(last_run_list))
+            print("difference",my_list)
+            last_run_list = my_list
+            if(my_list):
+                await channel.send(my_list)
+        else:
+            last_run_list = []
         print("prnnewswire Job completed")            
         logging.info("prnnewswire Job completed")            
 

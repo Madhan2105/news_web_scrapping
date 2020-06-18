@@ -22,7 +22,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         options.add_argument("--start-maximized")
         # proxy = "191.96.253.19:12345"
         # options.add_argument('--proxy-server=%s' % proxy)
-        options.add_argument('-headless')
+        # options.add_argument('-headless')
         options.add_argument("--log-level=3")
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
@@ -57,9 +57,10 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             print("Iterating Article")
             keyword = ["nasdaq","nyse","amex"]
             for a in article:               
-                logger.info("Globe:Iterating...")
+                logger.info("Globe:Iterating...")                
                 news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
                 news_date = news_date.text               
+                logger.info(news_date)
                 if "minutes" in news_date or "less than a minute ago"==news_date:                                          
                     print(news_date)
                     print("Globe:Article Found")
@@ -90,8 +91,8 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                             flag = True
                             break
             print(len(my_list))
-            logger.info("Globe:Iterating through link")
             if(my_list):
+                logger.info("Globe:Iterating through link")
                 for index,content in enumerate(my_list):   
                     print(content[0])
                     driver.get(content[0])         
