@@ -17,7 +17,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         global my_list
         logger.info("Buss:Scrapping...")
         options  = webdriver.ChromeOptions()        
-        # options.add_argument('-headless')
+        options.add_argument('-headless')
         options.add_argument("--log-level=3")        
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
