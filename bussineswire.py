@@ -110,6 +110,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         logger.info(e)
         scrap_bussinewire(us_curr_time,last_run_time,logger)
     finally:
+        my_list = []
         open('buss.txt', 'w').close()
 
 if( __name__ == "__main__"):    
