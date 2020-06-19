@@ -48,7 +48,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
                 logger.info(news_date)
                 # print(news_date)
                 keyword = ["nasdaq","nyse","amex"]
-                if(last_run_time<news_date):
+                if(last_run_time<=news_date):
                     logger.info("Buss:Found Article")
                     actions = ActionChains(driver)            
                     head = link.text
