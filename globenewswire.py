@@ -13,8 +13,11 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import logging
 
+last_run_list = []
 def scrap_globenewswire(us_curr_time,temp_minute,logger):
     try:
+        global last_run_list 
+        print(last_run_list)
         logger.info("Globe:Scrapping...")
         print("Did changes 4",us_curr_time)
         print("temp_minute",temp_minute)
@@ -22,7 +25,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         options.add_argument("--start-maximized")
         # proxy = "191.96.253.19:12345"
         # options.add_argument('--proxy-server=%s' % proxy)
-        options.add_argument('-headless')
+        # options.add_argument('-headless')
         options.add_argument("--log-level=3")
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
@@ -55,13 +58,14 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             my_list = []                        
             logger.info("Globe:Iterating Article")
             print("Iterating Article")
-            keyword = ["nasdaq","nyse","amex"]
+            # keyword = ["nasdaq","nyse","amex"]
+            keyword = ["a","b","c"]
             for a in article:               
                 logger.info("Globe:Iterating...")                
                 news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
                 news_date = news_date.text               
                 logger.info(news_date)
-                if "minutes" in news_date or "less than a minute ago"==news_date:                                          
+                if "minute" in news_date or "less than a minute ago"==news_date:                                          
                     print(news_date)
                     print("Globe:Article Found")
                     logger.info("Globe:Article Found")
@@ -102,6 +106,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                     logger.info("Globe:Searching for keyword")
                     if any(x in data for x in keyword):               
                         data_list.append(content)
+                        last_run_list.append(content)
                         print(content[1])            
             if(flag):
                 break
@@ -111,10 +116,13 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         logger.info("Globe:Run Complete")
         return data_list
     except Exception as e:
+        # last_run_list = my_list
         print("Something went Wrong!!",e)
         logger.info("Exception")        
         logger.info(e)
         print("time ---",us_curr_time)
+        # driver.close()
+        my_list = scrap_globenewswire(us_curr_time,10,logger)
         # driver.close()
         # scrap_globenewswire(us_curr_time,temp_min ute,logger)
     finally:
@@ -130,7 +138,7 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,2,logger)
+        my_list = scrap_globenewswire(us_curr_time,10,logger)
         print(my_list)
 
 # cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[6]/div/div')))

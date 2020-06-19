@@ -27,6 +27,7 @@ print(TOKEN,GUILD)
 client = discord.Client() 
 bot = commands.Bot(command_prefix='$')
 
+open('buss.txt', 'w').close()
 # last_run_list = []
 @tasks.loop(seconds=120) #run this task every 4 minutes
 async def my_background_task2():

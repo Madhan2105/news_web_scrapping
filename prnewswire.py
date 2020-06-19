@@ -131,7 +131,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         driver.close()            
 
 if( __name__ == "__main__"):    
-    temp_minute = 8
+    temp_minute = 2
     eastern = timezone('US/Eastern')        
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
