@@ -26,8 +26,6 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
         driver.get("https://www.businesswire.com/portal/site/home/news/")        
-        if(1):
-            print(run_count1)
         # my_list = []
         flag = False
         logger.info("Buss:Iterating 3pages")
