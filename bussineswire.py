@@ -12,9 +12,12 @@ from selenium.webdriver.common.keys import Keys
 import logging
 
 my_list = []
+run_count = 0
 def scrap_bussinewire(us_curr_time,last_run_time,logger):
     try:
-        global my_list
+        global my_list,run_count
+        run_count = run_count + 1 
+        print("run_count",run_count)
         logger.info("Buss:Scrapping...")
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
@@ -23,6 +26,8 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
         driver.get("https://www.businesswire.com/portal/site/home/news/")        
+        if(1):
+            print(run_count1)
         # my_list = []
         flag = False
         logger.info("Buss:Iterating 3pages")
@@ -62,7 +67,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
                 # print(news_date)
                 keyword = ["nasdaq","nyse","amex"]
                 if(last_run_time<=news_date):
-                    if(last_run):
+                    if(last_run):                        
                         temp_head = link.text
                         print(temp_head)
                         res = [i for i in last_run if temp_head in i] 
@@ -108,9 +113,12 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         print("Something went Wrong!!",e)
         logger.info("Exception")
         logger.info(e)
-        scrap_bussinewire(us_curr_time,last_run_time,logger)
+        driver.close()
+        if(run_count<=2):
+            scrap_bussinewire(us_curr_time,last_run_time,logger)
     finally:
         my_list = []
+        run_count = 0
         open('buss.txt', 'w').close()
 
 if( __name__ == "__main__"):    
