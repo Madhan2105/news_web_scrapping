@@ -31,6 +31,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         logger.info("Buss:Iterating 3pages")
         try:
             print("Reading txt tile")
+            logger.info("Buss:Reading txt tile")
             f = open("buss.txt", "r")
             last_run = f.read()
             last_run = last_run.split(";")
@@ -53,7 +54,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
                 # print(a)    
                 link = a.find_element_by_xpath('.//a[@class="bwTitleLink"]')
                 # print(last_run)
-                print("after check")
+                # print("after check")
                 # print(link.get_attribute("href"))
                 # link = head.find_element_by_xpath('.//a')                
                 date_element  = a.find_element_by_xpath('.//time[@itemprop="dateModified"]')
@@ -61,15 +62,18 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
                 news_date = date_element.text
                 # news_date = news_date.replace(" EST","")
                 news_date = datetime.strptime(news_date,'%m/%d/%Y - %I:%M %p')
+                logger.info("news_date")
                 logger.info(news_date)
                 # print(news_date)
                 keyword = ["nasdaq","nyse","amex"]
                 if(last_run_time<=news_date):
-                    if(last_run):                        
+                    if(last_run):     
+                        logger.info("checking for value in last run")     
                         temp_head = link.text
                         print(temp_head)
                         res = [i for i in last_run if temp_head in i] 
                         if(res):
+                            logger.info("Found value last run")     
                             continue
                     logger.info("Buss:Found Article")
                     actions = ActionChains(driver)            
@@ -114,10 +118,12 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         driver.close()
         if(run_count<=2):
             scrap_bussinewire(us_curr_time,last_run_time,logger)
+        logger.info("Tried more the twice")
     finally:
         my_list = []
-        run_count = 0
+        run_count = 0        
         open('buss.txt', 'w').close()
+        logger.info("Executing finally bllock")
 
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')     

@@ -59,7 +59,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             logger.info("Globe:Iterating Article")
             print("Iterating Article")
             # keyword = ["nasdaq","nyse","amex"]
-            keyword = ["a","b","c"]
+            keyword = ["nasdaq","nyse","amex"]
             for a in article:               
                 logger.info("Globe:Iterating...")                
                 news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
