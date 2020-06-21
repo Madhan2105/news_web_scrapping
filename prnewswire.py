@@ -13,8 +13,12 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import logging
 
+my_list = []
+run_count = 0
 def scrap_prnewswire(us_curr_time,last_run_time,logger):
     try:
+        global my_list,run_count   
+        run_count = run_count + 1 
         logger.info("Prn:Scrapping....")
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
@@ -27,6 +31,17 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         last_run_time = last_run_time.time().replace(second=0, microsecond=0)
         print(last_run_time)
         driver.get("https://www.prnewswire.com/news-releases/news-releases-list/?page=1&pagesize=50")
+        try:
+            print("Reading txt tile")
+            logger.info("Reading txt tile")
+            f = open("news.txt", "r")
+            last_run = f.read()
+            last_run = last_run.split(";")
+            print(last_run)
+        except:
+            logger.info("Except of read file")
+            print("inside excpet of read file")
+            last_run = []        
         main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="col-md-8 col-sm-8 card-list card-list-hr"]')))
         print(main_div) 
         my_list = []    
@@ -35,6 +50,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         article = driver.find_elements_by_xpath('//div[@class="col-sm-8 col-lg-9 pull-left card"]')
         article1 = driver.find_elements_by_xpath('//div[@class="col-sm-12 card"]')
         for a in article:
+            print("inside first")
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
             link = a.find_element_by_xpath('.//h3/a')
             head = link.text
@@ -51,6 +67,12 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                 news_date = news_date.time()
                 print("news_date",news_date)
                 if(last_run_time<=news_date):
+                    temp_head = link.text
+                    print(temp_head)
+                    res = [i for i in last_run if temp_head in i] 
+                    if(res):
+                        logger.info("Found value last run")     
+                        continue                  
                     print(":inside")
                     logger.info("Prn:Article filtered")
                     # print(head)
@@ -76,6 +98,15 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                         print(link)
                 else:
                     break
+            print("outer")
+            try:
+                f = open("news.txt", "a")
+                f.write(str(head)+";")                        
+                f.close()            
+            except:
+                pass            
+            if(1):
+                print(x)
         for a in article1:
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
             link = a.find_element_by_xpath('.//h3/a')
@@ -93,6 +124,12 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                 news_date = news_date.time()
                 print("news_date",news_date)
                 if(last_run_time<=news_date):
+                    temp_head = link.text
+                    print(temp_head)
+                    res = [i for i in last_run if temp_head in i] 
+                    if(res):
+                        logger.info("Found value last run")     
+                        continue                       
                     print(":inside")
                     logger.info("Prn:Article filtered")
                     # print(head)
@@ -117,21 +154,35 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                         my_list.append([link,head])                        
                         print(link)
                 else:
-                    break                
+                    break           
+            try:
+                f = open("news.txt", "a")
+                f.write(str(head)+";")                        
+                f.close()            
+            except:
+                pass    
+            if(1):
+                print(x)                             
             # break
             # print(my_list)
         print("Current time",us_curr_time)        
         logger.info("Prn:Run Complete")
+        driver.close()
         return my_list
+
     except Exception as e:
         print("Something went Wrong!!",e)
         logger.info("Exception")
         logger.info(e)
+        if(run_count<=2):
+            scrap_prnewswire(us_curr_time,last_run_time,logger)
+        
     finally:
-        driver.close()            
+        my_list = []
+        run_count = 0            
 
 if( __name__ == "__main__"):    
-    temp_minute = 2
+    temp_minute = 23
     eastern = timezone('US/Eastern')        
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
