@@ -20,7 +20,7 @@ import logging
 
 
 load_dotenv() #loading environment variable
-TOKEN = os.getenv('DISCORD_TOKEN') #storing token
+TOKEN = os.getenv('BOT1_TOKEN') #storing token
 GUILD = os.getenv('DISCORD_GUILD')
 print(GUILD)
 

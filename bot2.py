@@ -23,7 +23,6 @@ load_dotenv() #loading environment variable
 TOKEN = os.getenv('BOT2_TOKEN') #storing token
 GUILD = os.getenv('DISCORD_GUILD')
 print(GUILD)
-
 print(TOKEN,GUILD)
 client = discord.Client() 
 bot = commands.Bot(command_prefix='$')

@@ -60,6 +60,7 @@ async def my_background_task2():
         #     print("difference",my_list)
         #     last_run_list = my_list
         if(my_list):
+            logger.info(str(my_list))
             await channel.send(my_list)
         # else:
         #     last_run_list = []

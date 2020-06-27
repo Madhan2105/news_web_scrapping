@@ -62,7 +62,8 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
             news_date = datetime.strptime(news_date,'%A, %B %d, %Y %I:%M %p')
             logger.info(news_date)
             keyword = ["nasdaq","nyse","amex"]
-            print(news_date)
+            print(link.text)
+            logger.info("Executing finally bllock")
             if(last_run_time<=news_date):
                 if(last_run):     
                     logger.info("checking for value in last run")     
@@ -114,6 +115,7 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
         logger.info("Exception")
         logger.info(e)
         driver.close()
+        newsroom_scrap(us_curr_time,last_run_time,logger)
     finally:
         my_list = []
         run_count = 0        
@@ -127,7 +129,6 @@ if( __name__ == "__main__"):
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
     log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
     print(log_file)        
-
     logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
     logger=logging.getLogger()
     logger.setLevel(logging.INFO)    

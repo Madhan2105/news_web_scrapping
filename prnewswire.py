@@ -26,10 +26,11 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         driver = webdriver.Chrome(options=options)
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
-        us_curr_time = us_curr_time.time()
-        # last_run_time = last_run_time.time()
-        last_run_time = last_run_time.time().replace(second=0, microsecond=0)
-        print(last_run_time)
+        if(run_count<=1):
+            us_curr_time = us_curr_time.time()
+            # last_run_time = last_run_time.time()
+            last_run_time = last_run_time.time().replace(second=0, microsecond=0)
+            print(last_run_time)
         driver.get("https://www.prnewswire.com/news-releases/news-releases-list/?page=1&pagesize=50")
         try:
             print("Reading txt tile")
@@ -105,8 +106,6 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                 f.close()            
             except:
                 pass            
-            if(1):
-                print(x)
         for a in article1:
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
             link = a.find_element_by_xpath('.//h3/a')
@@ -161,8 +160,6 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                 f.close()            
             except:
                 pass    
-            if(1):
-                print(x)                             
             # break
             # print(my_list)
         print("Current time",us_curr_time)        

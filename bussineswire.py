@@ -37,6 +37,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
             last_run = last_run.split(";")
             print(last_run)
         except:
+            logger.info("Empty list ")
             print("inside excpet of read file")
             last_run = []
         for row in range(1,20):
@@ -64,9 +65,10 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
                 news_date = datetime.strptime(news_date,'%m/%d/%Y - %I:%M %p')
                 logger.info("news_date")
                 logger.info(news_date)
+                logger.info(link.text)
                 # print(news_date)
                 keyword = ["nasdaq","nyse","amex"]
-                if(last_run_time<=news_date):
+                if(last_run_time<news_date):
                     if(last_run):     
                         logger.info("checking for value in last run")     
                         temp_head = link.text
@@ -89,9 +91,11 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
                     driver.switch_to.window(driver.window_handles[0])
                     data = data.lower()
                     logger.info("Buss:Searching keyword")
+                    # print(data)
                     if any(x in data for x in keyword):
                         my_list.append([link,head])
-                    # print(my_list)
+                    print("------------------------------------------------")
+                    print(my_list)
                 else:
                     logger.info("Buss:No More Articles")                    
                     flag = True
@@ -127,7 +131,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
 
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')     
-    temp_minute = 10
+    temp_minute = 2
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
     log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
