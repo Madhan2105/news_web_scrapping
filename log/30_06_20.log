@@ -27,3 +27,54 @@
 2020-06-30 13:10:26,362 03:16 ET
 2020-06-30 13:10:26,362 Prn:Found Article 2
 2020-06-30 13:10:26,362 Prn:Run Complete
+2020-06-30 13:46:56,747 Buss:Scrapping...
+2020-06-30 13:47:02,120 Buss:Iterating 3pages
+2020-06-30 13:47:02,120 Buss:Reading txt tile
+2020-06-30 13:47:02,120 1
+2020-06-30 13:47:02,191 Buss:Iterating Article
+2020-06-30 13:47:02,192 Buss:Iterating...
+2020-06-30 13:47:02,258 news_date
+2020-06-30 13:47:02,259 2020-06-30 04:13:00
+2020-06-30 13:47:02,281 FT Value Line Dividend Index UCITS ETF UK Regulatory Announcement: Net Asset Value(s)
+2020-06-30 13:47:02,281 checking for value in last run
+2020-06-30 13:47:02,305 Buss:Found Article
+2020-06-30 13:47:05,045 Buss:Searching keyword
+2020-06-30 13:47:05,046 Buss:Iterating...
+2020-06-30 13:47:05,108 news_date
+2020-06-30 13:47:05,108 2020-06-30 04:11:00
+2020-06-30 13:47:05,133 FT FactorFX UCITS ETF Class B UK Regulatory Announcement: Net Asset Value(s)
+2020-06-30 13:47:05,133 checking for value in last run
+2020-06-30 13:47:05,148 Buss:Found Article
+2020-06-30 13:47:07,428 Buss:Searching keyword
+2020-06-30 13:47:07,428 Buss:Iterating...
+2020-06-30 13:47:07,496 news_date
+2020-06-30 13:47:07,496 2020-06-30 04:08:00
+2020-06-30 13:47:07,519 FT FactorFX UCITS ETF UK Regulatory Announcement: Net Asset Value(s)
+2020-06-30 13:47:07,520 Buss:No More Articles
+2020-06-30 13:47:07,636 Executing finally bllock
+2020-06-30 13:51:40,835 Buss:Scrapping...
+2020-06-30 13:51:49,307 Buss:Iterating 3pages
+2020-06-30 13:51:49,308 Buss:Reading txt tile
+2020-06-30 13:51:49,308 1
+2020-06-30 13:51:49,377 Buss:Iterating Article
+2020-06-30 13:51:49,377 Buss:Iterating...
+2020-06-30 13:51:49,448 news_date
+2020-06-30 13:51:49,449 2020-06-30 04:20:00
+2020-06-30 13:51:49,483 Entersekt在FBI發佈警告之際提供有關確保行動通路安全的指南
+2020-06-30 13:51:49,484 checking for value in last run
+2020-06-30 13:51:49,501 Buss:Found Article
+2020-06-30 13:51:52,348 Buss:Searching keyword
+2020-06-30 13:51:52,349 Buss:Iterating...
+2020-06-30 13:51:52,416 news_date
+2020-06-30 13:51:52,416 2020-06-30 04:20:00
+2020-06-30 13:51:52,445 エンターセクト、FBIが警告する中、モバイルチャンネルのセキュリティー確保に関するガイダンスを提供
+2020-06-30 13:51:52,445 checking for value in last run
+2020-06-30 13:51:52,463 Buss:Found Article
+2020-06-30 13:51:54,648 Buss:Searching keyword
+2020-06-30 13:51:54,648 Buss:Iterating...
+2020-06-30 13:51:54,715 news_date
+2020-06-30 13:51:54,715 2020-06-30 04:19:00
+2020-06-30 13:51:54,739 Entersekt在FBI发布警告之际提供有关确保移动渠道安全的指南
+2020-06-30 13:51:54,739 checking for value in last run
+2020-06-30 13:51:54,754 Buss:Found Article
+2020-06-30 13:51:55,848 Executing finally bllock

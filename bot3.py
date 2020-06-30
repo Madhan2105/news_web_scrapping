@@ -42,7 +42,7 @@ async def my_background_task2():
     logger.setLevel(logging.INFO)       
     logging.info(":Running..")
     logger.info(us_curr_time)
-    channel = client.get_channel(717657784681758720) #connect with the given channel id 
+    channel = client.get_channel(722415293925949440) #connect with the given channel id 
     print(channel)
     if channel is not None:
         temp_minute = 2

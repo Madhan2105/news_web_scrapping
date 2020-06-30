@@ -131,7 +131,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
 
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')     
-    temp_minute = 2
+    temp_minute = 6
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
     log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"

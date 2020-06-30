@@ -40,7 +40,7 @@ async def my_background_task1():
     logger.setLevel(logging.INFO)    
     logging.info(":Running..")
     logger.info(us_curr_time)
-    channel = client.get_channel(717657784681758720) #connect with the given channel id 
+    channel = client.get_channel(727482213909659709) #connect with the given channel id 
     print(channel)
     if channel is not None:
         temp_minute = 2
@@ -49,7 +49,7 @@ async def my_background_task1():
         print("prnnewswire Job Started",last_run_time,us_curr_time)
         my_list = scrap_prnewswire(us_curr_time,last_run_time,logger)        
         print(my_list)
-        logger.info(my_list)
+        # logger.info(my_list)
         # global last_run_list
         # print("last_run_list",last_run_list)        
         # if(my_list):
@@ -59,6 +59,7 @@ async def my_background_task1():
         #     print("difference",my_list)
         #     last_run_list = my_list
         if(my_list):
+            logger.info(str(my_list))
             await channel.send(my_list)
         # else:
             # last_run_list = []

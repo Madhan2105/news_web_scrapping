@@ -61,6 +61,7 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
             news_date = news_date.replace(" EST","")
             news_date = datetime.strptime(news_date,'%A, %B %d, %Y %I:%M %p')
             logger.info(news_date)
+            logger.info(str(link.text))
             keyword = ["nasdaq","nyse","amex"]
             print(link.text)
             logger.info("Executing finally bllock")

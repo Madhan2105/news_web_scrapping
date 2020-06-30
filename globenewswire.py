@@ -65,6 +65,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                 news_date = a.find_element_by_xpath('.//div[@class="meta-margin"]/p/span')
                 news_date = news_date.text               
                 logger.info(news_date)
+                logger.info(str(link.text))                   
                 if "minute" in news_date or "less than a minute ago"==news_date:                                          
                     print(news_date)
                     print("Globe:Article Found")

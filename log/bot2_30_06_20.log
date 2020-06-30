@@ -15,3 +15,388 @@
 2020-06-30 12:38:33,863 Cleaning up tasks.
 2020-06-30 12:38:33,864 Cleaning up after 5 tasks.
 2020-06-30 12:38:34,149 Closing the event loop.
+2020-06-30 17:19:01,596 :Running..
+2020-06-30 17:19:01,596 2020-06-30 07:49:01.595994
+2020-06-30 17:19:01,596 prnnewswire Job Started
+2020-06-30 17:19:01,597 Prn:Scrapping....
+2020-06-30 17:19:17,116 Reading txt tile
+2020-06-30 17:19:17,174 Prn:Iterating Article
+2020-06-30 17:19:17,320 07:48 ET
+2020-06-30 17:19:17,320 JNA Awards 2020 Honourees announced online
+2020-06-30 17:19:17,321 Prn:Found Article
+2020-06-30 17:19:17,343 Prn:Article filtered
+2020-06-30 17:19:22,202 Prn:Searching for Keyword
+2020-06-30 17:19:22,302 07:47 ET
+2020-06-30 17:19:22,302 W Tiencinie rozpoczął się dostępny w internecie kongres Fourth World Intelligence
+2020-06-30 17:19:22,302 Prn:Found Article
+2020-06-30 17:19:22,321 Prn:Article filtered
+2020-06-30 17:19:25,592 Prn:Searching for Keyword
+2020-06-30 17:19:25,694 07:45 ET
+2020-06-30 17:19:25,694 Impact of COVID-19 on Australia's Managed Security Services Market, 2020 to 2025
+2020-06-30 17:19:25,694 Prn:Found Article
+2020-06-30 17:19:25,776 07:46 ET
+2020-06-30 17:19:25,776 Corrata Announces Mobile Endpoint Integration with Microsoft Cloud App Security
+2020-06-30 17:19:25,776 Prn:Found Article 2
+2020-06-30 17:19:25,776 Prn:Run Complete
+2020-06-30 17:19:25,847 []
+2020-06-30 17:19:25,848 prnnewswire Job completed
+2020-06-30 17:21:01,566 :Running..
+2020-06-30 17:21:01,567 2020-06-30 07:51:01.566054
+2020-06-30 17:21:01,567 prnnewswire Job Started
+2020-06-30 17:21:01,567 Prn:Scrapping....
+2020-06-30 17:21:07,956 Heartbeat blocked for more than 5 seconds.
+2020-06-30 17:21:11,314 Reading txt tile
+2020-06-30 17:21:11,375 Prn:Iterating Article
+2020-06-30 17:21:11,522 07:48 ET
+2020-06-30 17:21:11,522 JNA Awards 2020 Honourees announced online
+2020-06-30 17:21:11,523 Prn:Found Article
+2020-06-30 17:21:11,621 07:46 ET
+2020-06-30 17:21:11,621 Corrata Announces Mobile Endpoint Integration with Microsoft Cloud App Security
+2020-06-30 17:21:11,621 Prn:Found Article 2
+2020-06-30 17:21:11,621 Prn:Run Complete
+2020-06-30 17:21:11,698 []
+2020-06-30 17:21:11,698 prnnewswire Job completed
+2020-06-30 17:23:01,568 :Running..
+2020-06-30 17:23:01,568 2020-06-30 07:53:01.567889
+2020-06-30 17:23:01,568 prnnewswire Job Started
+2020-06-30 17:23:01,569 Prn:Scrapping....
+2020-06-30 17:23:08,999 Reading txt tile
+2020-06-30 17:23:09,053 Prn:Iterating Article
+2020-06-30 17:23:09,202 07:48 ET
+2020-06-30 17:23:09,202 JNA Awards 2020 Honourees announced online
+2020-06-30 17:23:09,203 Prn:Found Article
+2020-06-30 17:23:09,298 07:46 ET
+2020-06-30 17:23:09,298 Corrata Announces Mobile Endpoint Integration with Microsoft Cloud App Security
+2020-06-30 17:23:09,298 Prn:Found Article 2
+2020-06-30 17:23:09,298 Prn:Run Complete
+2020-06-30 17:23:09,362 []
+2020-06-30 17:23:09,363 prnnewswire Job completed
+2020-06-30 17:25:01,566 :Running..
+2020-06-30 17:25:01,567 2020-06-30 07:55:01.566505
+2020-06-30 17:25:01,567 prnnewswire Job Started
+2020-06-30 17:25:01,567 Prn:Scrapping....
+2020-06-30 17:25:14,962 Reading txt tile
+2020-06-30 17:25:15,020 Prn:Iterating Article
+2020-06-30 17:25:15,172 07:48 ET
+2020-06-30 17:25:15,172 JNA Awards 2020 Honourees announced online
+2020-06-30 17:25:15,172 Prn:Found Article
+2020-06-30 17:25:15,273 07:46 ET
+2020-06-30 17:25:15,274 Corrata Announces Mobile Endpoint Integration with Microsoft Cloud App Security
+2020-06-30 17:25:15,274 Prn:Found Article 2
+2020-06-30 17:25:15,275 Prn:Run Complete
+2020-06-30 17:25:15,339 []
+2020-06-30 17:25:15,339 prnnewswire Job completed
+2020-06-30 17:27:01,566 :Running..
+2020-06-30 17:27:01,566 2020-06-30 07:57:01.565924
+2020-06-30 17:27:01,566 prnnewswire Job Started
+2020-06-30 17:27:01,567 Prn:Scrapping....
+2020-06-30 17:27:10,558 Reading txt tile
+2020-06-30 17:27:10,618 Prn:Iterating Article
+2020-06-30 17:27:10,761 07:55 ET
+2020-06-30 17:27:10,761 DrFirst's Next-Generation SmartSig 2.0 Solution Improves the Quality of Medication History to Help Protect Patients from Adverse Drug Events
+2020-06-30 17:27:10,762 Prn:Found Article
+2020-06-30 17:27:10,776 Prn:Article filtered
+2020-06-30 17:27:15,131 Prn:Searching for Keyword
+2020-06-30 17:27:15,224 07:48 ET
+2020-06-30 17:27:15,224 JNA Awards 2020 Honourees announced online
+2020-06-30 17:27:15,224 Prn:Found Article
+2020-06-30 17:27:15,321 07:46 ET
+2020-06-30 17:27:15,321 Corrata Announces Mobile Endpoint Integration with Microsoft Cloud App Security
+2020-06-30 17:27:15,321 Prn:Found Article 2
+2020-06-30 17:27:15,321 Prn:Run Complete
+2020-06-30 17:27:15,395 []
+2020-06-30 17:27:15,395 prnnewswire Job completed
+2020-06-30 17:29:01,566 :Running..
+2020-06-30 17:29:01,566 2020-06-30 07:59:01.565900
+2020-06-30 17:29:01,566 prnnewswire Job Started
+2020-06-30 17:29:01,566 Prn:Scrapping....
+2020-06-30 17:29:10,478 Reading txt tile
+2020-06-30 17:29:10,541 Prn:Iterating Article
+2020-06-30 17:29:10,688 07:55 ET
+2020-06-30 17:29:10,688 DrFirst's Next-Generation SmartSig 2.0 Solution Improves the Quality of Medication History to Help Protect Patients from Adverse Drug Events
+2020-06-30 17:29:10,688 Prn:Found Article
+2020-06-30 17:29:10,790 07:57 ET
+2020-06-30 17:29:10,790 Truist Releases Results of its Company-Run DFAST Stress Test, Receives Preliminary Stress Capital Buffer
+2020-06-30 17:29:10,790 Prn:Found Article 2
+2020-06-30 17:29:10,804 Prn:Article filtered
+2020-06-30 17:29:15,574 Prn:Searching for Keyword
+2020-06-30 17:29:15,669 07:46 ET
+2020-06-30 17:29:15,669 Corrata Announces Mobile Endpoint Integration with Microsoft Cloud App Security
+2020-06-30 17:29:15,670 Prn:Found Article 2
+2020-06-30 17:29:15,670 Prn:Run Complete
+2020-06-30 17:29:15,737 [['https://www.prnewswire.com/news-releases/truist-releases-results-of-its-company-run-dfast-stress-test-receives-preliminary-stress-capital-buffer-301085874.html', 'Truist Releases Results of its Company-Run DFAST Stress Test, Receives Preliminary Stress Capital Buffer']]
+2020-06-30 17:29:16,555 prnnewswire Job completed
+2020-06-30 17:31:01,566 :Running..
+2020-06-30 17:31:01,566 2020-06-30 08:01:01.565899
+2020-06-30 17:31:01,566 prnnewswire Job Started
+2020-06-30 17:31:01,567 Prn:Scrapping....
+2020-06-30 17:31:13,253 Reading txt tile
+2020-06-30 17:31:13,305 Prn:Iterating Article
+2020-06-30 17:31:13,466 08:00 ET
+2020-06-30 17:31:13,466 Les Dames d'Escoffier International Establishes the LDEI Relief Fund
+2020-06-30 17:31:13,467 Prn:Found Article
+2020-06-30 17:31:13,490 Prn:Article filtered
+2020-06-30 17:31:18,254 Prn:Searching for Keyword
+2020-06-30 17:31:18,355 08:00 ET
+2020-06-30 17:31:18,356 Contractors Steel Welcomes Jim Gould as West Region Sales Manager
+2020-06-30 17:31:18,356 Prn:Found Article
+2020-06-30 17:31:18,377 Prn:Article filtered
+2020-06-30 17:31:23,507 Prn:Searching for Keyword
+2020-06-30 17:31:23,606 08:00 ET
+2020-06-30 17:31:23,606 First Results From Field Study Of RenoVō® Equine Allograft Released
+2020-06-30 17:31:23,606 Prn:Found Article
+2020-06-30 17:31:23,625 Prn:Article filtered
+2020-06-30 17:31:29,244 Prn:Searching for Keyword
+2020-06-30 17:31:29,343 08:00 ET
+2020-06-30 17:31:29,343 Acorns Launches Acorns Early To Give Every Child Financial Access Beginning at Birth
+2020-06-30 17:31:29,343 Prn:Found Article
+2020-06-30 17:31:29,360 Prn:Article filtered
+2020-06-30 17:31:35,470 Heartbeat blocked for more than 5 seconds.
+2020-06-30 17:31:36,336 Prn:Searching for Keyword
+2020-06-30 17:31:36,436 08:00 ET
+2020-06-30 17:31:36,436 PROTXX and University of Alberta Announce Remote Personalized Healthcare Collaboration for Patients with Multiple Sclerosis
+2020-06-30 17:31:36,436 Prn:Found Article
+2020-06-30 17:31:36,450 Prn:Article filtered
+2020-06-30 17:31:40,470 Heartbeat blocked for more than 10 seconds.
+2020-06-30 17:31:41,050 Prn:Searching for Keyword
+2020-06-30 17:31:41,150 08:00 ET
+2020-06-30 17:31:41,150 Say Hello to the Future of Travel: Vulog Provides Tech to Power Cabana's Fleet of Luxe Mobile Hotels
+2020-06-30 17:31:41,150 Prn:Found Article
+2020-06-30 17:31:41,165 Prn:Article filtered
+2020-06-30 17:31:45,471 Heartbeat blocked for more than 15 seconds.
+2020-06-30 17:31:48,519 Prn:Searching for Keyword
+2020-06-30 17:31:48,615 08:00 ET
+2020-06-30 17:31:48,616 Rohde & Schwarz and Voipfuture Launch AVQA to Address New Requirements in the ATM Market
+2020-06-30 17:31:48,616 Prn:Found Article
+2020-06-30 17:31:48,635 Prn:Article filtered
+2020-06-30 17:31:50,471 Heartbeat blocked for more than 20 seconds.
+2020-06-30 17:31:53,883 Prn:Searching for Keyword
+2020-06-30 17:31:53,984 08:00 ET
+2020-06-30 17:31:53,984 QuerySurge & CData Partnership Provides Customers with Access to 200+ Data Stores
+2020-06-30 17:31:53,984 Prn:Found Article
+2020-06-30 17:31:54,001 Prn:Article filtered
+2020-06-30 17:31:55,472 Heartbeat blocked for more than 25 seconds.
+2020-06-30 17:31:58,697 Prn:Searching for Keyword
+2020-06-30 17:31:58,793 08:00 ET
+2020-06-30 17:31:58,793 Chatspace Is Building the World's Most Experienced Virtual Project Manager
+2020-06-30 17:31:58,793 Prn:Found Article
+2020-06-30 17:31:58,814 Prn:Article filtered
+2020-06-30 17:32:00,473 Heartbeat blocked for more than 30 seconds.
+2020-06-30 17:32:03,781 Prn:Searching for Keyword
+2020-06-30 17:32:03,877 08:00 ET
+2020-06-30 17:32:03,877 VIZIO Expands Award-Winning Audio Lineup with New Series for 2021
+2020-06-30 17:32:03,877 Prn:Found Article
+2020-06-30 17:32:03,901 Prn:Article filtered
+2020-06-30 17:32:05,474 Heartbeat blocked for more than 35 seconds.
+2020-06-30 17:32:10,474 Heartbeat blocked for more than 40 seconds.
+2020-06-30 17:32:10,583 Prn:Searching for Keyword
+2020-06-30 17:32:10,681 08:00 ET
+2020-06-30 17:32:10,681 Mendix Delivers Low-Code Platform for ConocoPhillips
+2020-06-30 17:32:10,681 Prn:Found Article
+2020-06-30 17:32:10,696 Prn:Article filtered
+2020-06-30 17:32:15,475 Heartbeat blocked for more than 45 seconds.
+2020-06-30 17:32:20,475 Heartbeat blocked for more than 50 seconds.
+2020-06-30 17:32:25,476 Heartbeat blocked for more than 55 seconds.
+2020-06-30 17:32:26,676 Prn:Searching for Keyword
+2020-06-30 17:32:26,771 08:00 ET
+2020-06-30 17:32:26,771 Award-Winning VIZIO 2021 LED 4K UHD TV Collection Rolling Out Now to Retailers Nationwide
+2020-06-30 17:32:26,771 Prn:Found Article
+2020-06-30 17:32:26,794 Prn:Article filtered
+2020-06-30 17:32:30,476 Heartbeat blocked for more than 60 seconds.
+2020-06-30 17:32:34,178 Prn:Searching for Keyword
+2020-06-30 17:32:34,280 08:00 ET
+2020-06-30 17:32:34,281 H.B. Fuller's Royal Adhesives & Sealants Business Earns Spot in Boeing Premier Bidder Program
+2020-06-30 17:32:34,281 Prn:Found Article
+2020-06-30 17:32:34,297 Prn:Article filtered
+2020-06-30 17:32:35,477 Heartbeat blocked for more than 65 seconds.
+2020-06-30 17:32:40,006 Prn:Searching for Keyword
+2020-06-30 17:32:40,103 08:00 ET
+2020-06-30 17:32:40,103 As Country Continues To Evolve Amidst Global Pandemic, New Study Shines Light On Retail's Future Reality
+2020-06-30 17:32:40,103 Prn:Found Article
+2020-06-30 17:32:40,127 Prn:Article filtered
+2020-06-30 17:32:40,478 Heartbeat blocked for more than 70 seconds.
+2020-06-30 17:32:45,478 Heartbeat blocked for more than 75 seconds.
+2020-06-30 17:32:45,638 Prn:Searching for Keyword
+2020-06-30 17:32:45,728 08:00 ET
+2020-06-30 17:32:45,728 Fourth Baby Born in 14 Months Using the Maternal Spindle Transfer Method as Part of Pilot Trial Conducted by the Institute of Life and Embryotools Scientific Team
+2020-06-30 17:32:45,728 Prn:Found Article
+2020-06-30 17:32:45,745 Prn:Article filtered
+2020-06-30 17:32:50,479 Heartbeat blocked for more than 80 seconds.
+2020-06-30 17:32:50,866 Prn:Searching for Keyword
+2020-06-30 17:32:50,967 08:00 ET
+2020-06-30 17:32:50,967 SLX FPGA 2020.2 Delivers Significant Usability Improvements
+2020-06-30 17:32:50,967 Prn:Found Article
+2020-06-30 17:32:50,982 Prn:Article filtered
+2020-06-30 17:32:55,479 Heartbeat blocked for more than 85 seconds.
+2020-06-30 17:32:56,443 Prn:Searching for Keyword
+2020-06-30 17:32:56,538 08:00 ET
+2020-06-30 17:32:56,538 CFSC is Supporting Small Business Owners and Supporting Cash Flow, Cashing Business Checks Instantly
+2020-06-30 17:32:56,539 Prn:Found Article
+2020-06-30 17:32:56,558 Prn:Article filtered
+2020-06-30 17:33:00,480 Heartbeat blocked for more than 90 seconds.
+2020-06-30 17:33:02,615 Prn:Searching for Keyword
+2020-06-30 17:33:02,718 08:00 ET
+2020-06-30 17:33:02,718 Pearson to Support New Statewide K-12 Online Public School in Missouri
+2020-06-30 17:33:02,718 Prn:Found Article
+2020-06-30 17:33:02,733 Prn:Article filtered
+2020-06-30 17:33:05,481 Heartbeat blocked for more than 95 seconds.
+2020-06-30 17:33:06,729 Prn:Searching for Keyword
+2020-06-30 17:33:06,830 08:00 ET
+2020-06-30 17:33:06,831 David's Bridal Announces Danny Luczak as Chief Technology Officer
+2020-06-30 17:33:06,831 Prn:Found Article
+2020-06-30 17:33:06,856 Prn:Article filtered
+2020-06-30 17:33:10,482 Heartbeat blocked for more than 100 seconds.
+2020-06-30 17:33:12,401 Prn:Searching for Keyword
+2020-06-30 17:33:12,498 08:00 ET
+2020-06-30 17:33:12,498 Eli Lilly's Reyvow Struggles to Gain Ground in the Acute Segment of the US Migraine Market, Overshadowed by AbbVie's Ubrelvy and Biohaven's Nurtec ODT, According to Spherix Global Insights
+2020-06-30 17:33:12,498 Prn:Found Article
+2020-06-30 17:33:12,518 Prn:Article filtered
+2020-06-30 17:33:15,482 Heartbeat blocked for more than 105 seconds.
+2020-06-30 17:33:16,979 Prn:Searching for Keyword
+2020-06-30 17:33:17,076 08:00 ET
+2020-06-30 17:33:17,077 New Industry Survey Reveals that 92 Percent of Business Leaders Agree Enabling More Business Process Automation is Critical to Thrive in the Post-COVID World
+2020-06-30 17:33:17,077 Prn:Found Article
+2020-06-30 17:33:17,095 Prn:Article filtered
+2020-06-30 17:33:20,482 Heartbeat blocked for more than 110 seconds.
+2020-06-30 17:33:21,398 Prn:Searching for Keyword
+2020-06-30 17:33:21,490 08:00 ET
+2020-06-30 17:33:21,491 Stepes Launches Translate Series
+2020-06-30 17:33:21,491 Prn:Found Article
+2020-06-30 17:33:21,506 Prn:Article filtered
+2020-06-30 17:33:25,483 Heartbeat blocked for more than 115 seconds.
+2020-06-30 17:33:27,980 Prn:Searching for Keyword
+2020-06-30 17:33:28,087 08:00 ET
+2020-06-30 17:33:28,087 Mosaic Completes $280 Million Solar Loan Securitization, Wins GlobalCapital Award
+2020-06-30 17:33:28,087 Prn:Found Article
+2020-06-30 17:33:28,103 Prn:Article filtered
+2020-06-30 17:33:30,484 Heartbeat blocked for more than 120 seconds.
+2020-06-30 17:33:31,827 Prn:Searching for Keyword
+2020-06-30 17:33:31,923 08:00 ET
+2020-06-30 17:33:31,923 Global Market Outlook for the Massive Open Online Course Market 2020-2025 - Greatest Value Generation is Highly Interactive MOOC Instruction
+2020-06-30 17:33:31,923 Prn:Found Article
+2020-06-30 17:33:31,939 Prn:Article filtered
+2020-06-30 17:33:34,692 Prn:Searching for Keyword
+2020-06-30 17:33:34,788 08:00 ET
+2020-06-30 17:33:34,788 DISH Selects Altiostar O-RAN Solution as Company Leads U.S. in Nationwide, Standalone 5G Network Buildout
+2020-06-30 17:33:34,788 Prn:Found Article
+2020-06-30 17:33:34,807 Prn:Article filtered
+2020-06-30 17:33:35,484 Heartbeat blocked for more than 125 seconds.
+2020-06-30 17:33:38,684 Prn:Searching for Keyword
+2020-06-30 17:33:38,780 08:00 ET
+2020-06-30 17:33:38,781 Updated VIZIO SmartCast® Now Available on Company's 2021 TV Line-Up for Best-Ever Performance and Endless Entertainment
+2020-06-30 17:33:38,781 Prn:Found Article
+2020-06-30 17:33:38,798 Prn:Article filtered
+2020-06-30 17:33:40,485 Heartbeat blocked for more than 130 seconds.
+2020-06-30 17:33:44,649 Prn:Searching for Keyword
+2020-06-30 17:33:44,736 08:00 ET
+2020-06-30 17:33:44,736 LG Launches XBOOM Go PL Speaker Lineup
+2020-06-30 17:33:44,737 Prn:Found Article
+2020-06-30 17:33:44,758 Prn:Article filtered
+2020-06-30 17:33:45,486 Heartbeat blocked for more than 135 seconds.
+2020-06-30 17:33:49,849 Prn:Searching for Keyword
+2020-06-30 17:33:49,942 08:00 ET
+2020-06-30 17:33:49,944 LG Introduces 'PuriCare Mini' Personal Air Purifier For Cleaner Air Whenever You Need It
+2020-06-30 17:33:49,945 Prn:Found Article
+2020-06-30 17:33:49,963 Prn:Article filtered
+2020-06-30 17:33:50,486 Heartbeat blocked for more than 140 seconds.
+2020-06-30 17:33:54,052 Prn:Searching for Keyword
+2020-06-30 17:33:54,146 08:00 ET
+2020-06-30 17:33:54,146 CNS Pharmaceuticals Engages Berry Consultants to Advise Phase 2 Trial Design
+2020-06-30 17:33:54,146 Prn:Found Article
+2020-06-30 17:33:54,163 Prn:Article filtered
+2020-06-30 17:33:55,487 Heartbeat blocked for more than 145 seconds.
+2020-06-30 17:33:58,545 Prn:Searching for Keyword
+2020-06-30 17:33:58,645 08:00 ET
+2020-06-30 17:33:58,646 One Drop Commended by Frost & Sullivan for Its Industry-leading Connected Glucose Meter and Smartphone Application
+2020-06-30 17:33:58,646 Prn:Found Article
+2020-06-30 17:33:58,664 Prn:Article filtered
+2020-06-30 17:34:00,488 Heartbeat blocked for more than 150 seconds.
+2020-06-30 17:34:04,222 Prn:Searching for Keyword
+2020-06-30 17:34:04,320 08:00 ET
+2020-06-30 17:34:04,321 Molecula Recognized In "Now Tech: Data Virtualization, Q2 2020" Report
+2020-06-30 17:34:04,321 Prn:Found Article
+2020-06-30 17:34:04,338 Prn:Article filtered
+2020-06-30 17:34:05,488 Heartbeat blocked for more than 155 seconds.
+2020-06-30 17:34:10,489 Heartbeat blocked for more than 160 seconds.
+2020-06-30 17:34:15,490 Heartbeat blocked for more than 165 seconds.
+2020-06-30 17:34:20,490 Heartbeat blocked for more than 170 seconds.
+2020-06-30 17:34:25,491 Heartbeat blocked for more than 175 seconds.
+2020-06-30 17:34:30,492 Heartbeat blocked for more than 180 seconds.
+2020-06-30 17:34:35,493 Heartbeat blocked for more than 185 seconds.
+2020-06-30 17:34:40,493 Heartbeat blocked for more than 190 seconds.
+2020-06-30 17:34:45,494 Heartbeat blocked for more than 195 seconds.
+2020-06-30 17:34:50,495 Heartbeat blocked for more than 200 seconds.
+2020-06-30 17:34:55,495 Heartbeat blocked for more than 205 seconds.
+2020-06-30 17:35:00,496 Heartbeat blocked for more than 210 seconds.
+2020-06-30 17:35:05,496 Heartbeat blocked for more than 215 seconds.
+2020-06-30 17:35:10,497 Heartbeat blocked for more than 220 seconds.
+2020-06-30 17:35:15,498 Heartbeat blocked for more than 225 seconds.
+2020-06-30 17:35:20,499 Heartbeat blocked for more than 230 seconds.
+2020-06-30 17:35:25,499 Heartbeat blocked for more than 235 seconds.
+2020-06-30 17:35:30,500 Heartbeat blocked for more than 240 seconds.
+2020-06-30 17:35:35,501 Heartbeat blocked for more than 245 seconds.
+2020-06-30 17:35:40,501 Heartbeat blocked for more than 250 seconds.
+2020-06-30 17:35:45,502 Heartbeat blocked for more than 255 seconds.
+2020-06-30 17:35:50,503 Heartbeat blocked for more than 260 seconds.
+2020-06-30 17:35:55,504 Heartbeat blocked for more than 265 seconds.
+2020-06-30 17:36:00,504 Heartbeat blocked for more than 270 seconds.
+2020-06-30 17:36:05,505 Heartbeat blocked for more than 275 seconds.
+2020-06-30 17:36:10,506 Heartbeat blocked for more than 280 seconds.
+2020-06-30 17:36:15,506 Heartbeat blocked for more than 285 seconds.
+2020-06-30 17:36:20,507 Heartbeat blocked for more than 290 seconds.
+2020-06-30 17:36:25,508 Heartbeat blocked for more than 295 seconds.
+2020-06-30 17:36:30,508 Heartbeat blocked for more than 300 seconds.
+2020-06-30 17:36:35,509 Heartbeat blocked for more than 305 seconds.
+2020-06-30 17:36:40,510 Heartbeat blocked for more than 310 seconds.
+2020-06-30 17:36:45,511 Heartbeat blocked for more than 315 seconds.
+2020-06-30 17:36:50,512 Heartbeat blocked for more than 320 seconds.
+2020-06-30 17:36:55,512 Heartbeat blocked for more than 325 seconds.
+2020-06-30 17:37:00,513 Heartbeat blocked for more than 330 seconds.
+2020-06-30 17:37:05,514 Heartbeat blocked for more than 335 seconds.
+2020-06-30 17:37:10,515 Heartbeat blocked for more than 340 seconds.
+2020-06-30 17:37:15,515 Heartbeat blocked for more than 345 seconds.
+2020-06-30 17:37:20,516 Heartbeat blocked for more than 350 seconds.
+2020-06-30 17:37:25,517 Heartbeat blocked for more than 355 seconds.
+2020-06-30 17:37:30,517 Heartbeat blocked for more than 360 seconds.
+2020-06-30 17:37:35,518 Heartbeat blocked for more than 365 seconds.
+2020-06-30 17:37:40,519 Heartbeat blocked for more than 370 seconds.
+2020-06-30 17:37:45,519 Heartbeat blocked for more than 375 seconds.
+2020-06-30 17:37:50,520 Heartbeat blocked for more than 380 seconds.
+2020-06-30 17:37:55,521 Heartbeat blocked for more than 385 seconds.
+2020-06-30 17:38:00,522 Heartbeat blocked for more than 390 seconds.
+2020-06-30 17:38:05,523 Heartbeat blocked for more than 395 seconds.
+2020-06-30 17:38:10,523 Heartbeat blocked for more than 400 seconds.
+2020-06-30 17:38:11,915 Exception
+2020-06-30 17:38:11,915 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2020-06-30 17:38:11,915 Prn:Scrapping....
+2020-06-30 17:38:12,925 Exception
+2020-06-30 17:38:12,926 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-30 17:38:12,926 Prn:Scrapping....
+2020-06-30 17:38:13,934 Exception
+2020-06-30 17:38:13,934 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-30 17:38:13,935 None
+2020-06-30 17:38:13,935 prnnewswire Job completed
+2020-06-30 17:38:13,936 :Running..
+2020-06-30 17:38:13,937 2020-06-30 08:08:13.936621
+2020-06-30 17:38:13,937 prnnewswire Job Started
+2020-06-30 17:38:13,937 Prn:Scrapping....
+2020-06-30 17:38:14,950 Exception
+2020-06-30 17:38:14,951 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-30 17:38:14,951 Prn:Scrapping....
+2020-06-30 17:38:15,524 Heartbeat blocked for more than 405 seconds.
+2020-06-30 17:38:15,958 Exception
+2020-06-30 17:38:15,959 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-30 17:38:15,959 Prn:Scrapping....
+2020-06-30 17:38:16,967 Exception
+2020-06-30 17:38:16,968 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-30 17:38:16,968 None
+2020-06-30 17:38:16,968 prnnewswire Job completed
+2020-06-30 17:38:16,972 Cleaning up tasks.
+2020-06-30 17:38:16,972 Cleaning up after 4 tasks.
+2020-06-30 17:38:16,975 All tasks finished cancelling.
+2020-06-30 17:38:16,975 Closing the event loop.

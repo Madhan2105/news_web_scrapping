@@ -39,7 +39,7 @@ async def my_background_task3():
     logger.setLevel(logging.INFO)    
     logging.info(":Running..")
     logger.info(us_curr_time)
-    channel = client.get_channel(717657784681758720) #connect with the given channel id 
+    channel = client.get_channel(727482296592105473) #connect with the given channel id 
     print(channel)
     if channel is not None:
         temp_minute = 2
@@ -48,6 +48,7 @@ async def my_background_task3():
         print("globenewswire Job Started",last_run_time,us_curr_time)
         my_list = scrap_globenewswire(us_curr_time,temp_minute,logger)
         if(my_list):
+            logger.info(str(my_list))
             await channel.send(my_list)
         print("globenewswire Job Completed")
         logger.info("globenewswire Job Completed")
