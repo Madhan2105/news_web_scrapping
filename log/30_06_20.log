@@ -78,3 +78,111 @@
 2020-06-30 13:51:54,739 checking for value in last run
 2020-06-30 13:51:54,754 Buss:Found Article
 2020-06-30 13:51:55,848 Executing finally bllock
+2020-06-30 17:50:12,649 Buss:Scrapping...
+2020-06-30 17:50:17,633 Buss:Iterating 3pages
+2020-06-30 17:50:17,633 Buss:Reading txt tile
+2020-06-30 17:50:17,634 1
+2020-06-30 17:50:17,751 Buss:Iterating Article
+2020-06-30 17:50:17,752 Buss:Iterating...
+2020-06-30 17:50:17,825 news_date
+2020-06-30 17:50:17,825 2020-06-30 08:15:00
+2020-06-30 17:50:17,852 NJ.com Names CompoSecure, L.L.C. a Winner of the New Jersey Top Workplaces 2020 Award
+2020-06-30 17:50:17,852 checking for value in last run
+2020-06-30 17:50:17,868 Buss:Found Article
+2020-06-30 17:50:22,150 Buss:Searching keyword
+2020-06-30 17:50:22,151 Buss:Iterating...
+2020-06-30 17:50:22,239 news_date
+2020-06-30 17:50:22,239 2020-06-30 08:15:00
+2020-06-30 17:50:22,265 Photo Printing Market Forecast to 2027 - COVID-19 Impact and Global Analysis by Product, Type, Distribution Channel and Region - ResearchAndMarkets.com
+2020-06-30 17:50:22,265 checking for value in last run
+2020-06-30 17:50:22,282 Buss:Found Article
+2020-06-30 17:50:25,258 Buss:Searching keyword
+2020-06-30 17:50:25,259 Buss:Iterating...
+2020-06-30 17:50:25,346 news_date
+2020-06-30 17:50:25,346 2020-06-30 08:15:00
+2020-06-30 17:50:25,373 NextMind: Time to Put Your Brain in Gear
+2020-06-30 17:50:25,373 checking for value in last run
+2020-06-30 17:50:25,395 Buss:Found Article
+2020-06-30 17:50:28,478 Buss:Searching keyword
+2020-06-30 17:50:28,478 Buss:Iterating...
+2020-06-30 17:50:28,548 news_date
+2020-06-30 17:50:28,548 2020-06-30 08:14:00
+2020-06-30 17:50:28,574 PDIインサイツ・クラウドの機能を拡張し、オンデマンドのデータ・分析機能によって世界の小売企業やCPGブランドに貢献
+2020-06-30 17:50:28,574 Buss:No More Articles
+2020-06-30 17:50:28,702 Executing finally bllock
+2020-06-30 18:08:14,921 Globe:Scrapping...
+2020-06-30 18:08:15,403 Globe:3pages
+2020-06-30 18:08:15,403 Globe:Opening Website
+2020-06-30 18:08:17,570 Globe:Iterating Article
+2020-06-30 18:08:17,570 Globe:Iterating...
+2020-06-30 18:08:17,618 less than a minute ago
+2020-06-30 18:08:17,618 Exception
+2020-06-30 18:08:17,618 local variable 'link' referenced before assignment
+2020-06-30 18:08:17,618 Globe:Scrapping...
+2020-06-30 18:08:18,924 Globe:3pages
+2020-06-30 18:08:18,925 Globe:Opening Website
+2020-06-30 18:31:44,462 Globe:Scrapping...
+2020-06-30 18:31:45,656 Globe:3pages
+2020-06-30 18:31:45,656 Globe:Opening Website
+2020-06-30 18:31:51,077 Globe:Iterating Article
+2020-06-30 18:31:51,077 Globe:Iterating...
+2020-06-30 18:31:51,119 less than a minute ago
+2020-06-30 18:31:51,119 Globe:Article Found
+2020-06-30 18:31:51,119 Globe:Article Found less than a minute ago
+2020-06-30 18:31:51,166 Update on Delay in Publication of 2019 Audited Annual Results and Despatch of 2019 Annual Report
+2020-06-30 18:31:51,182 Update on Delay in Publication of 2019 Audited Annual Results and Despatch of 2019 Annual Report
+2020-06-30 18:31:51,195 Globe:Iterating...
+2020-06-30 18:31:51,245 less than a minute ago
+2020-06-30 18:31:51,246 Globe:Article Found
+2020-06-30 18:31:51,246 Globe:Article Found less than a minute ago
+2020-06-30 18:31:51,290 ESO preliminary financial results for 5 months of 2020
+2020-06-30 18:31:51,302 ESO preliminary financial results for 5 months of 2020
+2020-06-30 18:31:51,316 Globe:Iterating...
+2020-06-30 18:31:51,364 1 minute ago
+2020-06-30 18:31:51,365 Globe:Article Found
+2020-06-30 18:31:51,365 Globe:Article Found less than 2 minute 
+2020-06-30 18:31:51,408 Middlefield Canadian Income PCC: Net Asset Value(s)
+2020-06-30 18:31:51,425 Middlefield Canadian Income PCC: Net Asset Value(s)
+2020-06-30 18:31:51,437 Globe:Iterating...
+2020-06-30 18:31:51,487 1 minute ago
+2020-06-30 18:31:51,488 Globe:Article Found
+2020-06-30 18:31:51,488 Globe:Article Found less than 2 minute 
+2020-06-30 18:31:51,537 Prime Mining Reports Los Reyes Surface Sample Results of 63.0 Metres at 1.78 gpt Gold and 71.0 gpt Silver
+2020-06-30 18:31:51,551 Prime Mining Reports Los Reyes Surface Sample Results of 63.0 Metres at 1.78 gpt Gold and 71.0 gpt Silver
+2020-06-30 18:31:51,562 Globe:Iterating...
+2020-06-30 18:31:51,601 1 minute ago
+2020-06-30 18:31:51,601 Globe:Article Found
+2020-06-30 18:31:51,601 Globe:Article Found less than 2 minute 
+2020-06-30 18:31:51,647 Redrock Biometrics Releases PalmID® Agent in Apple’s App Store
+2020-06-30 18:31:51,660 Redrock Biometrics Releases PalmID® Agent in Apple’s App Store
+2020-06-30 18:31:51,670 Globe:Iterating...
+2020-06-30 18:31:51,723 1 minute ago
+2020-06-30 18:31:51,723 Globe:Article Found
+2020-06-30 18:31:51,723 Globe:Article Found less than 2 minute 
+2020-06-30 18:31:51,770 DMG Energizes Additional 1,000 ASIC Miners
+2020-06-30 18:31:51,788 DMG Energizes Additional 1,000 ASIC Miners
+2020-06-30 18:31:51,801 Globe:Iterating...
+2020-06-30 18:31:51,849 1 minute ago
+2020-06-30 18:31:51,849 Globe:Article Found
+2020-06-30 18:31:51,849 Globe:Article Found less than 2 minute 
+2020-06-30 18:31:51,892 Meten EdtechX to Enhance Education Business by Exploring the Utilization of Blockchain Technology
+2020-06-30 18:31:51,904 Meten EdtechX to Enhance Education Business by Exploring the Utilization of Blockchain Technology
+2020-06-30 18:31:51,912 Globe:Iterating...
+2020-06-30 18:31:51,953 1 minute ago
+2020-06-30 18:31:51,953 Globe:Article Found
+2020-06-30 18:31:51,953 Globe:Article Found less than 2 minute 
+2020-06-30 18:31:51,997 Castor Maritime Inc. Announces Vessel Acquisition
+2020-06-30 18:31:52,010 Castor Maritime Inc. Announces Vessel Acquisition
+2020-06-30 18:31:52,020 Globe:Iterating...
+2020-06-30 18:31:52,068 1 minute ago
+2020-06-30 18:31:52,069 Globe:Article Found
+2020-06-30 18:31:52,069 Globe:Article Found less than 2 minute 
+2020-06-30 18:31:52,114 Ventura Cannabis (VCAN) Posts Audited Financial Statements; Highlights Cannabis Market Position in California and Oregon
+2020-06-30 18:31:52,127 Ventura Cannabis (VCAN) Posts Audited Financial Statements; Highlights Cannabis Market Position in California and Oregon
+2020-06-30 18:31:52,138 Globe:Iterating...
+2020-06-30 18:31:52,184 1 minute ago
+2020-06-30 18:31:52,184 Globe:Article Found
+2020-06-30 18:31:52,185 Globe:Article Found less than 2 minute 
+2020-06-30 18:31:52,232 Meridian Energy Group Air Quality Permit to Construct for the Davis Refinery is Upheld by North Dakota Supreme Court
+2020-06-30 18:31:52,251 Meridian Energy Group Air Quality Permit to Construct for the Davis Refinery is Upheld by North Dakota Supreme Court
+2020-06-30 18:31:52,261 Globe:Iterating through link
