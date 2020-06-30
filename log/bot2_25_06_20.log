@@ -1,0 +1,1769 @@
+2020-06-25 12:49:19,098 :Running..
+2020-06-25 12:49:19,098 2020-06-25 03:19:19.097483
+2020-06-25 12:49:19,098 prnnewswire Job Started
+2020-06-25 12:49:19,098 Prn:Scrapping....
+2020-06-25 12:49:19,131 Exception
+2020-06-25 12:49:19,132 Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+2020-06-25 12:49:19,132 Prn:Scrapping....
+2020-06-25 12:49:19,137 Exception
+2020-06-25 12:49:19,138 Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+2020-06-25 12:49:19,138 Prn:Scrapping....
+2020-06-25 12:49:19,143 Exception
+2020-06-25 12:49:19,143 Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home
+
+2020-06-25 12:49:19,143 prnnewswire Job completed
+2020-06-25 12:49:21,125 Cleaning up tasks.
+2020-06-25 12:49:21,126 Cleaning up after 5 tasks.
+2020-06-25 12:49:21,415 All tasks finished cancelling.
+2020-06-25 12:49:21,415 Closing the event loop.
+2020-06-25 12:55:45,288 :Running..
+2020-06-25 12:55:45,288 2020-06-25 03:25:45.288265
+2020-06-25 12:55:45,288 prnnewswire Job Started
+2020-06-25 12:55:45,289 Prn:Scrapping....
+2020-06-25 12:55:52,595 Reading txt tile
+2020-06-25 12:55:52,660 Prn:Iterating Article
+2020-06-25 12:55:52,815 03:00 ET
+2020-06-25 12:55:52,815 Prn:Found Article
+2020-06-25 12:55:52,954 03:00 ET
+2020-06-25 12:55:52,955 Prn:Found Article 2
+2020-06-25 12:55:52,955 Prn:Run Complete
+2020-06-25 12:55:53,033 prnnewswire Job completed
+2020-06-25 12:56:00,498 Cleaning up tasks.
+2020-06-25 12:56:00,498 Cleaning up after 5 tasks.
+2020-06-25 12:56:04,934 Closing the event loop.
+2020-06-25 13:05:46,209 :Running..
+2020-06-25 13:05:46,209 2020-06-25 03:35:46.209476
+2020-06-25 13:05:46,209 prnnewswire Job Started
+2020-06-25 13:05:46,210 Prn:Scrapping....
+2020-06-25 13:05:54,071 Reading txt tile
+2020-06-25 13:05:54,129 Prn:Iterating Article
+2020-06-25 13:05:54,277 03:35 ET
+2020-06-25 13:05:54,278 Prn:Found Article
+2020-06-25 13:05:54,300 Prn:Article filtered
+2020-06-25 13:05:58,372 Prn:Searching for Keyword
+2020-06-25 13:05:58,373 Exception
+2020-06-25 13:05:58,373 name 'x' is not defined
+2020-06-25 13:05:58,373 Prn:Scrapping....
+2020-06-25 13:05:59,567 Exception
+2020-06-25 13:05:59,567 'datetime.time' object has no attribute 'time'
+2020-06-25 13:05:59,567 Prn:Scrapping....
+2020-06-25 13:06:00,817 Exception
+2020-06-25 13:06:00,817 'datetime.time' object has no attribute 'time'
+2020-06-25 13:06:00,820 prnnewswire Job completed
+2020-06-25 13:06:41,818 Cleaning up tasks.
+2020-06-25 13:06:41,818 Cleaning up after 5 tasks.
+2020-06-25 13:06:42,048 Closing the event loop.
+2020-06-25 13:08:39,557 :Running..
+2020-06-25 13:08:39,557 2020-06-25 03:38:39.556656
+2020-06-25 13:08:39,557 prnnewswire Job Started
+2020-06-25 13:08:39,557 Prn:Scrapping....
+2020-06-25 13:08:44,274 Reading txt tile
+2020-06-25 13:08:44,331 Prn:Iterating Article
+2020-06-25 13:08:44,469 03:35 ET
+2020-06-25 13:08:44,470 Prn:Found Article
+2020-06-25 13:08:44,561 03:35 ET
+2020-06-25 13:08:44,561 Prn:Found Article 2
+2020-06-25 13:08:44,561 Prn:Run Complete
+2020-06-25 13:08:44,630 prnnewswire Job completed
+2020-06-25 13:10:39,527 :Running..
+2020-06-25 13:10:39,527 2020-06-25 03:40:39.527023
+2020-06-25 13:10:39,527 prnnewswire Job Started
+2020-06-25 13:10:39,527 Prn:Scrapping....
+2020-06-25 13:10:45,929 Heartbeat blocked for more than 5 seconds.
+2020-06-25 13:10:47,141 Reading txt tile
+2020-06-25 13:10:47,197 Prn:Iterating Article
+2020-06-25 13:10:47,339 03:35 ET
+2020-06-25 13:10:47,339 Prn:Found Article
+2020-06-25 13:10:47,433 03:35 ET
+2020-06-25 13:10:47,433 Prn:Found Article 2
+2020-06-25 13:10:47,433 Prn:Run Complete
+2020-06-25 13:10:47,497 prnnewswire Job completed
+2020-06-25 13:12:39,530 :Running..
+2020-06-25 13:12:39,530 2020-06-25 03:42:39.529914
+2020-06-25 13:12:39,530 prnnewswire Job Started
+2020-06-25 13:12:39,531 Prn:Scrapping....
+2020-06-25 13:12:46,175 Reading txt tile
+2020-06-25 13:12:46,238 Prn:Iterating Article
+2020-06-25 13:12:46,389 03:35 ET
+2020-06-25 13:12:46,389 Prn:Found Article
+2020-06-25 13:12:46,488 03:35 ET
+2020-06-25 13:12:46,488 Prn:Found Article 2
+2020-06-25 13:12:46,488 Prn:Run Complete
+2020-06-25 13:12:46,551 prnnewswire Job completed
+2020-06-25 13:14:39,535 :Running..
+2020-06-25 13:14:39,535 2020-06-25 03:44:39.535110
+2020-06-25 13:14:39,536 prnnewswire Job Started
+2020-06-25 13:14:39,536 Prn:Scrapping....
+2020-06-25 13:14:46,592 Reading txt tile
+2020-06-25 13:14:46,644 Prn:Iterating Article
+2020-06-25 13:14:46,774 03:35 ET
+2020-06-25 13:14:46,774 Prn:Found Article
+2020-06-25 13:14:46,861 03:35 ET
+2020-06-25 13:14:46,861 Prn:Found Article 2
+2020-06-25 13:14:46,861 Prn:Run Complete
+2020-06-25 13:14:46,925 prnnewswire Job completed
+2020-06-25 13:16:39,535 :Running..
+2020-06-25 13:16:39,535 2020-06-25 03:46:39.534832
+2020-06-25 13:16:39,535 prnnewswire Job Started
+2020-06-25 13:16:39,536 Prn:Scrapping....
+2020-06-25 13:16:46,657 Reading txt tile
+2020-06-25 13:16:46,711 Prn:Iterating Article
+2020-06-25 13:16:46,855 03:35 ET
+2020-06-25 13:16:46,855 Prn:Found Article
+2020-06-25 13:16:46,962 03:35 ET
+2020-06-25 13:16:46,962 Prn:Found Article 2
+2020-06-25 13:16:46,962 Prn:Run Complete
+2020-06-25 13:16:47,029 prnnewswire Job completed
+2020-06-25 13:18:39,526 :Running..
+2020-06-25 13:18:39,527 2020-06-25 03:48:39.526431
+2020-06-25 13:18:39,527 prnnewswire Job Started
+2020-06-25 13:18:39,527 Prn:Scrapping....
+2020-06-25 13:18:46,983 Reading txt tile
+2020-06-25 13:18:47,038 Prn:Iterating Article
+2020-06-25 13:18:47,188 03:35 ET
+2020-06-25 13:18:47,189 Prn:Found Article
+2020-06-25 13:18:47,283 03:35 ET
+2020-06-25 13:18:47,283 Prn:Found Article 2
+2020-06-25 13:18:47,283 Prn:Run Complete
+2020-06-25 13:18:47,348 prnnewswire Job completed
+2020-06-25 13:20:39,532 :Running..
+2020-06-25 13:20:39,533 2020-06-25 03:50:39.532150
+2020-06-25 13:20:39,533 prnnewswire Job Started
+2020-06-25 13:20:39,533 Prn:Scrapping....
+2020-06-25 13:20:46,454 Reading txt tile
+2020-06-25 13:20:46,509 Prn:Iterating Article
+2020-06-25 13:20:46,647 03:35 ET
+2020-06-25 13:20:46,647 Prn:Found Article
+2020-06-25 13:20:46,746 03:35 ET
+2020-06-25 13:20:46,746 Prn:Found Article 2
+2020-06-25 13:20:46,746 Prn:Run Complete
+2020-06-25 13:20:46,811 prnnewswire Job completed
+2020-06-25 13:22:39,531 :Running..
+2020-06-25 13:22:39,531 2020-06-25 03:52:39.530702
+2020-06-25 13:22:39,531 prnnewswire Job Started
+2020-06-25 13:22:39,532 Prn:Scrapping....
+2020-06-25 13:22:47,158 Reading txt tile
+2020-06-25 13:22:47,214 Prn:Iterating Article
+2020-06-25 13:22:47,358 03:35 ET
+2020-06-25 13:22:47,358 Prn:Found Article
+2020-06-25 13:22:47,445 03:35 ET
+2020-06-25 13:22:47,446 Prn:Found Article 2
+2020-06-25 13:22:47,446 Prn:Run Complete
+2020-06-25 13:22:47,510 prnnewswire Job completed
+2020-06-25 13:24:39,529 :Running..
+2020-06-25 13:24:39,529 2020-06-25 03:54:39.528807
+2020-06-25 13:24:39,530 prnnewswire Job Started
+2020-06-25 13:24:39,530 Prn:Scrapping....
+2020-06-25 13:24:46,180 Reading txt tile
+2020-06-25 13:24:46,246 Prn:Iterating Article
+2020-06-25 13:24:46,386 03:35 ET
+2020-06-25 13:24:46,386 Prn:Found Article
+2020-06-25 13:24:46,483 03:35 ET
+2020-06-25 13:24:46,484 Prn:Found Article 2
+2020-06-25 13:24:46,484 Prn:Run Complete
+2020-06-25 13:24:46,600 prnnewswire Job completed
+2020-06-25 13:24:50,544 Websocket closed with 4003 (Not authenticated.), attempting a reconnect.
+2020-06-25 13:24:50,544 Got a request to RESUME the websocket.
+2020-06-25 13:24:51,275 Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-06-25 13:24:51,278 Shard ID None has sent the RESUME payload.
+2020-06-25 13:24:51,567 Shard ID None session has been invalidated.
+2020-06-25 13:24:56,573 Shard ID None has sent the IDENTIFY payload.
+2020-06-25 13:24:56,910 Websocket closed with 4004 (Authentication failed.), cannot reconnect.
+2020-06-25 13:24:56,911 Cleaning up tasks.
+2020-06-25 13:24:56,911 Cleaning up after 1 tasks.
+2020-06-25 13:24:56,911 All tasks finished cancelling.
+2020-06-25 13:24:56,912 Closing the event loop.
+2020-06-25 14:19:31,848 :Running..
+2020-06-25 14:19:31,848 2020-06-25 04:49:31.848432
+2020-06-25 14:19:31,849 prnnewswire Job Started
+2020-06-25 14:19:31,849 Prn:Scrapping....
+2020-06-25 14:19:40,174 Reading txt tile
+2020-06-25 14:19:40,231 Prn:Iterating Article
+2020-06-25 14:19:40,377 04:35 ET
+2020-06-25 14:19:40,378 Prn:Found Article
+2020-06-25 14:19:40,475 04:42 ET
+2020-06-25 14:19:40,475 Prn:Found Article 2
+2020-06-25 14:19:40,475 Prn:Run Complete
+2020-06-25 14:19:40,590 prnnewswire Job completed
+2020-06-25 14:21:31,813 :Running..
+2020-06-25 14:21:31,813 2020-06-25 04:51:31.812789
+2020-06-25 14:21:31,813 prnnewswire Job Started
+2020-06-25 14:21:31,814 Prn:Scrapping....
+2020-06-25 14:21:38,169 Heartbeat blocked for more than 5 seconds.
+2020-06-25 14:21:40,522 Reading txt tile
+2020-06-25 14:21:40,579 Prn:Iterating Article
+2020-06-25 14:21:40,728 04:35 ET
+2020-06-25 14:21:40,728 Prn:Found Article
+2020-06-25 14:21:40,829 04:42 ET
+2020-06-25 14:21:40,830 Prn:Found Article 2
+2020-06-25 14:21:40,830 Prn:Run Complete
+2020-06-25 14:21:40,896 prnnewswire Job completed
+2020-06-25 14:23:31,814 :Running..
+2020-06-25 14:23:31,814 2020-06-25 04:53:31.813934
+2020-06-25 14:23:31,814 prnnewswire Job Started
+2020-06-25 14:23:31,815 Prn:Scrapping....
+2020-06-25 14:23:39,683 Reading txt tile
+2020-06-25 14:23:39,739 Prn:Iterating Article
+2020-06-25 14:23:39,891 04:35 ET
+2020-06-25 14:23:39,891 Prn:Found Article
+2020-06-25 14:23:39,990 04:42 ET
+2020-06-25 14:23:39,990 Prn:Found Article 2
+2020-06-25 14:23:39,990 Prn:Run Complete
+2020-06-25 14:23:40,108 prnnewswire Job completed
+2020-06-25 14:25:31,812 :Running..
+2020-06-25 14:25:31,812 2020-06-25 04:55:31.811923
+2020-06-25 14:25:31,812 prnnewswire Job Started
+2020-06-25 14:25:31,813 Prn:Scrapping....
+2020-06-25 14:25:46,632 Reading txt tile
+2020-06-25 14:25:46,691 Prn:Iterating Article
+2020-06-25 14:25:46,838 04:35 ET
+2020-06-25 14:25:46,838 Prn:Found Article
+2020-06-25 14:25:46,932 04:42 ET
+2020-06-25 14:25:46,932 Prn:Found Article 2
+2020-06-25 14:25:46,933 Prn:Run Complete
+2020-06-25 14:25:47,005 prnnewswire Job completed
+2020-06-25 14:27:31,813 :Running..
+2020-06-25 14:27:31,813 2020-06-25 04:57:31.813194
+2020-06-25 14:27:31,814 prnnewswire Job Started
+2020-06-25 14:27:31,814 Prn:Scrapping....
+2020-06-25 14:27:38,406 Reading txt tile
+2020-06-25 14:27:38,462 Prn:Iterating Article
+2020-06-25 14:27:38,594 04:35 ET
+2020-06-25 14:27:38,594 Prn:Found Article
+2020-06-25 14:27:38,687 04:42 ET
+2020-06-25 14:27:38,688 Prn:Found Article 2
+2020-06-25 14:27:38,688 Prn:Run Complete
+2020-06-25 14:27:38,755 prnnewswire Job completed
+2020-06-25 14:29:31,812 :Running..
+2020-06-25 14:29:31,813 2020-06-25 04:59:31.812196
+2020-06-25 14:29:31,813 prnnewswire Job Started
+2020-06-25 14:29:31,813 Prn:Scrapping....
+2020-06-25 14:29:39,536 Reading txt tile
+2020-06-25 14:29:39,591 Prn:Iterating Article
+2020-06-25 14:29:39,746 04:35 ET
+2020-06-25 14:29:39,746 Prn:Found Article
+2020-06-25 14:29:39,856 04:42 ET
+2020-06-25 14:29:39,856 Prn:Found Article 2
+2020-06-25 14:29:39,857 Prn:Run Complete
+2020-06-25 14:29:39,932 prnnewswire Job completed
+2020-06-25 14:31:31,814 :Running..
+2020-06-25 14:31:31,814 2020-06-25 05:01:31.813871
+2020-06-25 14:31:31,814 prnnewswire Job Started
+2020-06-25 14:31:31,815 Prn:Scrapping....
+2020-06-25 14:31:39,516 Reading txt tile
+2020-06-25 14:31:39,570 Prn:Iterating Article
+2020-06-25 14:31:39,725 05:00 ET
+2020-06-25 14:31:39,725 Prn:Found Article
+2020-06-25 14:31:39,741 Prn:Article filtered
+2020-06-25 14:31:44,361 Prn:Searching for Keyword
+2020-06-25 14:31:44,362 Exception
+2020-06-25 14:31:44,362 name 'x' is not defined
+2020-06-25 14:31:44,362 Prn:Scrapping....
+2020-06-25 14:31:45,543 Exception
+2020-06-25 14:31:45,543 'datetime.time' object has no attribute 'time'
+2020-06-25 14:31:45,544 Prn:Scrapping....
+2020-06-25 14:31:46,723 Exception
+2020-06-25 14:31:46,724 'datetime.time' object has no attribute 'time'
+2020-06-25 14:31:46,724 prnnewswire Job completed
+2020-06-25 14:33:31,816 :Running..
+2020-06-25 14:33:31,816 2020-06-25 05:03:31.815523
+2020-06-25 14:33:31,816 prnnewswire Job Started
+2020-06-25 14:33:31,817 Prn:Scrapping....
+2020-06-25 14:33:39,493 Reading txt tile
+2020-06-25 14:33:39,555 Prn:Iterating Article
+2020-06-25 14:33:39,709 05:00 ET
+2020-06-25 14:33:39,709 Prn:Found Article
+2020-06-25 14:33:39,808 05:00 ET
+2020-06-25 14:33:39,808 Prn:Found Article 2
+2020-06-25 14:33:39,809 Prn:Run Complete
+2020-06-25 14:33:39,927 prnnewswire Job completed
+2020-06-25 14:35:31,812 :Running..
+2020-06-25 14:35:31,812 2020-06-25 05:05:31.812043
+2020-06-25 14:35:31,813 prnnewswire Job Started
+2020-06-25 14:35:31,813 Prn:Scrapping....
+2020-06-25 14:35:39,951 Reading txt tile
+2020-06-25 14:35:40,009 Prn:Iterating Article
+2020-06-25 14:35:40,159 05:05 ET
+2020-06-25 14:35:40,159 Prn:Found Article
+2020-06-25 14:35:40,173 Prn:Article filtered
+2020-06-25 14:35:45,569 Prn:Searching for Keyword
+2020-06-25 14:35:45,570 Exception
+2020-06-25 14:35:45,570 name 'x' is not defined
+2020-06-25 14:35:45,570 Prn:Scrapping....
+2020-06-25 14:35:46,769 Exception
+2020-06-25 14:35:46,769 'datetime.time' object has no attribute 'time'
+2020-06-25 14:35:46,769 Prn:Scrapping....
+2020-06-25 14:35:47,941 Exception
+2020-06-25 14:35:47,941 'datetime.time' object has no attribute 'time'
+2020-06-25 14:35:47,941 prnnewswire Job completed
+2020-06-25 14:36:59,608 Cleaning up tasks.
+2020-06-25 14:36:59,609 Cleaning up after 5 tasks.
+2020-06-25 14:36:59,855 Closing the event loop.
+2020-06-25 14:37:05,767 :Running..
+2020-06-25 14:37:05,768 2020-06-25 05:07:05.767641
+2020-06-25 14:37:05,768 prnnewswire Job Started
+2020-06-25 14:37:05,768 Prn:Scrapping....
+2020-06-25 14:37:12,076 Exception
+2020-06-25 14:37:12,077 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2020-06-25 14:37:12,077 Prn:Scrapping....
+2020-06-25 14:37:13,087 Exception
+2020-06-25 14:37:13,088 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-25 14:37:13,088 Prn:Scrapping....
+2020-06-25 14:37:14,097 Exception
+2020-06-25 14:37:14,097 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-25 14:37:14,097 prnnewswire Job completed
+2020-06-25 14:37:14,098 Cleaning up tasks.
+2020-06-25 14:37:14,098 Cleaning up after 5 tasks.
+2020-06-25 14:37:15,422 Closing the event loop.
+2020-06-25 14:37:23,483 :Running..
+2020-06-25 14:37:23,483 2020-06-25 05:07:23.483215
+2020-06-25 14:37:23,493 prnnewswire Job Started
+2020-06-25 14:37:23,494 Prn:Scrapping....
+2020-06-25 14:37:29,318 Reading txt tile
+2020-06-25 14:37:29,389 Prn:Iterating Article
+2020-06-25 14:37:29,539 05:05 ET
+2020-06-25 14:37:29,540 Prn:Found Article
+2020-06-25 14:37:29,556 Prn:Article filtered
+2020-06-25 14:37:34,765 Prn:Searching for Keyword
+2020-06-25 14:37:34,869 05:05 ET
+2020-06-25 14:37:34,870 Prn:Found Article
+2020-06-25 14:37:34,890 Prn:Article filtered
+2020-06-25 14:37:39,333 Prn:Searching for Keyword
+2020-06-25 14:37:39,441 05:00 ET
+2020-06-25 14:37:39,441 Prn:Found Article
+2020-06-25 14:37:39,542 05:05 ET
+2020-06-25 14:37:39,542 Prn:Found Article 2
+2020-06-25 14:37:39,560 Prn:Article filtered
+2020-06-25 14:37:43,654 Prn:Searching for Keyword
+2020-06-25 14:37:43,748 05:03 ET
+2020-06-25 14:37:43,749 Prn:Found Article 2
+2020-06-25 14:37:43,749 Prn:Run Complete
+2020-06-25 14:37:43,816 prnnewswire Job completed
+2020-06-25 14:39:23,459 :Running..
+2020-06-25 14:39:23,459 2020-06-25 05:09:23.459213
+2020-06-25 14:39:23,460 prnnewswire Job Started
+2020-06-25 14:39:23,460 Prn:Scrapping....
+2020-06-25 14:39:29,795 Heartbeat blocked for more than 5 seconds.
+2020-06-25 14:39:31,858 Reading txt tile
+2020-06-25 14:39:31,923 Prn:Iterating Article
+2020-06-25 14:39:32,079 05:05 ET
+2020-06-25 14:39:32,080 Prn:Found Article
+2020-06-25 14:39:32,168 05:05 ET
+2020-06-25 14:39:32,169 Prn:Found Article 2
+2020-06-25 14:39:32,169 Prn:Run Complete
+2020-06-25 14:39:32,246 prnnewswire Job completed
+2020-06-25 14:41:23,456 :Running..
+2020-06-25 14:41:23,457 2020-06-25 05:11:23.456046
+2020-06-25 14:41:23,457 prnnewswire Job Started
+2020-06-25 14:41:23,457 Prn:Scrapping....
+2020-06-25 14:41:30,749 Reading txt tile
+2020-06-25 14:41:30,809 Prn:Iterating Article
+2020-06-25 14:41:30,954 05:05 ET
+2020-06-25 14:41:30,954 Prn:Found Article
+2020-06-25 14:41:31,041 05:10 ET
+2020-06-25 14:41:31,041 Prn:Found Article 2
+2020-06-25 14:41:31,058 Prn:Article filtered
+2020-06-25 14:41:35,939 Prn:Searching for Keyword
+2020-06-25 14:41:36,050 05:05 ET
+2020-06-25 14:41:36,050 Prn:Found Article 2
+2020-06-25 14:41:36,050 Prn:Run Complete
+2020-06-25 14:41:36,716 prnnewswire Job completed
+2020-06-25 14:43:23,455 :Running..
+2020-06-25 14:43:23,456 2020-06-25 05:13:23.455762
+2020-06-25 14:43:23,456 prnnewswire Job Started
+2020-06-25 14:43:23,456 Prn:Scrapping....
+2020-06-25 14:43:30,777 Reading txt tile
+2020-06-25 14:43:30,830 Prn:Iterating Article
+2020-06-25 14:43:30,973 05:12 ET
+2020-06-25 14:43:30,973 Prn:Found Article
+2020-06-25 14:43:30,990 Prn:Article filtered
+2020-06-25 14:43:35,323 Prn:Searching for Keyword
+2020-06-25 14:43:35,418 05:05 ET
+2020-06-25 14:43:35,418 Prn:Found Article
+2020-06-25 14:43:35,501 05:10 ET
+2020-06-25 14:43:35,502 Prn:Found Article 2
+2020-06-25 14:43:35,502 Prn:Run Complete
+2020-06-25 14:43:35,568 prnnewswire Job completed
+2020-06-25 14:45:23,456 :Running..
+2020-06-25 14:45:23,457 2020-06-25 05:15:23.456486
+2020-06-25 14:45:23,457 prnnewswire Job Started
+2020-06-25 14:45:23,457 Prn:Scrapping....
+2020-06-25 14:45:30,359 Reading txt tile
+2020-06-25 14:45:30,413 Prn:Iterating Article
+2020-06-25 14:45:30,564 05:12 ET
+2020-06-25 14:45:30,564 Prn:Found Article
+2020-06-25 14:45:30,668 05:14 ET
+2020-06-25 14:45:30,669 Prn:Found Article 2
+2020-06-25 14:45:30,683 Prn:Article filtered
+2020-06-25 14:45:35,061 Prn:Searching for Keyword
+2020-06-25 14:45:35,153 05:10 ET
+2020-06-25 14:45:35,154 Prn:Found Article 2
+2020-06-25 14:45:35,154 Prn:Run Complete
+2020-06-25 14:45:35,224 prnnewswire Job completed
+2020-06-25 14:47:23,452 :Running..
+2020-06-25 14:47:23,452 2020-06-25 05:17:23.452067
+2020-06-25 14:47:23,452 prnnewswire Job Started
+2020-06-25 14:47:23,453 Prn:Scrapping....
+2020-06-25 14:47:31,047 Reading txt tile
+2020-06-25 14:47:31,103 Prn:Iterating Article
+2020-06-25 14:47:31,250 05:12 ET
+2020-06-25 14:47:31,250 Prn:Found Article
+2020-06-25 14:47:31,350 05:14 ET
+2020-06-25 14:47:31,350 Prn:Found Article 2
+2020-06-25 14:47:31,350 Prn:Run Complete
+2020-06-25 14:47:31,422 prnnewswire Job completed
+2020-06-25 14:49:23,452 :Running..
+2020-06-25 14:49:23,452 2020-06-25 05:19:23.452057
+2020-06-25 14:49:23,452 prnnewswire Job Started
+2020-06-25 14:49:23,453 Prn:Scrapping....
+2020-06-25 14:49:31,384 Reading txt tile
+2020-06-25 14:49:31,441 Prn:Iterating Article
+2020-06-25 14:49:31,588 05:17 ET
+2020-06-25 14:49:31,588 Prn:Found Article
+2020-06-25 14:49:31,606 Prn:Article filtered
+2020-06-25 14:49:36,700 Prn:Searching for Keyword
+2020-06-25 14:49:36,804 05:12 ET
+2020-06-25 14:49:36,804 Prn:Found Article
+2020-06-25 14:49:36,899 05:14 ET
+2020-06-25 14:49:36,899 Prn:Found Article 2
+2020-06-25 14:49:36,899 Prn:Run Complete
+2020-06-25 14:49:36,965 prnnewswire Job completed
+2020-06-25 14:51:23,456 :Running..
+2020-06-25 14:51:23,457 2020-06-25 05:21:23.456046
+2020-06-25 14:51:23,457 prnnewswire Job Started
+2020-06-25 14:51:23,457 Prn:Scrapping....
+2020-06-25 14:51:30,303 Reading txt tile
+2020-06-25 14:51:30,360 Prn:Iterating Article
+2020-06-25 14:51:30,497 05:17 ET
+2020-06-25 14:51:30,497 Prn:Found Article
+2020-06-25 14:51:30,591 05:14 ET
+2020-06-25 14:51:30,591 Prn:Found Article 2
+2020-06-25 14:51:30,592 Prn:Run Complete
+2020-06-25 14:51:30,657 prnnewswire Job completed
+2020-06-25 14:53:23,456 :Running..
+2020-06-25 14:53:23,456 2020-06-25 05:23:23.455626
+2020-06-25 14:53:23,456 prnnewswire Job Started
+2020-06-25 14:53:23,456 Prn:Scrapping....
+2020-06-25 14:53:28,998 Reading txt tile
+2020-06-25 14:53:29,056 Prn:Iterating Article
+2020-06-25 14:53:29,213 05:17 ET
+2020-06-25 14:53:29,213 Prn:Found Article
+2020-06-25 14:53:29,297 05:14 ET
+2020-06-25 14:53:29,297 Prn:Found Article 2
+2020-06-25 14:53:29,297 Prn:Run Complete
+2020-06-25 14:53:29,373 prnnewswire Job completed
+2020-06-25 14:55:23,453 :Running..
+2020-06-25 14:55:23,453 2020-06-25 05:25:23.453113
+2020-06-25 14:55:23,454 prnnewswire Job Started
+2020-06-25 14:55:23,454 Prn:Scrapping....
+2020-06-25 14:55:30,301 Reading txt tile
+2020-06-25 14:55:30,352 Prn:Iterating Article
+2020-06-25 14:55:30,487 05:17 ET
+2020-06-25 14:55:30,487 Prn:Found Article
+2020-06-25 14:55:30,591 05:14 ET
+2020-06-25 14:55:30,591 Prn:Found Article 2
+2020-06-25 14:55:30,591 Prn:Run Complete
+2020-06-25 14:55:30,658 prnnewswire Job completed
+2020-06-25 14:57:23,455 :Running..
+2020-06-25 14:57:23,456 2020-06-25 05:27:23.455773
+2020-06-25 14:57:23,456 prnnewswire Job Started
+2020-06-25 14:57:23,456 Prn:Scrapping....
+2020-06-25 14:57:29,905 Heartbeat blocked for more than 5 seconds.
+2020-06-25 14:57:34,906 Heartbeat blocked for more than 10 seconds.
+2020-06-25 14:57:39,907 Heartbeat blocked for more than 15 seconds.
+2020-06-25 14:57:44,031 Reading txt tile
+2020-06-25 14:57:44,084 Prn:Iterating Article
+2020-06-25 14:57:44,239 05:17 ET
+2020-06-25 14:57:44,239 Prn:Found Article
+2020-06-25 14:57:44,332 05:14 ET
+2020-06-25 14:57:44,332 Prn:Found Article 2
+2020-06-25 14:57:44,332 Prn:Run Complete
+2020-06-25 14:57:44,400 prnnewswire Job completed
+2020-06-25 14:59:23,456 :Running..
+2020-06-25 14:59:23,456 2020-06-25 05:29:23.455991
+2020-06-25 14:59:23,456 prnnewswire Job Started
+2020-06-25 14:59:23,457 Prn:Scrapping....
+2020-06-25 14:59:39,504 Reading txt tile
+2020-06-25 14:59:39,554 Prn:Iterating Article
+2020-06-25 14:59:39,718 05:17 ET
+2020-06-25 14:59:39,718 Prn:Found Article
+2020-06-25 14:59:39,804 05:14 ET
+2020-06-25 14:59:39,804 Prn:Found Article 2
+2020-06-25 14:59:39,804 Prn:Run Complete
+2020-06-25 14:59:39,922 prnnewswire Job completed
+2020-06-25 15:01:23,454 :Running..
+2020-06-25 15:01:23,454 2020-06-25 05:31:23.454176
+2020-06-25 15:01:23,455 prnnewswire Job Started
+2020-06-25 15:01:23,455 Prn:Scrapping....
+2020-06-25 15:01:31,821 Reading txt tile
+2020-06-25 15:01:31,877 Prn:Iterating Article
+2020-06-25 15:01:32,020 05:17 ET
+2020-06-25 15:01:32,020 Prn:Found Article
+2020-06-25 15:01:32,120 05:14 ET
+2020-06-25 15:01:32,120 Prn:Found Article 2
+2020-06-25 15:01:32,120 Prn:Run Complete
+2020-06-25 15:01:32,185 prnnewswire Job completed
+2020-06-25 15:03:23,452 :Running..
+2020-06-25 15:03:23,453 2020-06-25 05:33:23.452275
+2020-06-25 15:03:23,453 prnnewswire Job Started
+2020-06-25 15:03:23,453 Prn:Scrapping....
+2020-06-25 15:03:29,142 Reading txt tile
+2020-06-25 15:03:29,196 Prn:Iterating Article
+2020-06-25 15:03:29,346 05:17 ET
+2020-06-25 15:03:29,346 Prn:Found Article
+2020-06-25 15:03:29,451 05:14 ET
+2020-06-25 15:03:29,451 Prn:Found Article 2
+2020-06-25 15:03:29,451 Prn:Run Complete
+2020-06-25 15:03:29,527 prnnewswire Job completed
+2020-06-25 15:05:23,456 :Running..
+2020-06-25 15:05:23,456 2020-06-25 05:35:23.456351
+2020-06-25 15:05:23,457 prnnewswire Job Started
+2020-06-25 15:05:23,457 Prn:Scrapping....
+2020-06-25 15:05:30,183 Reading txt tile
+2020-06-25 15:05:50,381 Exception
+2020-06-25 15:05:50,382 Message: 
+
+2020-06-25 15:05:50,382 Prn:Scrapping....
+2020-06-25 15:05:51,574 Exception
+2020-06-25 15:05:51,574 'datetime.time' object has no attribute 'time'
+2020-06-25 15:05:51,574 Prn:Scrapping....
+2020-06-25 15:05:52,763 Exception
+2020-06-25 15:05:52,763 'datetime.time' object has no attribute 'time'
+2020-06-25 15:05:52,766 prnnewswire Job completed
+2020-06-25 15:07:23,453 :Running..
+2020-06-25 15:07:23,453 2020-06-25 05:37:23.452935
+2020-06-25 15:07:23,454 prnnewswire Job Started
+2020-06-25 15:07:23,454 Prn:Scrapping....
+2020-06-25 15:07:45,540 Reading txt tile
+2020-06-25 15:07:45,592 Prn:Iterating Article
+2020-06-25 15:07:45,741 05:17 ET
+2020-06-25 15:07:45,741 Prn:Found Article
+2020-06-25 15:07:45,840 05:14 ET
+2020-06-25 15:07:45,840 Prn:Found Article 2
+2020-06-25 15:07:45,841 Prn:Run Complete
+2020-06-25 15:07:45,956 prnnewswire Job completed
+2020-06-25 15:09:23,456 :Running..
+2020-06-25 15:09:23,456 2020-06-25 05:39:23.456079
+2020-06-25 15:09:23,457 prnnewswire Job Started
+2020-06-25 15:09:23,457 Prn:Scrapping....
+2020-06-25 15:09:30,678 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:09:35,679 Heartbeat blocked for more than 10 seconds.
+2020-06-25 15:09:40,680 Heartbeat blocked for more than 15 seconds.
+2020-06-25 15:09:43,169 Reading txt tile
+2020-06-25 15:09:43,222 Prn:Iterating Article
+2020-06-25 15:09:43,370 05:17 ET
+2020-06-25 15:09:43,370 Prn:Found Article
+2020-06-25 15:09:43,464 05:14 ET
+2020-06-25 15:09:43,464 Prn:Found Article 2
+2020-06-25 15:09:43,464 Prn:Run Complete
+2020-06-25 15:09:43,534 prnnewswire Job completed
+2020-06-25 15:11:23,460 :Running..
+2020-06-25 15:11:23,460 2020-06-25 05:41:23.459760
+2020-06-25 15:11:23,460 prnnewswire Job Started
+2020-06-25 15:11:23,460 Prn:Scrapping....
+2020-06-25 15:11:30,729 Reading txt tile
+2020-06-25 15:11:30,796 Prn:Iterating Article
+2020-06-25 15:11:30,941 05:17 ET
+2020-06-25 15:11:30,941 Prn:Found Article
+2020-06-25 15:11:31,040 05:14 ET
+2020-06-25 15:11:31,041 Prn:Found Article 2
+2020-06-25 15:11:31,041 Prn:Run Complete
+2020-06-25 15:11:31,106 prnnewswire Job completed
+2020-06-25 15:13:23,456 :Running..
+2020-06-25 15:13:23,456 2020-06-25 05:43:23.456042
+2020-06-25 15:13:23,456 prnnewswire Job Started
+2020-06-25 15:13:23,457 Prn:Scrapping....
+2020-06-25 15:13:30,077 Reading txt tile
+2020-06-25 15:13:30,130 Prn:Iterating Article
+2020-06-25 15:13:30,275 05:17 ET
+2020-06-25 15:13:30,276 Prn:Found Article
+2020-06-25 15:13:30,369 05:14 ET
+2020-06-25 15:13:30,370 Prn:Found Article 2
+2020-06-25 15:13:30,370 Prn:Run Complete
+2020-06-25 15:13:30,436 prnnewswire Job completed
+2020-06-25 15:15:23,456 :Running..
+2020-06-25 15:15:23,456 2020-06-25 05:45:23.456080
+2020-06-25 15:15:23,456 prnnewswire Job Started
+2020-06-25 15:15:23,457 Prn:Scrapping....
+2020-06-25 15:15:33,374 Reading txt tile
+2020-06-25 15:15:33,425 Prn:Iterating Article
+2020-06-25 15:15:33,569 05:17 ET
+2020-06-25 15:15:33,570 Prn:Found Article
+2020-06-25 15:15:33,669 05:14 ET
+2020-06-25 15:15:33,669 Prn:Found Article 2
+2020-06-25 15:15:33,670 Prn:Run Complete
+2020-06-25 15:15:33,744 prnnewswire Job completed
+2020-06-25 15:17:23,459 :Running..
+2020-06-25 15:17:23,459 2020-06-25 05:47:23.458973
+2020-06-25 15:17:23,459 prnnewswire Job Started
+2020-06-25 15:17:23,460 Prn:Scrapping....
+2020-06-25 15:17:30,113 Reading txt tile
+2020-06-25 15:17:30,173 Prn:Iterating Article
+2020-06-25 15:17:30,320 05:17 ET
+2020-06-25 15:17:30,320 Prn:Found Article
+2020-06-25 15:17:30,415 05:14 ET
+2020-06-25 15:17:30,415 Prn:Found Article 2
+2020-06-25 15:17:30,415 Prn:Run Complete
+2020-06-25 15:17:30,481 prnnewswire Job completed
+2020-06-25 15:19:23,454 :Running..
+2020-06-25 15:19:23,455 2020-06-25 05:49:23.454473
+2020-06-25 15:19:23,455 prnnewswire Job Started
+2020-06-25 15:19:23,455 Prn:Scrapping....
+2020-06-25 15:19:39,204 Reading txt tile
+2020-06-25 15:19:39,264 Prn:Iterating Article
+2020-06-25 15:19:39,408 05:17 ET
+2020-06-25 15:19:39,408 Prn:Found Article
+2020-06-25 15:19:39,507 05:14 ET
+2020-06-25 15:19:39,507 Prn:Found Article 2
+2020-06-25 15:19:39,508 Prn:Run Complete
+2020-06-25 15:19:39,576 prnnewswire Job completed
+2020-06-25 15:21:23,453 :Running..
+2020-06-25 15:21:23,453 2020-06-25 05:51:23.452777
+2020-06-25 15:21:23,453 prnnewswire Job Started
+2020-06-25 15:21:23,454 Prn:Scrapping....
+2020-06-25 15:21:29,812 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:21:31,696 Reading txt tile
+2020-06-25 15:21:34,813 Heartbeat blocked for more than 10 seconds.
+2020-06-25 15:21:39,814 Heartbeat blocked for more than 15 seconds.
+2020-06-25 15:21:44,814 Heartbeat blocked for more than 20 seconds.
+2020-06-25 15:21:49,815 Heartbeat blocked for more than 25 seconds.
+2020-06-25 15:21:51,926 Exception
+2020-06-25 15:21:51,927 Message: 
+
+2020-06-25 15:21:51,928 Prn:Scrapping....
+2020-06-25 15:21:53,111 Exception
+2020-06-25 15:21:53,111 'datetime.time' object has no attribute 'time'
+2020-06-25 15:21:53,111 Prn:Scrapping....
+2020-06-25 15:21:54,293 Exception
+2020-06-25 15:21:54,293 'datetime.time' object has no attribute 'time'
+2020-06-25 15:21:54,293 prnnewswire Job completed
+2020-06-25 15:23:23,455 :Running..
+2020-06-25 15:23:23,456 2020-06-25 05:53:23.455765
+2020-06-25 15:23:23,456 prnnewswire Job Started
+2020-06-25 15:23:23,456 Prn:Scrapping....
+2020-06-25 15:23:38,958 Reading txt tile
+2020-06-25 15:23:39,009 Prn:Iterating Article
+2020-06-25 15:23:39,143 05:17 ET
+2020-06-25 15:23:39,143 Prn:Found Article
+2020-06-25 15:23:39,226 05:14 ET
+2020-06-25 15:23:39,226 Prn:Found Article 2
+2020-06-25 15:23:39,227 Prn:Run Complete
+2020-06-25 15:23:39,297 prnnewswire Job completed
+2020-06-25 15:25:23,454 :Running..
+2020-06-25 15:25:23,454 2020-06-25 05:55:23.454248
+2020-06-25 15:25:23,455 prnnewswire Job Started
+2020-06-25 15:25:23,455 Prn:Scrapping....
+2020-06-25 15:25:32,664 Reading txt tile
+2020-06-25 15:25:32,713 Prn:Iterating Article
+2020-06-25 15:25:32,925 05:53 ET
+2020-06-25 15:25:32,926 Prn:Found Article
+2020-06-25 15:25:32,940 Prn:Article filtered
+2020-06-25 15:25:37,904 Prn:Searching for Keyword
+2020-06-25 15:25:37,997 05:17 ET
+2020-06-25 15:25:37,997 Prn:Found Article
+2020-06-25 15:25:38,090 05:14 ET
+2020-06-25 15:25:38,090 Prn:Found Article 2
+2020-06-25 15:25:38,090 Prn:Run Complete
+2020-06-25 15:25:38,155 prnnewswire Job completed
+2020-06-25 15:27:23,452 :Running..
+2020-06-25 15:27:23,452 2020-06-25 05:57:23.452259
+2020-06-25 15:27:23,452 prnnewswire Job Started
+2020-06-25 15:27:23,453 Prn:Scrapping....
+2020-06-25 15:27:29,307 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:27:34,308 Heartbeat blocked for more than 10 seconds.
+2020-06-25 15:27:34,962 Reading txt tile
+2020-06-25 15:27:39,308 Heartbeat blocked for more than 15 seconds.
+2020-06-25 15:27:44,309 Heartbeat blocked for more than 20 seconds.
+2020-06-25 15:27:49,310 Heartbeat blocked for more than 25 seconds.
+2020-06-25 15:27:54,310 Heartbeat blocked for more than 30 seconds.
+2020-06-25 15:27:55,205 Exception
+2020-06-25 15:27:55,205 Message: 
+
+2020-06-25 15:27:55,206 Prn:Scrapping....
+2020-06-25 15:27:56,393 Exception
+2020-06-25 15:27:56,394 'datetime.time' object has no attribute 'time'
+2020-06-25 15:27:56,394 Prn:Scrapping....
+2020-06-25 15:27:57,609 Exception
+2020-06-25 15:27:57,609 'datetime.time' object has no attribute 'time'
+2020-06-25 15:27:57,609 prnnewswire Job completed
+2020-06-25 15:29:23,455 :Running..
+2020-06-25 15:29:23,455 2020-06-25 05:59:23.455246
+2020-06-25 15:29:23,456 prnnewswire Job Started
+2020-06-25 15:29:23,456 Prn:Scrapping....
+2020-06-25 15:29:37,212 Reading txt tile
+2020-06-25 15:29:37,285 Prn:Iterating Article
+2020-06-25 15:29:37,848 05:53 ET
+2020-06-25 15:29:37,848 Prn:Found Article
+2020-06-25 15:29:37,953 05:14 ET
+2020-06-25 15:29:37,953 Prn:Found Article 2
+2020-06-25 15:29:37,953 Prn:Run Complete
+2020-06-25 15:29:38,031 prnnewswire Job completed
+2020-06-25 15:31:23,451 :Running..
+2020-06-25 15:31:23,452 2020-06-25 06:01:23.451729
+2020-06-25 15:31:23,452 prnnewswire Job Started
+2020-06-25 15:31:23,452 Prn:Scrapping....
+2020-06-25 15:31:28,871 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:31:31,052 Reading txt tile
+2020-06-25 15:31:31,115 Prn:Iterating Article
+2020-06-25 15:31:31,277 06:00 ET
+2020-06-25 15:31:31,278 Prn:Found Article
+2020-06-25 15:31:31,294 Prn:Article filtered
+2020-06-25 15:31:33,872 Heartbeat blocked for more than 10 seconds.
+2020-06-25 15:31:36,055 Prn:Searching for Keyword
+2020-06-25 15:31:36,182 06:00 ET
+2020-06-25 15:31:36,182 Prn:Found Article
+2020-06-25 15:31:36,197 Prn:Article filtered
+2020-06-25 15:31:38,873 Heartbeat blocked for more than 15 seconds.
+2020-06-25 15:31:40,543 Prn:Searching for Keyword
+2020-06-25 15:31:40,639 06:00 ET
+2020-06-25 15:31:40,639 Prn:Found Article
+2020-06-25 15:31:40,655 Prn:Article filtered
+2020-06-25 15:31:43,874 Heartbeat blocked for more than 20 seconds.
+2020-06-25 15:31:46,388 Prn:Searching for Keyword
+2020-06-25 15:31:46,489 06:00 ET
+2020-06-25 15:31:46,489 Prn:Found Article
+2020-06-25 15:31:46,511 Prn:Article filtered
+2020-06-25 15:31:48,874 Heartbeat blocked for more than 25 seconds.
+2020-06-25 15:31:49,364 Prn:Searching for Keyword
+2020-06-25 15:31:49,472 06:00 ET
+2020-06-25 15:31:49,473 Prn:Found Article
+2020-06-25 15:31:49,486 Prn:Article filtered
+2020-06-25 15:31:53,875 Heartbeat blocked for more than 30 seconds.
+2020-06-25 15:31:54,703 Prn:Searching for Keyword
+2020-06-25 15:31:54,799 06:00 ET
+2020-06-25 15:31:54,800 Prn:Found Article
+2020-06-25 15:31:54,815 Prn:Article filtered
+2020-06-25 15:31:58,310 Prn:Searching for Keyword
+2020-06-25 15:31:58,410 06:00 ET
+2020-06-25 15:31:58,410 Prn:Found Article
+2020-06-25 15:31:58,428 Prn:Article filtered
+2020-06-25 15:31:58,875 Heartbeat blocked for more than 35 seconds.
+2020-06-25 15:32:02,535 Prn:Searching for Keyword
+2020-06-25 15:32:02,673 06:00 ET
+2020-06-25 15:32:02,674 Prn:Found Article
+2020-06-25 15:32:02,691 Prn:Article filtered
+2020-06-25 15:32:03,876 Heartbeat blocked for more than 40 seconds.
+2020-06-25 15:32:08,402 Prn:Searching for Keyword
+2020-06-25 15:32:08,514 06:00 ET
+2020-06-25 15:32:08,514 Prn:Found Article
+2020-06-25 15:32:08,530 Prn:Article filtered
+2020-06-25 15:32:08,876 Heartbeat blocked for more than 45 seconds.
+2020-06-25 15:32:12,978 Prn:Searching for Keyword
+2020-06-25 15:32:13,090 06:00 ET
+2020-06-25 15:32:13,090 Prn:Found Article
+2020-06-25 15:32:13,108 Prn:Article filtered
+2020-06-25 15:32:13,878 Heartbeat blocked for more than 50 seconds.
+2020-06-25 15:32:18,630 Prn:Searching for Keyword
+2020-06-25 15:32:18,737 06:00 ET
+2020-06-25 15:32:18,738 Prn:Found Article
+2020-06-25 15:32:18,758 Prn:Article filtered
+2020-06-25 15:32:18,879 Heartbeat blocked for more than 55 seconds.
+2020-06-25 15:32:22,971 Prn:Searching for Keyword
+2020-06-25 15:32:23,067 06:00 ET
+2020-06-25 15:32:23,067 Prn:Found Article
+2020-06-25 15:32:23,104 Prn:Article filtered
+2020-06-25 15:32:23,880 Heartbeat blocked for more than 60 seconds.
+2020-06-25 15:32:27,080 Prn:Searching for Keyword
+2020-06-25 15:32:27,180 06:00 ET
+2020-06-25 15:32:27,180 Prn:Found Article
+2020-06-25 15:32:27,195 Prn:Article filtered
+2020-06-25 15:32:28,880 Heartbeat blocked for more than 65 seconds.
+2020-06-25 15:32:32,136 Prn:Searching for Keyword
+2020-06-25 15:32:32,235 06:00 ET
+2020-06-25 15:32:32,235 Prn:Found Article
+2020-06-25 15:32:32,250 Prn:Article filtered
+2020-06-25 15:32:33,881 Heartbeat blocked for more than 70 seconds.
+2020-06-25 15:32:36,775 Prn:Searching for Keyword
+2020-06-25 15:32:36,880 06:00 ET
+2020-06-25 15:32:36,880 Prn:Found Article
+2020-06-25 15:32:36,896 Prn:Article filtered
+2020-06-25 15:32:38,881 Heartbeat blocked for more than 75 seconds.
+2020-06-25 15:32:41,847 Prn:Searching for Keyword
+2020-06-25 15:32:41,945 06:00 ET
+2020-06-25 15:32:41,945 Prn:Found Article
+2020-06-25 15:32:41,967 Prn:Article filtered
+2020-06-25 15:32:43,882 Heartbeat blocked for more than 80 seconds.
+2020-06-25 15:32:45,385 Prn:Searching for Keyword
+2020-06-25 15:32:45,485 05:53 ET
+2020-06-25 15:32:45,485 Prn:Found Article
+2020-06-25 15:32:45,583 06:00 ET
+2020-06-25 15:32:45,583 Prn:Found Article 2
+2020-06-25 15:32:45,601 Prn:Article filtered
+2020-06-25 15:32:47,792 Exception
+2020-06-25 15:32:47,792 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2020-06-25 15:32:47,792 Prn:Scrapping....
+2020-06-25 15:32:48,801 Exception
+2020-06-25 15:32:48,802 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-25 15:32:48,802 Prn:Scrapping....
+2020-06-25 15:32:48,883 Heartbeat blocked for more than 85 seconds.
+2020-06-25 15:32:49,811 Exception
+2020-06-25 15:32:49,811 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-25 15:32:49,812 prnnewswire Job completed
+2020-06-25 15:32:49,815 Cleaning up tasks.
+2020-06-25 15:32:49,816 Cleaning up after 4 tasks.
+2020-06-25 15:32:49,819 All tasks finished cancelling.
+2020-06-25 15:32:49,819 Closing the event loop.
+2020-06-25 16:27:00,635 :Running..
+2020-06-25 16:27:00,636 2020-06-25 06:57:00.635632
+2020-06-25 16:27:00,636 prnnewswire Job Started
+2020-06-25 16:27:00,636 Prn:Scrapping....
+2020-06-25 16:27:05,449 Reading txt tile
+2020-06-25 16:27:05,511 Prn:Iterating Article
+2020-06-25 16:27:05,668 06:45 ET
+2020-06-25 16:27:05,670 Prn:Found Article
+2020-06-25 16:27:05,776 06:30 ET
+2020-06-25 16:27:05,776 Prn:Found Article 2
+2020-06-25 16:27:05,777 Prn:Run Complete
+2020-06-25 16:27:05,843 prnnewswire Job completed
+2020-06-25 16:29:00,606 :Running..
+2020-06-25 16:29:00,606 2020-06-25 06:59:00.605957
+2020-06-25 16:29:00,607 prnnewswire Job Started
+2020-06-25 16:29:00,607 Prn:Scrapping....
+2020-06-25 16:29:06,967 Heartbeat blocked for more than 5 seconds.
+2020-06-25 16:29:08,332 Reading txt tile
+2020-06-25 16:29:08,390 Prn:Iterating Article
+2020-06-25 16:29:08,643 06:45 ET
+2020-06-25 16:29:08,643 Prn:Found Article
+2020-06-25 16:29:08,773 06:30 ET
+2020-06-25 16:29:08,773 Prn:Found Article 2
+2020-06-25 16:29:08,774 Prn:Run Complete
+2020-06-25 16:29:08,841 prnnewswire Job completed
+2020-06-25 16:31:00,624 :Running..
+2020-06-25 16:31:00,624 2020-06-25 07:01:00.623952
+2020-06-25 16:31:00,624 prnnewswire Job Started
+2020-06-25 16:31:00,625 Prn:Scrapping....
+2020-06-25 16:31:17,598 Heartbeat blocked for more than 5 seconds.
+2020-06-25 16:31:20,844 Reading txt tile
+2020-06-25 16:31:20,894 Prn:Iterating Article
+2020-06-25 16:31:21,049 07:00 ET
+2020-06-25 16:31:21,049 Prn:Found Article
+2020-06-25 16:31:21,066 Prn:Article filtered
+2020-06-25 16:31:22,599 Heartbeat blocked for more than 10 seconds.
+2020-06-25 16:31:25,457 Prn:Searching for Keyword
+2020-06-25 16:31:25,555 07:00 ET
+2020-06-25 16:31:25,555 Prn:Found Article
+2020-06-25 16:31:25,572 Prn:Article filtered
+2020-06-25 16:31:27,599 Heartbeat blocked for more than 15 seconds.
+2020-06-25 16:31:30,193 Prn:Searching for Keyword
+2020-06-25 16:31:30,284 07:00 ET
+2020-06-25 16:31:30,284 Prn:Found Article
+2020-06-25 16:31:30,299 Prn:Article filtered
+2020-06-25 16:31:32,600 Heartbeat blocked for more than 20 seconds.
+2020-06-25 16:31:35,112 Prn:Searching for Keyword
+2020-06-25 16:31:35,240 07:00 ET
+2020-06-25 16:31:35,240 Prn:Found Article
+2020-06-25 16:31:35,269 Prn:Article filtered
+2020-06-25 16:31:37,600 Heartbeat blocked for more than 25 seconds.
+2020-06-25 16:31:39,764 Prn:Searching for Keyword
+2020-06-25 16:31:39,928 07:00 ET
+2020-06-25 16:31:39,928 Prn:Found Article
+2020-06-25 16:31:39,953 Prn:Article filtered
+2020-06-25 16:31:42,601 Heartbeat blocked for more than 30 seconds.
+2020-06-25 16:31:47,603 Heartbeat blocked for more than 35 seconds.
+2020-06-25 16:31:48,055 Prn:Searching for Keyword
+2020-06-25 16:31:48,465 07:00 ET
+2020-06-25 16:31:48,465 Prn:Found Article
+2020-06-25 16:31:48,531 Prn:Article filtered
+2020-06-25 16:31:52,605 Heartbeat blocked for more than 40 seconds.
+2020-06-25 16:31:57,607 Heartbeat blocked for more than 45 seconds.
+2020-06-25 16:32:02,611 Heartbeat blocked for more than 50 seconds.
+2020-06-25 16:32:07,613 Heartbeat blocked for more than 55 seconds.
+2020-06-25 16:32:12,614 Heartbeat blocked for more than 60 seconds.
+2020-06-25 16:32:17,636 Heartbeat blocked for more than 65 seconds.
+2020-06-25 16:32:22,651 Heartbeat blocked for more than 70 seconds.
+2020-06-25 16:32:27,508 Prn:Searching for Keyword
+2020-06-25 16:32:27,652 Heartbeat blocked for more than 75 seconds.
+2020-06-25 16:32:28,139 07:00 ET
+2020-06-25 16:32:28,139 Prn:Found Article
+2020-06-25 16:32:28,230 Prn:Article filtered
+2020-06-25 16:32:32,653 Heartbeat blocked for more than 80 seconds.
+2020-06-25 16:32:37,675 Heartbeat blocked for more than 85 seconds.
+2020-06-25 16:32:39,087 Prn:Searching for Keyword
+2020-06-25 16:32:39,696 07:00 ET
+2020-06-25 16:32:39,697 Prn:Found Article
+2020-06-25 16:32:39,754 Prn:Article filtered
+2020-06-25 16:32:42,683 Heartbeat blocked for more than 90 seconds.
+2020-06-25 16:32:47,707 Heartbeat blocked for more than 95 seconds.
+2020-06-25 16:32:50,115 Prn:Searching for Keyword
+2020-06-25 16:32:50,790 07:00 ET
+2020-06-25 16:32:50,791 Prn:Found Article
+2020-06-25 16:32:50,972 Prn:Article filtered
+2020-06-25 16:32:52,709 Heartbeat blocked for more than 100 seconds.
+2020-06-25 16:32:57,713 Heartbeat blocked for more than 105 seconds.
+2020-06-25 16:33:01,417 Prn:Searching for Keyword
+2020-06-25 16:33:01,888 07:00 ET
+2020-06-25 16:33:01,889 Prn:Found Article
+2020-06-25 16:33:01,949 Prn:Article filtered
+2020-06-25 16:33:02,731 Heartbeat blocked for more than 110 seconds.
+2020-06-25 16:33:07,734 Heartbeat blocked for more than 115 seconds.
+2020-06-25 16:33:12,735 Heartbeat blocked for more than 120 seconds.
+2020-06-25 16:33:16,901 Prn:Searching for Keyword
+2020-06-25 16:33:17,629 07:00 ET
+2020-06-25 16:33:17,630 Prn:Found Article
+2020-06-25 16:33:17,760 Heartbeat blocked for more than 125 seconds.
+2020-06-25 16:33:17,806 Prn:Article filtered
+2020-06-25 16:33:22,761 Heartbeat blocked for more than 130 seconds.
+2020-06-25 16:33:27,762 Heartbeat blocked for more than 135 seconds.
+2020-06-25 16:33:29,957 Prn:Searching for Keyword
+2020-06-25 16:33:30,392 07:00 ET
+2020-06-25 16:33:30,393 Prn:Found Article
+2020-06-25 16:33:30,490 Prn:Article filtered
+2020-06-25 16:33:32,779 Heartbeat blocked for more than 140 seconds.
+2020-06-25 16:33:37,803 Heartbeat blocked for more than 145 seconds.
+2020-06-25 16:33:38,187 Prn:Searching for Keyword
+2020-06-25 16:33:38,502 07:00 ET
+2020-06-25 16:33:38,503 Prn:Found Article
+2020-06-25 16:33:38,551 Prn:Article filtered
+2020-06-25 16:33:42,836 Heartbeat blocked for more than 150 seconds.
+2020-06-25 16:33:47,843 Heartbeat blocked for more than 155 seconds.
+2020-06-25 16:33:47,850 Prn:Searching for Keyword
+2020-06-25 16:33:48,322 07:00 ET
+2020-06-25 16:33:48,323 Prn:Found Article
+2020-06-25 16:33:48,415 Prn:Article filtered
+2020-06-25 16:33:52,855 Heartbeat blocked for more than 160 seconds.
+2020-06-25 16:33:57,875 Heartbeat blocked for more than 165 seconds.
+2020-06-25 16:33:58,103 Prn:Searching for Keyword
+2020-06-25 16:33:58,472 07:00 ET
+2020-06-25 16:33:58,472 Prn:Found Article
+2020-06-25 16:33:58,520 Prn:Article filtered
+2020-06-25 16:34:02,879 Heartbeat blocked for more than 170 seconds.
+2020-06-25 16:34:07,884 Heartbeat blocked for more than 175 seconds.
+2020-06-25 16:34:08,405 Prn:Searching for Keyword
+2020-06-25 16:34:08,733 07:00 ET
+2020-06-25 16:34:08,734 Prn:Found Article
+2020-06-25 16:34:08,873 Prn:Article filtered
+2020-06-25 16:34:12,885 Heartbeat blocked for more than 180 seconds.
+2020-06-25 16:34:17,886 Heartbeat blocked for more than 185 seconds.
+2020-06-25 16:34:18,274 Prn:Searching for Keyword
+2020-06-25 16:34:18,646 07:00 ET
+2020-06-25 16:34:18,647 Prn:Found Article
+2020-06-25 16:34:18,700 Prn:Article filtered
+2020-06-25 16:34:22,889 Heartbeat blocked for more than 190 seconds.
+2020-06-25 16:34:24,734 Prn:Searching for Keyword
+2020-06-25 16:34:25,019 07:00 ET
+2020-06-25 16:34:25,020 Prn:Found Article
+2020-06-25 16:34:25,043 Prn:Article filtered
+2020-06-25 16:34:27,890 Heartbeat blocked for more than 195 seconds.
+2020-06-25 16:34:31,073 Prn:Searching for Keyword
+2020-06-25 16:34:31,263 07:00 ET
+2020-06-25 16:34:31,263 Prn:Found Article
+2020-06-25 16:34:31,308 Prn:Article filtered
+2020-06-25 16:34:32,891 Heartbeat blocked for more than 200 seconds.
+2020-06-25 16:34:37,408 Prn:Searching for Keyword
+2020-06-25 16:34:37,607 07:00 ET
+2020-06-25 16:34:37,607 Prn:Found Article
+2020-06-25 16:34:37,634 Prn:Article filtered
+2020-06-25 16:34:37,916 Heartbeat blocked for more than 205 seconds.
+2020-06-25 16:34:42,918 Heartbeat blocked for more than 210 seconds.
+2020-06-25 16:34:47,796 Prn:Searching for Keyword
+2020-06-25 16:34:47,919 Heartbeat blocked for more than 215 seconds.
+2020-06-25 16:34:48,110 06:45 ET
+2020-06-25 16:34:48,110 Prn:Found Article
+2020-06-25 16:34:48,340 07:00 ET
+2020-06-25 16:34:48,340 Prn:Found Article 2
+2020-06-25 16:34:48,368 Prn:Article filtered
+2020-06-25 16:34:52,920 Heartbeat blocked for more than 220 seconds.
+2020-06-25 16:34:55,436 Prn:Searching for Keyword
+2020-06-25 16:34:55,732 07:00 ET
+2020-06-25 16:34:55,732 Prn:Found Article 2
+2020-06-25 16:34:55,763 Prn:Article filtered
+2020-06-25 16:34:57,920 Heartbeat blocked for more than 225 seconds.
+2020-06-25 16:35:01,585 Prn:Searching for Keyword
+2020-06-25 16:35:01,871 07:00 ET
+2020-06-25 16:35:01,871 Prn:Found Article 2
+2020-06-25 16:35:01,931 Prn:Article filtered
+2020-06-25 16:35:02,935 Heartbeat blocked for more than 230 seconds.
+2020-06-25 16:35:07,955 Heartbeat blocked for more than 235 seconds.
+2020-06-25 16:35:12,958 Heartbeat blocked for more than 240 seconds.
+2020-06-25 16:35:14,014 Prn:Searching for Keyword
+2020-06-25 16:35:14,316 07:00 ET
+2020-06-25 16:35:14,316 Prn:Found Article 2
+2020-06-25 16:35:14,340 Prn:Article filtered
+2020-06-25 16:35:17,959 Heartbeat blocked for more than 245 seconds.
+2020-06-25 16:35:21,809 Prn:Searching for Keyword
+2020-06-25 16:35:21,990 07:00 ET
+2020-06-25 16:35:21,990 Prn:Found Article 2
+2020-06-25 16:35:22,017 Prn:Article filtered
+2020-06-25 16:35:22,979 Heartbeat blocked for more than 250 seconds.
+2020-06-25 16:35:27,980 Heartbeat blocked for more than 255 seconds.
+2020-06-25 16:35:28,561 Prn:Searching for Keyword
+2020-06-25 16:35:28,787 07:00 ET
+2020-06-25 16:35:28,787 Prn:Found Article 2
+2020-06-25 16:35:28,834 Prn:Article filtered
+2020-06-25 16:35:32,995 Heartbeat blocked for more than 260 seconds.
+2020-06-25 16:35:35,167 Prn:Searching for Keyword
+2020-06-25 16:35:35,516 07:00 ET
+2020-06-25 16:35:35,518 Prn:Found Article 2
+2020-06-25 16:35:35,633 Prn:Article filtered
+2020-06-25 16:35:38,002 Heartbeat blocked for more than 265 seconds.
+2020-06-25 16:35:43,003 Heartbeat blocked for more than 270 seconds.
+2020-06-25 16:35:44,936 Prn:Searching for Keyword
+2020-06-25 16:35:45,415 07:00 ET
+2020-06-25 16:35:45,415 Prn:Found Article 2
+2020-06-25 16:35:45,512 Prn:Article filtered
+2020-06-25 16:35:48,004 Heartbeat blocked for more than 275 seconds.
+2020-06-25 16:35:53,005 Heartbeat blocked for more than 280 seconds.
+2020-06-25 16:35:54,397 Prn:Searching for Keyword
+2020-06-25 16:35:54,909 07:00 ET
+2020-06-25 16:35:54,913 Prn:Found Article 2
+2020-06-25 16:35:54,968 Prn:Article filtered
+2020-06-25 16:35:58,007 Heartbeat blocked for more than 285 seconds.
+2020-06-25 16:36:03,008 Heartbeat blocked for more than 290 seconds.
+2020-06-25 16:36:04,052 Prn:Searching for Keyword
+2020-06-25 16:36:04,470 06:30 ET
+2020-06-25 16:36:04,470 Prn:Found Article 2
+2020-06-25 16:36:04,470 Prn:Run Complete
+2020-06-25 16:36:04,680 Websocket closed with 1000 (), cannot reconnect.
+2020-06-25 16:36:04,687 Attempting a reconnect in 1.92s
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 470, in poll_event
+    msg = await self.recv()
+  File "/home/maddy/.local/lib/python3.6/site-packages/websockets/protocol.py", line 509, in recv
+    await self.ensure_open()
+  File "/home/maddy/.local/lib/python3.6/site-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: code = 1000 (OK), no reason
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 499, in connect
+    await self._connect()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 463, in _connect
+    await self.ws.poll_event()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 478, in poll_event
+    raise ConnectionClosed(exc, shard_id=self.shard_id) from exc
+discord.errors.ConnectionClosed: code = 1000 (OK), no reason
+2020-06-25 16:36:06,842 :Running..
+2020-06-25 16:36:06,842 2020-06-25 07:06:06.841703
+2020-06-25 16:36:06,842 prnnewswire Job Started
+2020-06-25 16:36:06,843 Prn:Scrapping....
+2020-06-25 16:36:17,824 Reading txt tile
+2020-06-25 16:36:18,193 Prn:Iterating Article
+2020-06-25 16:36:18,977 07:05 ET
+2020-06-25 16:36:18,978 Prn:Found Article
+2020-06-25 16:36:19,072 Prn:Article filtered
+2020-06-25 16:36:30,640 Prn:Searching for Keyword
+2020-06-25 16:36:31,389 07:05 ET
+2020-06-25 16:36:31,390 Prn:Found Article
+2020-06-25 16:36:31,486 Prn:Article filtered
+2020-06-25 16:36:44,592 Prn:Searching for Keyword
+2020-06-25 16:36:45,078 07:04 ET
+2020-06-25 16:36:45,078 Prn:Found Article
+2020-06-25 16:36:45,174 Prn:Article filtered
+2020-06-25 16:36:45,931 Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-06-25 16:37:05,533 Prn:Searching for Keyword
+2020-06-25 16:37:06,143 07:01 ET
+2020-06-25 16:37:06,144 Prn:Found Article
+2020-06-25 16:37:06,726 07:00 ET
+2020-06-25 16:37:06,726 Prn:Found Article 2
+2020-06-25 16:37:06,730 Prn:Run Complete
+2020-06-25 16:37:06,974 prnnewswire Job completed
+2020-06-25 16:37:06,978 :Running..
+2020-06-25 16:37:07,008 2020-06-25 07:07:06.977706
+2020-06-25 16:37:07,008 prnnewswire Job Started
+2020-06-25 16:37:07,009 Prn:Scrapping....
+2020-06-25 16:37:30,208 Reading txt tile
+2020-06-25 16:37:30,727 Prn:Iterating Article
+2020-06-25 16:37:31,830 07:05 ET
+2020-06-25 16:37:31,831 Prn:Found Article
+2020-06-25 16:37:32,064 Found value last run
+2020-06-25 16:37:32,899 07:05 ET
+2020-06-25 16:37:32,900 Prn:Found Article
+2020-06-25 16:37:32,981 Found value last run
+2020-06-25 16:37:33,662 07:04 ET
+2020-06-25 16:37:33,663 Prn:Found Article
+2020-06-25 16:37:34,426 07:00 ET
+2020-06-25 16:37:34,426 Prn:Found Article 2
+2020-06-25 16:37:34,429 Prn:Run Complete
+2020-06-25 16:37:34,710 prnnewswire Job completed
+2020-06-25 16:37:34,713 Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-06-25 16:37:34,758 Attempting a reconnect in 3.30s
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 486, in send_as_json
+    await self.send(utils.to_json(data))
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 482, in send
+    await super().send(data)
+  File "/home/maddy/.local/lib/python3.6/site-packages/websockets/protocol.py", line 555, in send
+    await self.ensure_open()
+  File "/home/maddy/.local/lib/python3.6/site-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: code = 1000 (OK), no reason
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 499, in connect
+    await self._connect()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 244, in from_client
+    await ws.poll_event()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 471, in poll_event
+    await self.received_message(msg)
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 386, in received_message
+    await self.send_as_json(self._keep_alive.get_payload())
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 489, in send_as_json
+    raise ConnectionClosed(exc, shard_id=self.shard_id) from exc
+discord.errors.ConnectionClosed: code = 1000 (OK), no reason
+2020-06-25 16:37:38,790 Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-06-25 16:37:38,794 Shard ID None has sent the IDENTIFY payload.
+2020-06-25 16:37:39,164 Shard ID None has connected to Gateway: ["gateway-prd-main-3zpz",{"micros":62978,"calls":["discord-sessions-prd-1-51",{"micros":59579,"calls":["start_session",{"micros":56092,"calls":["api-prd-main-d3r4",{"micros":53012,"calls":["get_user",{"micros":3179},"add_authorized_ip",{"micros":2582},"get_guilds",{"micros":10882},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: 7a62f06689fb0adaea29cedf6ee523c5).
+2020-06-25 16:39:06,984 :Running..
+2020-06-25 16:39:06,984 2020-06-25 07:09:06.983853
+2020-06-25 16:39:06,984 prnnewswire Job Started
+2020-06-25 16:39:06,984 Prn:Scrapping....
+2020-06-25 16:39:13,657 Reading txt tile
+2020-06-25 16:39:13,888 Prn:Iterating Article
+2020-06-25 16:39:14,319 07:08 ET
+2020-06-25 16:39:14,320 Prn:Found Article
+2020-06-25 16:39:14,383 Prn:Article filtered
+2020-06-25 16:39:27,973 Prn:Searching for Keyword
+2020-06-25 16:39:28,158 07:07 ET
+2020-06-25 16:39:28,158 Prn:Found Article
+2020-06-25 16:39:28,188 Prn:Article filtered
+2020-06-25 16:39:36,590 Prn:Searching for Keyword
+2020-06-25 16:39:36,723 07:07 ET
+2020-06-25 16:39:36,723 Prn:Found Article
+2020-06-25 16:39:36,751 Prn:Article filtered
+2020-06-25 16:39:41,750 Prn:Searching for Keyword
+2020-06-25 16:39:41,874 07:05 ET
+2020-06-25 16:39:41,874 Prn:Found Article
+2020-06-25 16:39:41,998 07:00 ET
+2020-06-25 16:39:41,998 Prn:Found Article 2
+2020-06-25 16:39:41,999 Prn:Run Complete
+2020-06-25 16:39:54,354 :Running..
+2020-06-25 16:39:54,355 2020-06-25 07:09:54.354471
+2020-06-25 16:39:54,355 prnnewswire Job Started
+2020-06-25 16:39:54,355 Prn:Scrapping....
+2020-06-25 16:40:01,100 Reading txt tile
+2020-06-25 16:40:01,200 Prn:Iterating Article
+2020-06-25 16:40:01,445 07:08 ET
+2020-06-25 16:40:01,446 Prn:Found Article
+2020-06-25 16:40:01,468 Found value last run
+2020-06-25 16:40:01,639 07:07 ET
+2020-06-25 16:40:01,639 Prn:Found Article
+2020-06-25 16:40:01,672 Found value last run
+2020-06-25 16:40:01,818 07:07 ET
+2020-06-25 16:40:01,818 Prn:Found Article
+2020-06-25 16:40:01,836 Found value last run
+2020-06-25 16:40:01,962 07:05 ET
+2020-06-25 16:40:01,963 Prn:Found Article
+2020-06-25 16:40:02,078 07:00 ET
+2020-06-25 16:40:02,078 Prn:Found Article 2
+2020-06-25 16:40:02,078 Prn:Run Complete
+2020-06-25 16:40:02,152 prnnewswire Job completed
+2020-06-25 16:43:06,980 :Running..
+2020-06-25 16:43:06,980 2020-06-25 07:13:06.979888
+2020-06-25 16:43:06,981 prnnewswire Job Started
+2020-06-25 16:43:06,981 Prn:Scrapping....
+2020-06-25 16:43:13,803 Heartbeat blocked for more than 5 seconds.
+2020-06-25 16:43:15,532 Reading txt tile
+2020-06-25 16:43:15,595 Prn:Iterating Article
+2020-06-25 16:43:15,769 07:11 ET
+2020-06-25 16:43:15,769 Prn:Found Article
+2020-06-25 16:43:15,787 Prn:Article filtered
+2020-06-25 16:43:18,803 Heartbeat blocked for more than 10 seconds.
+2020-06-25 16:43:20,890 Prn:Searching for Keyword
+2020-06-25 16:43:20,988 07:09 ET
+2020-06-25 16:43:20,988 Prn:Found Article
+2020-06-25 16:43:21,084 07:10 ET
+2020-06-25 16:43:21,084 Prn:Found Article 2
+2020-06-25 16:43:21,085 Prn:Run Complete
+2020-06-25 16:43:21,159 prnnewswire Job completed
+2020-06-25 16:45:06,978 :Running..
+2020-06-25 16:45:06,978 2020-06-25 07:15:06.977937
+2020-06-25 16:45:06,979 prnnewswire Job Started
+2020-06-25 16:45:06,979 Prn:Scrapping....
+2020-06-25 16:45:14,045 Reading txt tile
+2020-06-25 16:45:14,113 Prn:Iterating Article
+2020-06-25 16:45:14,273 07:11 ET
+2020-06-25 16:45:14,273 Prn:Found Article
+2020-06-25 16:45:14,382 07:10 ET
+2020-06-25 16:45:14,382 Prn:Found Article 2
+2020-06-25 16:45:14,382 Prn:Run Complete
+2020-06-25 16:45:14,463 prnnewswire Job completed
+2020-06-25 16:47:06,985 :Running..
+2020-06-25 16:47:06,985 2020-06-25 07:17:06.984925
+2020-06-25 16:47:06,985 prnnewswire Job Started
+2020-06-25 16:47:06,986 Prn:Scrapping....
+2020-06-25 16:47:15,957 Reading txt tile
+2020-06-25 16:47:16,011 Prn:Iterating Article
+2020-06-25 16:47:16,161 07:15 ET
+2020-06-25 16:47:16,161 Prn:Found Article
+2020-06-25 16:47:16,177 Prn:Article filtered
+2020-06-25 16:47:20,968 Prn:Searching for Keyword
+2020-06-25 16:47:21,062 07:11 ET
+2020-06-25 16:47:21,062 Prn:Found Article
+2020-06-25 16:47:21,151 07:16 ET
+2020-06-25 16:47:21,151 Prn:Found Article 2
+2020-06-25 16:47:21,170 Prn:Article filtered
+2020-06-25 16:47:25,756 Prn:Searching for Keyword
+2020-06-25 16:47:25,855 07:10 ET
+2020-06-25 16:47:25,856 Prn:Found Article 2
+2020-06-25 16:47:25,856 Prn:Run Complete
+2020-06-25 16:47:25,924 prnnewswire Job completed
+2020-06-25 16:49:06,978 :Running..
+2020-06-25 16:49:06,978 2020-06-25 07:19:06.978202
+2020-06-25 16:49:06,979 prnnewswire Job Started
+2020-06-25 16:49:06,979 Prn:Scrapping....
+2020-06-25 16:49:14,756 Reading txt tile
+2020-06-25 16:49:14,817 Prn:Iterating Article
+2020-06-25 16:49:14,982 07:15 ET
+2020-06-25 16:49:14,982 Prn:Found Article
+2020-06-25 16:49:15,076 07:16 ET
+2020-06-25 16:49:15,076 Prn:Found Article 2
+2020-06-25 16:49:15,076 Prn:Run Complete
+2020-06-25 16:49:15,143 prnnewswire Job completed
+2020-06-25 16:51:06,984 :Running..
+2020-06-25 16:51:06,984 2020-06-25 07:21:06.983913
+2020-06-25 16:51:06,984 prnnewswire Job Started
+2020-06-25 16:51:06,985 Prn:Scrapping....
+2020-06-25 16:51:14,918 Reading txt tile
+2020-06-25 16:51:15,040 Prn:Iterating Article
+2020-06-25 16:51:15,303 07:15 ET
+2020-06-25 16:51:15,304 Prn:Found Article
+2020-06-25 16:51:15,548 07:16 ET
+2020-06-25 16:51:15,548 Prn:Found Article 2
+2020-06-25 16:51:15,548 Prn:Run Complete
+2020-06-25 16:51:15,642 prnnewswire Job completed
+2020-06-25 16:53:06,984 :Running..
+2020-06-25 16:53:06,985 2020-06-25 07:23:06.984596
+2020-06-25 16:53:06,985 prnnewswire Job Started
+2020-06-25 16:53:06,985 Prn:Scrapping....
+2020-06-25 16:53:14,940 Reading txt tile
+2020-06-25 16:53:15,002 Prn:Iterating Article
+2020-06-25 16:53:15,150 07:15 ET
+2020-06-25 16:53:15,151 Prn:Found Article
+2020-06-25 16:53:15,259 07:16 ET
+2020-06-25 16:53:15,259 Prn:Found Article 2
+2020-06-25 16:53:15,259 Prn:Run Complete
+2020-06-25 16:53:15,378 prnnewswire Job completed
+2020-06-25 16:55:06,981 :Running..
+2020-06-25 16:55:06,981 2020-06-25 07:25:06.980812
+2020-06-25 16:55:06,981 prnnewswire Job Started
+2020-06-25 16:55:06,981 Prn:Scrapping....
+2020-06-25 16:55:16,909 Reading txt tile
+2020-06-25 16:55:16,968 Prn:Iterating Article
+2020-06-25 16:55:17,118 07:15 ET
+2020-06-25 16:55:17,119 Prn:Found Article
+2020-06-25 16:55:17,219 07:16 ET
+2020-06-25 16:55:17,219 Prn:Found Article 2
+2020-06-25 16:55:17,221 Prn:Run Complete
+2020-06-25 16:55:17,299 prnnewswire Job completed
+2020-06-25 16:57:06,979 :Running..
+2020-06-25 16:57:06,979 2020-06-25 07:27:06.978863
+2020-06-25 16:57:06,980 prnnewswire Job Started
+2020-06-25 16:57:06,980 Prn:Scrapping....
+2020-06-25 16:57:14,508 Reading txt tile
+2020-06-25 16:57:14,580 Prn:Iterating Article
+2020-06-25 16:57:14,746 07:25 ET
+2020-06-25 16:57:14,747 Prn:Found Article
+2020-06-25 16:57:14,762 Prn:Article filtered
+2020-06-25 16:57:19,463 Prn:Searching for Keyword
+2020-06-25 16:57:19,580 07:15 ET
+2020-06-25 16:57:19,580 Prn:Found Article
+2020-06-25 16:57:19,685 07:16 ET
+2020-06-25 16:57:19,685 Prn:Found Article 2
+2020-06-25 16:57:19,686 Prn:Run Complete
+2020-06-25 16:57:20,464 prnnewswire Job completed
+2020-06-25 16:59:06,980 :Running..
+2020-06-25 16:59:06,980 2020-06-25 07:29:06.979870
+2020-06-25 16:59:06,980 prnnewswire Job Started
+2020-06-25 16:59:06,981 Prn:Scrapping....
+2020-06-25 16:59:14,943 Heartbeat blocked for more than 5 seconds.
+2020-06-25 16:59:15,404 Reading txt tile
+2020-06-25 16:59:15,504 Prn:Iterating Article
+2020-06-25 16:59:15,663 07:25 ET
+2020-06-25 16:59:15,664 Prn:Found Article
+2020-06-25 16:59:15,781 07:26 ET
+2020-06-25 16:59:15,781 Prn:Found Article 2
+2020-06-25 16:59:15,782 Prn:Run Complete
+2020-06-25 16:59:15,902 prnnewswire Job completed
+2020-06-25 17:01:06,979 :Running..
+2020-06-25 17:01:06,979 2020-06-25 07:31:06.978939
+2020-06-25 17:01:06,980 prnnewswire Job Started
+2020-06-25 17:01:06,980 Prn:Scrapping....
+2020-06-25 17:01:14,632 Reading txt tile
+2020-06-25 17:01:14,689 Prn:Iterating Article
+2020-06-25 17:01:14,837 07:30 ET
+2020-06-25 17:01:14,837 Prn:Found Article
+2020-06-25 17:01:14,850 Prn:Article filtered
+2020-06-25 17:01:24,658 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:01:29,659 Heartbeat blocked for more than 10 seconds.
+2020-06-25 17:01:33,171 Prn:Searching for Keyword
+2020-06-25 17:01:33,279 07:30 ET
+2020-06-25 17:01:33,280 Prn:Found Article
+2020-06-25 17:01:33,296 Prn:Article filtered
+2020-06-25 17:01:34,659 Heartbeat blocked for more than 15 seconds.
+2020-06-25 17:01:39,660 Heartbeat blocked for more than 20 seconds.
+2020-06-25 17:01:44,661 Heartbeat blocked for more than 25 seconds.
+2020-06-25 17:01:44,932 Prn:Searching for Keyword
+2020-06-25 17:01:45,062 07:30 ET
+2020-06-25 17:01:45,063 Prn:Found Article
+2020-06-25 17:01:45,079 Prn:Article filtered
+2020-06-25 17:01:49,662 Heartbeat blocked for more than 30 seconds.
+2020-06-25 17:01:50,487 Prn:Searching for Keyword
+2020-06-25 17:01:50,592 07:30 ET
+2020-06-25 17:01:50,592 Prn:Found Article
+2020-06-25 17:01:50,608 Prn:Article filtered
+2020-06-25 17:01:54,662 Heartbeat blocked for more than 35 seconds.
+2020-06-25 17:01:54,704 Prn:Searching for Keyword
+2020-06-25 17:01:54,862 07:30 ET
+2020-06-25 17:01:54,862 Prn:Found Article
+2020-06-25 17:01:54,886 Prn:Article filtered
+2020-06-25 17:01:59,065 Prn:Searching for Keyword
+2020-06-25 17:01:59,203 07:30 ET
+2020-06-25 17:01:59,203 Prn:Found Article
+2020-06-25 17:01:59,220 Prn:Article filtered
+2020-06-25 17:01:59,663 Heartbeat blocked for more than 40 seconds.
+2020-06-25 17:02:03,579 Prn:Searching for Keyword
+2020-06-25 17:02:03,668 07:25 ET
+2020-06-25 17:02:03,668 Prn:Found Article
+2020-06-25 17:02:03,758 07:30 ET
+2020-06-25 17:02:03,758 Prn:Found Article 2
+2020-06-25 17:02:03,771 Prn:Article filtered
+2020-06-25 17:02:04,663 Heartbeat blocked for more than 45 seconds.
+2020-06-25 17:02:06,118 Prn:Searching for Keyword
+2020-06-25 17:02:06,219 07:30 ET
+2020-06-25 17:02:06,219 Prn:Found Article 2
+2020-06-25 17:02:06,237 Prn:Article filtered
+2020-06-25 17:02:09,664 Heartbeat blocked for more than 50 seconds.
+2020-06-25 17:02:09,908 Prn:Searching for Keyword
+2020-06-25 17:02:10,027 07:26 ET
+2020-06-25 17:02:10,027 Prn:Found Article 2
+2020-06-25 17:02:10,029 Prn:Run Complete
+2020-06-25 17:02:10,123 Websocket closed with 1000 (), cannot reconnect.
+2020-06-25 17:02:10,124 Attempting a reconnect in 0.67s
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 470, in poll_event
+    msg = await self.recv()
+  File "/home/maddy/.local/lib/python3.6/site-packages/websockets/protocol.py", line 509, in recv
+    await self.ensure_open()
+  File "/home/maddy/.local/lib/python3.6/site-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: code = 1000 (OK), no reason
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 499, in connect
+    await self._connect()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 463, in _connect
+    await self.ws.poll_event()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 478, in poll_event
+    raise ConnectionClosed(exc, shard_id=self.shard_id) from exc
+discord.errors.ConnectionClosed: code = 1000 (OK), no reason
+2020-06-25 17:02:10,566 prnnewswire Job completed
+2020-06-25 17:02:11,467 Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-06-25 17:02:11,469 Shard ID None has sent the IDENTIFY payload.
+2020-06-25 17:02:11,802 Shard ID None has connected to Gateway: ["gateway-prd-main-4bdm",{"micros":47254,"calls":["discord-sessions-prd-1-73",{"micros":46160,"calls":["start_session",{"micros":43171,"calls":["api-prd-main-ks5r",{"micros":40189,"calls":["get_user",{"micros":2624},"add_authorized_ip",{"micros":2114},"get_guilds",{"micros":1651},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":2,"calls":[]},"presence_connect",{"micros":122,"calls":[]}]}]}] (Session ID: 7f3085f6122e049297d3f143387cda60).
+2020-06-25 17:02:51,370 Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-06-25 17:03:06,984 :Running..
+2020-06-25 17:03:06,984 2020-06-25 07:33:06.983840
+2020-06-25 17:03:06,984 prnnewswire Job Started
+2020-06-25 17:03:06,984 Prn:Scrapping....
+2020-06-25 17:03:13,365 Reading txt tile
+2020-06-25 17:03:13,428 Prn:Iterating Article
+2020-06-25 17:03:13,582 07:30 ET
+2020-06-25 17:03:13,583 Prn:Found Article
+2020-06-25 17:03:13,684 07:30 ET
+2020-06-25 17:03:13,685 Prn:Found Article 2
+2020-06-25 17:03:13,686 Prn:Run Complete
+2020-06-25 17:03:13,719 prnnewswire Job completed
+2020-06-25 17:05:06,984 :Running..
+2020-06-25 17:05:06,984 2020-06-25 07:35:06.984094
+2020-06-25 17:05:06,985 prnnewswire Job Started
+2020-06-25 17:05:06,985 Prn:Scrapping....
+2020-06-25 17:05:13,555 Reading txt tile
+2020-06-25 17:05:13,627 Prn:Iterating Article
+2020-06-25 17:05:13,793 07:30 ET
+2020-06-25 17:05:13,794 Prn:Found Article
+2020-06-25 17:05:13,914 07:30 ET
+2020-06-25 17:05:13,914 Prn:Found Article 2
+2020-06-25 17:05:13,914 Prn:Run Complete
+2020-06-25 17:05:14,053 prnnewswire Job completed
+2020-06-25 17:07:06,984 :Running..
+2020-06-25 17:07:06,984 2020-06-25 07:37:06.984021
+2020-06-25 17:07:06,985 prnnewswire Job Started
+2020-06-25 17:07:06,985 Prn:Scrapping....
+2020-06-25 17:07:14,725 Reading txt tile
+2020-06-25 17:07:14,815 Prn:Iterating Article
+2020-06-25 17:07:14,968 07:30 ET
+2020-06-25 17:07:14,969 Prn:Found Article
+2020-06-25 17:07:15,071 07:35 ET
+2020-06-25 17:07:15,072 Prn:Found Article 2
+2020-06-25 17:07:15,086 Prn:Article filtered
+2020-06-25 17:07:19,852 Prn:Searching for Keyword
+2020-06-25 17:07:19,945 07:30 ET
+2020-06-25 17:07:19,945 Prn:Found Article 2
+2020-06-25 17:07:19,945 Prn:Run Complete
+2020-06-25 17:07:20,012 prnnewswire Job completed
+2020-06-25 17:09:06,980 :Running..
+2020-06-25 17:09:06,981 2020-06-25 07:39:06.980524
+2020-06-25 17:09:06,981 prnnewswire Job Started
+2020-06-25 17:09:06,981 Prn:Scrapping....
+2020-06-25 17:09:14,643 Reading txt tile
+2020-06-25 17:09:14,692 Prn:Iterating Article
+2020-06-25 17:09:14,884 07:30 ET
+2020-06-25 17:09:14,885 Prn:Found Article
+2020-06-25 17:09:14,999 07:35 ET
+2020-06-25 17:09:15,001 Prn:Found Article 2
+2020-06-25 17:09:15,002 Prn:Run Complete
+2020-06-25 17:09:15,127 prnnewswire Job completed
+2020-06-25 17:11:06,980 :Running..
+2020-06-25 17:11:06,980 2020-06-25 07:41:06.980013
+2020-06-25 17:11:06,980 prnnewswire Job Started
+2020-06-25 17:11:06,980 Prn:Scrapping....
+2020-06-25 17:11:12,736 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:11:16,712 Reading txt tile
+2020-06-25 17:11:16,770 Prn:Iterating Article
+2020-06-25 17:11:16,922 07:30 ET
+2020-06-25 17:11:16,922 Prn:Found Article
+2020-06-25 17:11:17,020 07:35 ET
+2020-06-25 17:11:17,020 Prn:Found Article 2
+2020-06-25 17:11:17,020 Prn:Run Complete
+2020-06-25 17:11:17,086 prnnewswire Job completed
+2020-06-25 17:13:06,980 :Running..
+2020-06-25 17:13:06,981 2020-06-25 07:43:06.980240
+2020-06-25 17:13:06,981 prnnewswire Job Started
+2020-06-25 17:13:06,981 Prn:Scrapping....
+2020-06-25 17:13:14,187 Reading txt tile
+2020-06-25 17:13:14,260 Prn:Iterating Article
+2020-06-25 17:13:14,406 07:30 ET
+2020-06-25 17:13:14,407 Prn:Found Article
+2020-06-25 17:13:14,511 07:41 ET
+2020-06-25 17:13:14,511 Prn:Found Article 2
+2020-06-25 17:13:14,555 Prn:Article filtered
+2020-06-25 17:13:19,807 Prn:Searching for Keyword
+2020-06-25 17:13:19,900 07:35 ET
+2020-06-25 17:13:19,900 Prn:Found Article 2
+2020-06-25 17:13:19,901 Prn:Run Complete
+2020-06-25 17:13:19,970 prnnewswire Job completed
+2020-06-25 17:15:06,979 :Running..
+2020-06-25 17:15:06,979 2020-06-25 07:45:06.978822
+2020-06-25 17:15:06,980 prnnewswire Job Started
+2020-06-25 17:15:06,980 Prn:Scrapping....
+2020-06-25 17:15:17,689 Reading txt tile
+2020-06-25 17:15:29,597 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:15:34,598 Heartbeat blocked for more than 10 seconds.
+2020-06-25 17:15:37,863 Exception
+2020-06-25 17:15:37,864 Message: 
+
+2020-06-25 17:15:37,864 Prn:Scrapping....
+2020-06-25 17:15:39,599 Heartbeat blocked for more than 15 seconds.
+2020-06-25 17:15:44,600 Heartbeat blocked for more than 20 seconds.
+2020-06-25 17:15:44,891 Reading txt tile
+2020-06-25 17:15:44,955 Prn:Iterating Article
+2020-06-25 17:15:45,095 07:45 ET
+2020-06-25 17:15:45,095 Prn:Found Article
+2020-06-25 17:15:45,112 Prn:Article filtered
+2020-06-25 17:15:49,600 Heartbeat blocked for more than 25 seconds.
+2020-06-25 17:15:50,349 Prn:Searching for Keyword
+2020-06-25 17:15:50,449 07:30 ET
+2020-06-25 17:15:50,449 Prn:Found Article
+2020-06-25 17:15:50,534 07:41 ET
+2020-06-25 17:15:50,534 Prn:Found Article 2
+2020-06-25 17:15:50,534 Prn:Run Complete
+2020-06-25 17:15:50,602 prnnewswire Job completed
+2020-06-25 17:15:51,174 Websocket closed with 1006 (), attempting a reconnect.
+2020-06-25 17:15:51,174 Got a request to RESUME the websocket.
+2020-06-25 17:15:51,913 Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-06-25 17:15:51,916 Shard ID None has sent the RESUME payload.
+2020-06-25 17:15:52,200 Shard ID None has successfully RESUMED session 7f3085f6122e049297d3f143387cda60 under trace ["gateway-prd-main-x10x",{"micros":870,"calls":["discord-sessions-prd-1-73",{"micros":21}]}].
+2020-06-25 17:16:31,855 Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-06-25 17:17:06,984 :Running..
+2020-06-25 17:17:06,985 2020-06-25 07:47:06.984335
+2020-06-25 17:17:06,985 prnnewswire Job Started
+2020-06-25 17:17:06,985 Prn:Scrapping....
+2020-06-25 17:17:16,706 Reading txt tile
+2020-06-25 17:17:16,776 Prn:Iterating Article
+2020-06-25 17:17:16,936 07:45 ET
+2020-06-25 17:17:16,936 Prn:Found Article
+2020-06-25 17:17:16,954 Found value last run
+2020-06-25 17:17:17,052 07:30 ET
+2020-06-25 17:17:17,052 Prn:Found Article
+2020-06-25 17:17:17,150 07:46 ET
+2020-06-25 17:17:17,150 Prn:Found Article 2
+2020-06-25 17:17:17,168 Prn:Article filtered
+2020-06-25 17:17:19,417 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:17:24,418 Heartbeat blocked for more than 10 seconds.
+2020-06-25 17:17:27,481 Prn:Searching for Keyword
+2020-06-25 17:17:27,580 07:45 ET
+2020-06-25 17:17:27,580 Prn:Found Article 2
+2020-06-25 17:17:27,594 Prn:Article filtered
+2020-06-25 17:17:29,418 Heartbeat blocked for more than 15 seconds.
+2020-06-25 17:17:31,750 Prn:Searching for Keyword
+2020-06-25 17:17:31,855 07:41 ET
+2020-06-25 17:17:31,855 Prn:Found Article 2
+2020-06-25 17:17:31,855 Prn:Run Complete
+2020-06-25 17:17:31,927 prnnewswire Job completed
+2020-06-25 17:19:06,984 :Running..
+2020-06-25 17:19:06,984 2020-06-25 07:49:06.983982
+2020-06-25 17:19:06,985 prnnewswire Job Started
+2020-06-25 17:19:06,985 Prn:Scrapping....
+2020-06-25 17:19:21,890 Reading txt tile
+2020-06-25 17:19:22,136 Prn:Iterating Article
+2020-06-25 17:19:22,580 07:45 ET
+2020-06-25 17:19:22,580 Prn:Found Article
+2020-06-25 17:19:22,876 07:47 ET
+2020-06-25 17:19:22,877 Prn:Found Article 2
+2020-06-25 17:19:22,901 Prn:Article filtered
+2020-06-25 17:19:29,033 Prn:Searching for Keyword
+2020-06-25 17:19:29,199 07:46 ET
+2020-06-25 17:19:29,200 Prn:Found Article 2
+2020-06-25 17:19:29,200 Prn:Run Complete
+2020-06-25 17:19:29,282 prnnewswire Job completed
+2020-06-25 17:21:06,985 :Running..
+2020-06-25 17:21:06,986 2020-06-25 07:51:06.984801
+2020-06-25 17:21:06,987 prnnewswire Job Started
+2020-06-25 17:21:06,988 Prn:Scrapping....
+2020-06-25 17:21:19,485 Reading txt tile
+2020-06-25 17:21:19,732 Prn:Iterating Article
+2020-06-25 17:21:20,190 07:50 ET
+2020-06-25 17:21:20,191 Prn:Found Article
+2020-06-25 17:21:20,222 Prn:Article filtered
+2020-06-25 17:21:26,722 Prn:Searching for Keyword
+2020-06-25 17:21:26,938 07:49 ET
+2020-06-25 17:21:26,939 Prn:Found Article
+2020-06-25 17:21:26,986 Prn:Article filtered
+2020-06-25 17:21:32,800 Prn:Searching for Keyword
+2020-06-25 17:21:33,009 07:48 ET
+2020-06-25 17:21:33,009 Prn:Found Article
+2020-06-25 17:21:33,177 07:47 ET
+2020-06-25 17:21:33,178 Prn:Found Article 2
+2020-06-25 17:21:33,178 Prn:Run Complete
+2020-06-25 17:21:33,261 prnnewswire Job completed
+2020-06-25 17:23:06,980 :Running..
+2020-06-25 17:23:06,980 2020-06-25 07:53:06.980169
+2020-06-25 17:23:06,981 prnnewswire Job Started
+2020-06-25 17:23:06,981 Prn:Scrapping....
+2020-06-25 17:23:15,766 Reading txt tile
+2020-06-25 17:23:15,830 Prn:Iterating Article
+2020-06-25 17:23:15,969 07:50 ET
+2020-06-25 17:23:15,969 Prn:Found Article
+2020-06-25 17:23:16,095 07:47 ET
+2020-06-25 17:23:16,096 Prn:Found Article 2
+2020-06-25 17:23:16,096 Prn:Run Complete
+2020-06-25 17:23:16,161 prnnewswire Job completed
+2020-06-25 17:25:06,979 :Running..
+2020-06-25 17:25:06,979 2020-06-25 07:55:06.979181
+2020-06-25 17:25:06,980 prnnewswire Job Started
+2020-06-25 17:25:06,980 Prn:Scrapping....
+2020-06-25 17:25:15,924 Reading txt tile
+2020-06-25 17:25:15,996 Prn:Iterating Article
+2020-06-25 17:25:16,150 07:50 ET
+2020-06-25 17:25:16,150 Prn:Found Article
+2020-06-25 17:25:16,242 07:47 ET
+2020-06-25 17:25:16,242 Prn:Found Article 2
+2020-06-25 17:25:16,243 Prn:Run Complete
+2020-06-25 17:25:16,314 prnnewswire Job completed
+2020-06-25 17:27:06,984 :Running..
+2020-06-25 17:27:06,984 2020-06-25 07:57:06.983939
+2020-06-25 17:27:06,985 prnnewswire Job Started
+2020-06-25 17:27:06,985 Prn:Scrapping....
+2020-06-25 17:27:14,449 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:27:16,578 Reading txt tile
+2020-06-25 17:27:16,700 Prn:Iterating Article
+2020-06-25 17:27:17,024 07:50 ET
+2020-06-25 17:27:17,025 Prn:Found Article
+2020-06-25 17:27:17,295 07:55 ET
+2020-06-25 17:27:17,295 Prn:Found Article 2
+2020-06-25 17:27:17,343 Prn:Article filtered
+2020-06-25 17:27:19,450 Heartbeat blocked for more than 10 seconds.
+2020-06-25 17:27:22,084 Prn:Searching for Keyword
+2020-06-25 17:27:22,180 07:47 ET
+2020-06-25 17:27:22,181 Prn:Found Article 2
+2020-06-25 17:27:22,181 Prn:Run Complete
+2020-06-25 17:27:22,252 prnnewswire Job completed
+2020-06-25 17:29:06,980 :Running..
+2020-06-25 17:29:06,980 2020-06-25 07:59:06.979898
+2020-06-25 17:29:06,981 prnnewswire Job Started
+2020-06-25 17:29:06,981 Prn:Scrapping....
+2020-06-25 17:29:14,132 Reading txt tile
+2020-06-25 17:29:14,257 Prn:Iterating Article
+2020-06-25 17:29:14,610 07:50 ET
+2020-06-25 17:29:14,611 Prn:Found Article
+2020-06-25 17:29:15,046 07:55 ET
+2020-06-25 17:29:15,051 Prn:Found Article 2
+2020-06-25 17:29:15,052 Prn:Run Complete
+2020-06-25 17:29:15,204 prnnewswire Job completed
+2020-06-25 17:31:06,979 :Running..
+2020-06-25 17:31:06,979 2020-06-25 08:01:06.978788
+2020-06-25 17:31:06,979 prnnewswire Job Started
+2020-06-25 17:31:06,980 Prn:Scrapping....
+2020-06-25 17:31:16,497 Reading txt tile
+2020-06-25 17:31:16,765 Prn:Iterating Article
+2020-06-25 17:31:17,752 08:00 ET
+2020-06-25 17:31:17,758 Prn:Found Article
+2020-06-25 17:31:17,854 Prn:Article filtered
+2020-06-25 17:31:34,785 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:31:37,540 Prn:Searching for Keyword
+2020-06-25 17:31:38,075 08:00 ET
+2020-06-25 17:31:38,076 Prn:Found Article
+2020-06-25 17:31:38,181 Prn:Article filtered
+2020-06-25 17:31:39,789 Heartbeat blocked for more than 10 seconds.
+2020-06-25 17:31:44,791 Heartbeat blocked for more than 15 seconds.
+2020-06-25 17:31:49,792 Heartbeat blocked for more than 20 seconds.
+2020-06-25 17:31:54,814 Heartbeat blocked for more than 25 seconds.
+2020-06-25 17:31:55,121 Prn:Searching for Keyword
+2020-06-25 17:31:58,091 08:00 ET
+2020-06-25 17:31:58,092 Prn:Found Article
+2020-06-25 17:31:58,327 Prn:Article filtered
+2020-06-25 17:31:59,818 Heartbeat blocked for more than 30 seconds.
+2020-06-25 17:32:04,819 Heartbeat blocked for more than 35 seconds.
+2020-06-25 17:32:09,845 Heartbeat blocked for more than 40 seconds.
+2020-06-25 17:32:14,847 Heartbeat blocked for more than 45 seconds.
+2020-06-25 17:32:19,828 Prn:Searching for Keyword
+2020-06-25 17:32:19,867 Heartbeat blocked for more than 50 seconds.
+2020-06-25 17:32:20,370 08:00 ET
+2020-06-25 17:32:20,399 Prn:Found Article
+2020-06-25 17:32:20,496 Prn:Article filtered
+2020-06-25 17:32:24,868 Heartbeat blocked for more than 55 seconds.
+2020-06-25 17:32:29,869 Heartbeat blocked for more than 60 seconds.
+2020-06-25 17:32:34,132 Prn:Searching for Keyword
+2020-06-25 17:32:34,670 08:00 ET
+2020-06-25 17:32:34,670 Prn:Found Article
+2020-06-25 17:32:34,760 Prn:Article filtered
+2020-06-25 17:32:34,891 Heartbeat blocked for more than 65 seconds.
+2020-06-25 17:32:39,892 Heartbeat blocked for more than 70 seconds.
+2020-06-25 17:32:44,894 Heartbeat blocked for more than 75 seconds.
+2020-06-25 17:32:48,109 Prn:Searching for Keyword
+2020-06-25 17:32:48,402 08:00 ET
+2020-06-25 17:32:48,402 Prn:Found Article
+2020-06-25 17:32:48,450 Prn:Article filtered
+2020-06-25 17:32:49,895 Heartbeat blocked for more than 80 seconds.
+2020-06-25 17:32:54,917 Heartbeat blocked for more than 85 seconds.
+2020-06-25 17:32:57,222 Prn:Searching for Keyword
+2020-06-25 17:32:57,637 08:00 ET
+2020-06-25 17:32:57,638 Prn:Found Article
+2020-06-25 17:32:57,693 Prn:Article filtered
+2020-06-25 17:32:59,920 Heartbeat blocked for more than 90 seconds.
+2020-06-25 17:33:04,921 Heartbeat blocked for more than 95 seconds.
+2020-06-25 17:33:06,848 Prn:Searching for Keyword
+2020-06-25 17:33:07,146 08:00 ET
+2020-06-25 17:33:07,146 Prn:Found Article
+2020-06-25 17:33:07,159 Prn:Article filtered
+2020-06-25 17:33:09,936 Heartbeat blocked for more than 100 seconds.
+2020-06-25 17:33:14,938 Heartbeat blocked for more than 105 seconds.
+2020-06-25 17:33:19,531 Prn:Searching for Keyword
+2020-06-25 17:33:19,939 Heartbeat blocked for more than 110 seconds.
+2020-06-25 17:33:20,267 08:00 ET
+2020-06-25 17:33:20,267 Prn:Found Article
+2020-06-25 17:33:20,355 Prn:Article filtered
+2020-06-25 17:33:24,983 Heartbeat blocked for more than 115 seconds.
+2020-06-25 17:33:29,995 Heartbeat blocked for more than 120 seconds.
+2020-06-25 17:33:31,837 Prn:Searching for Keyword
+2020-06-25 17:33:32,208 08:00 ET
+2020-06-25 17:33:32,209 Prn:Found Article
+2020-06-25 17:33:32,265 Prn:Article filtered
+2020-06-25 17:33:35,008 Heartbeat blocked for more than 125 seconds.
+2020-06-25 17:33:40,015 Heartbeat blocked for more than 130 seconds.
+2020-06-25 17:33:41,054 Prn:Searching for Keyword
+2020-06-25 17:33:41,358 08:00 ET
+2020-06-25 17:33:41,358 Prn:Found Article
+2020-06-25 17:33:41,425 Prn:Article filtered
+2020-06-25 17:33:45,022 Heartbeat blocked for more than 135 seconds.
+2020-06-25 17:33:49,484 Prn:Searching for Keyword
+2020-06-25 17:33:49,887 08:00 ET
+2020-06-25 17:33:49,887 Prn:Found Article
+2020-06-25 17:33:49,946 Prn:Article filtered
+2020-06-25 17:33:50,039 Heartbeat blocked for more than 140 seconds.
+2020-06-25 17:33:55,041 Heartbeat blocked for more than 145 seconds.
+2020-06-25 17:33:57,445 Prn:Searching for Keyword
+2020-06-25 17:33:57,852 08:00 ET
+2020-06-25 17:33:57,853 Prn:Found Article
+2020-06-25 17:33:57,912 Prn:Article filtered
+2020-06-25 17:34:00,055 Heartbeat blocked for more than 150 seconds.
+2020-06-25 17:34:05,056 Heartbeat blocked for more than 155 seconds.
+2020-06-25 17:34:05,344 Prn:Searching for Keyword
+2020-06-25 17:34:05,665 08:00 ET
+2020-06-25 17:34:05,665 Prn:Found Article
+2020-06-25 17:34:05,729 Prn:Article filtered
+2020-06-25 17:34:10,072 Heartbeat blocked for more than 160 seconds.
+2020-06-25 17:34:13,631 Prn:Searching for Keyword
+2020-06-25 17:34:13,932 08:00 ET
+2020-06-25 17:34:13,933 Prn:Found Article
+2020-06-25 17:34:13,962 Prn:Article filtered
+2020-06-25 17:34:15,072 Heartbeat blocked for more than 165 seconds.
+2020-06-25 17:34:20,075 Heartbeat blocked for more than 170 seconds.
+2020-06-25 17:34:22,128 Prn:Searching for Keyword
+2020-06-25 17:34:22,403 08:00 ET
+2020-06-25 17:34:22,403 Prn:Found Article
+2020-06-25 17:34:22,475 Prn:Article filtered
+2020-06-25 17:34:25,076 Heartbeat blocked for more than 175 seconds.
+2020-06-25 17:34:28,217 Prn:Searching for Keyword
+2020-06-25 17:34:28,585 08:00 ET
+2020-06-25 17:34:28,585 Prn:Found Article
+2020-06-25 17:34:28,646 Prn:Article filtered
+2020-06-25 17:34:30,076 Heartbeat blocked for more than 180 seconds.
+2020-06-25 17:34:35,077 Heartbeat blocked for more than 185 seconds.
+2020-06-25 17:34:36,444 Prn:Searching for Keyword
+2020-06-25 17:34:36,754 08:00 ET
+2020-06-25 17:34:36,754 Prn:Found Article
+2020-06-25 17:34:36,802 Prn:Article filtered
+2020-06-25 17:34:40,078 Heartbeat blocked for more than 190 seconds.
+2020-06-25 17:34:45,079 Heartbeat blocked for more than 195 seconds.
+2020-06-25 17:34:46,049 Prn:Searching for Keyword
+2020-06-25 17:34:46,357 08:00 ET
+2020-06-25 17:34:46,358 Prn:Found Article
+2020-06-25 17:34:46,423 Prn:Article filtered
+2020-06-25 17:34:50,098 Heartbeat blocked for more than 200 seconds.
+2020-06-25 17:34:55,099 Heartbeat blocked for more than 205 seconds.
+2020-06-25 17:34:56,168 Prn:Searching for Keyword
+2020-06-25 17:34:56,462 08:00 ET
+2020-06-25 17:34:56,463 Prn:Found Article
+2020-06-25 17:34:56,511 Prn:Article filtered
+2020-06-25 17:35:00,102 Heartbeat blocked for more than 210 seconds.
+2020-06-25 17:35:05,105 Heartbeat blocked for more than 215 seconds.
+2020-06-25 17:35:06,080 Prn:Searching for Keyword
+2020-06-25 17:35:06,386 08:00 ET
+2020-06-25 17:35:06,387 Prn:Found Article
+2020-06-25 17:35:06,434 Prn:Article filtered
+2020-06-25 17:35:10,106 Heartbeat blocked for more than 220 seconds.
+2020-06-25 17:35:15,108 Heartbeat blocked for more than 225 seconds.
+2020-06-25 17:35:18,058 Prn:Searching for Keyword
+2020-06-25 17:35:18,820 08:00 ET
+2020-06-25 17:35:18,820 Prn:Found Article
+2020-06-25 17:35:18,964 Prn:Article filtered
+2020-06-25 17:35:20,112 Heartbeat blocked for more than 230 seconds.
+2020-06-25 17:35:24,443 Exception
+2020-06-25 17:35:24,473 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2020-06-25 17:35:24,473 Prn:Scrapping....
+2020-06-25 17:35:25,113 Heartbeat blocked for more than 235 seconds.
+2020-06-25 17:35:25,580 Exception
+2020-06-25 17:35:25,580 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-25 17:35:25,580 Prn:Scrapping....
+2020-06-25 17:35:26,636 Exception
+2020-06-25 17:35:26,637 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-25 17:35:26,637 prnnewswire Job completed
+2020-06-25 17:35:26,638 :Running..
+2020-06-25 17:35:26,639 2020-06-25 08:05:26.638653
+2020-06-25 17:35:26,639 prnnewswire Job Started
+2020-06-25 17:35:26,639 Prn:Scrapping....
+2020-06-25 17:35:27,651 Exception
+2020-06-25 17:35:27,652 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-25 17:35:27,652 Prn:Scrapping....
+2020-06-25 17:35:28,663 Exception
+2020-06-25 17:35:28,663 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-25 17:35:28,664 Prn:Scrapping....
+2020-06-25 17:35:30,114 Heartbeat blocked for more than 240 seconds.
+2020-06-25 17:35:31,457 Exception
+2020-06-25 17:35:31,457 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2020-06-25 17:35:31,458 prnnewswire Job completed
+2020-06-25 17:35:31,488 Cleaning up tasks.
+2020-06-25 17:35:31,488 Cleaning up after 4 tasks.
+2020-06-25 17:35:31,518 All tasks finished cancelling.
+2020-06-25 17:35:31,518 Closing the event loop.

@@ -1,0 +1,29 @@
+2020-06-30 12:38:10,394 Buss:Scrapping...
+2020-06-30 12:38:14,755 Buss:Iterating 3pages
+2020-06-30 12:38:14,756 Buss:Reading txt tile
+2020-06-30 12:38:14,756 1
+2020-06-30 12:38:14,830 Buss:Iterating Article
+2020-06-30 12:38:14,831 Buss:Iterating...
+2020-06-30 12:38:14,938 news_date
+2020-06-30 12:38:14,938 2020-06-30 03:06:00
+2020-06-30 12:38:14,965 FT US Small Cap Core AlphaDEX UCITS ETF UK Regulatory Announcement: Net Asset Value(s)
+2020-06-30 12:38:14,965 Buss:No More Articles
+2020-06-30 12:38:15,082 Executing finally bllock
+2020-06-30 13:09:56,330 Prn:Scrapping....
+2020-06-30 13:10:01,542 Reading txt tile
+2020-06-30 13:10:01,604 Prn:Iterating Article
+2020-06-30 13:10:01,746 03:32 ET
+2020-06-30 13:10:01,747 Prn:Found Article
+2020-06-30 13:10:01,763 Prn:Article filtered
+2020-06-30 13:10:11,323 Prn:Scrapping....
+2020-06-30 13:10:20,961 Reading txt tile
+2020-06-30 13:10:21,018 Prn:Iterating Article
+2020-06-30 13:10:21,159 03:32 ET
+2020-06-30 13:10:21,160 Prn:Found Article
+2020-06-30 13:10:21,265 03:36 ET
+2020-06-30 13:10:21,265 Prn:Found Article 2
+2020-06-30 13:10:21,288 Prn:Article filtered
+2020-06-30 13:10:26,271 Prn:Searching for Keyword
+2020-06-30 13:10:26,362 03:16 ET
+2020-06-30 13:10:26,362 Prn:Found Article 2
+2020-06-30 13:10:26,362 Prn:Run Complete

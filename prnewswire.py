@@ -60,6 +60,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
             # print(link)
             news_date = news_date.text
             logger.info(news_date)
+            logger.info(head)
             ans = re.search("^\d\d:\d\d ET$",news_date)
             if(ans):        
                 logger.info("Prn:Found Article")
@@ -115,6 +116,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
             # print(link)
             news_date = news_date.text
             logger.info(news_date)
+            logger.info(head)
             ans = re.search("^\d\d:\d\d ET$",news_date)
             if(ans):        
                 logger.info("Prn:Found Article 2")
@@ -179,7 +181,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         run_count = 0            
 
 if( __name__ == "__main__"):    
-    temp_minute = 23
+    temp_minute = 6
     eastern = timezone('US/Eastern')        
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)

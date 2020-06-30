@@ -1,0 +1,1879 @@
+2020-06-25 14:19:09,050 :Running..
+2020-06-25 14:19:09,050 2020-06-25 04:49:09.050050
+2020-06-25 14:19:09,050 Accesswire Job Started
+2020-06-25 14:19:09,051 Newsroom : Scrapping..
+2020-06-25 14:19:15,360 News:Reading txt tile
+2020-06-25 14:19:15,360 Newsroom : Opening Website
+2020-06-25 14:19:15,469 Newsroom : Iterating Article
+2020-06-25 14:19:15,470 Iterating...
+2020-06-25 14:19:15,574 2020-06-25 04:45:00
+2020-06-25 14:19:15,575 No More Aricle
+2020-06-25 14:19:15,575 Newsroom : Run Succesfully
+2020-06-25 14:19:15,999 Executing finally bllock
+2020-06-25 14:19:16,000 Accesswire Job Completed
+2020-06-25 14:21:09,017 :Running..
+2020-06-25 14:21:09,018 2020-06-25 04:51:09.017458
+2020-06-25 14:21:09,018 Accesswire Job Started
+2020-06-25 14:21:09,018 Newsroom : Scrapping..
+2020-06-25 14:21:15,422 Heartbeat blocked for more than 5 seconds.
+2020-06-25 14:21:15,993 News:Reading txt tile
+2020-06-25 14:21:15,994 Newsroom : Opening Website
+2020-06-25 14:21:16,082 Newsroom : Iterating Article
+2020-06-25 14:21:16,082 Iterating...
+2020-06-25 14:21:16,170 2020-06-25 04:45:00
+2020-06-25 14:21:16,170 No More Aricle
+2020-06-25 14:21:16,171 Newsroom : Run Succesfully
+2020-06-25 14:21:16,290 Executing finally bllock
+2020-06-25 14:21:16,291 Accesswire Job Completed
+2020-06-25 14:23:09,024 :Running..
+2020-06-25 14:23:09,024 2020-06-25 04:53:09.023875
+2020-06-25 14:23:09,025 Accesswire Job Started
+2020-06-25 14:23:09,025 Newsroom : Scrapping..
+2020-06-25 14:23:19,684 News:Reading txt tile
+2020-06-25 14:23:19,684 Newsroom : Opening Website
+2020-06-25 14:23:19,772 Newsroom : Iterating Article
+2020-06-25 14:23:19,772 Iterating...
+2020-06-25 14:23:19,866 2020-06-25 04:45:00
+2020-06-25 14:23:19,866 No More Aricle
+2020-06-25 14:23:19,866 Newsroom : Run Succesfully
+2020-06-25 14:23:19,982 Executing finally bllock
+2020-06-25 14:23:19,983 Accesswire Job Completed
+2020-06-25 14:25:09,024 :Running..
+2020-06-25 14:25:09,025 2020-06-25 04:55:09.024216
+2020-06-25 14:25:09,025 Accesswire Job Started
+2020-06-25 14:25:09,025 Newsroom : Scrapping..
+2020-06-25 14:25:15,852 News:Reading txt tile
+2020-06-25 14:25:15,853 Newsroom : Opening Website
+2020-06-25 14:25:15,948 Newsroom : Iterating Article
+2020-06-25 14:25:15,948 Iterating...
+2020-06-25 14:25:16,039 2020-06-25 04:45:00
+2020-06-25 14:25:16,040 No More Aricle
+2020-06-25 14:25:16,040 Newsroom : Run Succesfully
+2020-06-25 14:25:16,154 Executing finally bllock
+2020-06-25 14:25:16,154 Accesswire Job Completed
+2020-06-25 14:27:09,020 :Running..
+2020-06-25 14:27:09,020 2020-06-25 04:57:09.019994
+2020-06-25 14:27:09,021 Accesswire Job Started
+2020-06-25 14:27:09,021 Newsroom : Scrapping..
+2020-06-25 14:27:15,666 News:Reading txt tile
+2020-06-25 14:27:15,667 Newsroom : Opening Website
+2020-06-25 14:27:15,761 Newsroom : Iterating Article
+2020-06-25 14:27:15,761 Iterating...
+2020-06-25 14:27:15,855 2020-06-25 04:45:00
+2020-06-25 14:27:15,856 No More Aricle
+2020-06-25 14:27:15,856 Newsroom : Run Succesfully
+2020-06-25 14:27:15,972 Executing finally bllock
+2020-06-25 14:27:15,972 Accesswire Job Completed
+2020-06-25 14:29:09,020 :Running..
+2020-06-25 14:29:09,020 2020-06-25 04:59:09.019948
+2020-06-25 14:29:09,020 Accesswire Job Started
+2020-06-25 14:29:09,020 Newsroom : Scrapping..
+2020-06-25 14:29:16,138 News:Reading txt tile
+2020-06-25 14:29:16,138 Newsroom : Opening Website
+2020-06-25 14:29:16,266 Newsroom : Iterating Article
+2020-06-25 14:29:16,267 Iterating...
+2020-06-25 14:29:16,380 2020-06-25 04:45:00
+2020-06-25 14:29:16,380 No More Aricle
+2020-06-25 14:29:16,381 Newsroom : Run Succesfully
+2020-06-25 14:29:16,506 Executing finally bllock
+2020-06-25 14:29:16,507 Accesswire Job Completed
+2020-06-25 14:31:09,018 :Running..
+2020-06-25 14:31:09,018 2020-06-25 05:01:09.018031
+2020-06-25 14:31:09,018 Accesswire Job Started
+2020-06-25 14:31:09,019 Newsroom : Scrapping..
+2020-06-25 14:31:16,217 News:Reading txt tile
+2020-06-25 14:31:16,221 Newsroom : Opening Website
+2020-06-25 14:31:16,351 Newsroom : Iterating Article
+2020-06-25 14:31:16,351 Iterating...
+2020-06-25 14:31:16,476 2020-06-25 04:45:00
+2020-06-25 14:31:16,476 No More Aricle
+2020-06-25 14:31:16,476 Newsroom : Run Succesfully
+2020-06-25 14:31:16,604 Executing finally bllock
+2020-06-25 14:31:16,605 Accesswire Job Completed
+2020-06-25 14:33:09,017 :Running..
+2020-06-25 14:33:09,017 2020-06-25 05:03:09.016867
+2020-06-25 14:33:09,018 Accesswire Job Started
+2020-06-25 14:33:09,018 Newsroom : Scrapping..
+2020-06-25 14:33:16,017 News:Reading txt tile
+2020-06-25 14:33:16,018 Newsroom : Opening Website
+2020-06-25 14:33:16,120 Newsroom : Iterating Article
+2020-06-25 14:33:16,120 Iterating...
+2020-06-25 14:33:16,212 2020-06-25 04:45:00
+2020-06-25 14:33:16,212 No More Aricle
+2020-06-25 14:33:16,213 Newsroom : Run Succesfully
+2020-06-25 14:33:16,329 Executing finally bllock
+2020-06-25 14:33:16,329 Accesswire Job Completed
+2020-06-25 14:35:09,023 :Running..
+2020-06-25 14:35:09,024 2020-06-25 05:05:09.023791
+2020-06-25 14:35:09,024 Accesswire Job Started
+2020-06-25 14:35:09,024 Newsroom : Scrapping..
+2020-06-25 14:35:15,775 News:Reading txt tile
+2020-06-25 14:35:15,775 Newsroom : Opening Website
+2020-06-25 14:35:15,875 Newsroom : Iterating Article
+2020-06-25 14:35:15,875 Iterating...
+2020-06-25 14:35:15,972 2020-06-25 04:45:00
+2020-06-25 14:35:15,973 No More Aricle
+2020-06-25 14:35:15,973 Newsroom : Run Succesfully
+2020-06-25 14:35:16,144 Executing finally bllock
+2020-06-25 14:35:16,144 Accesswire Job Completed
+2020-06-25 14:37:09,020 :Running..
+2020-06-25 14:37:09,020 2020-06-25 05:07:09.019936
+2020-06-25 14:37:09,020 Accesswire Job Started
+2020-06-25 14:37:09,021 Newsroom : Scrapping..
+2020-06-25 14:37:16,051 News:Reading txt tile
+2020-06-25 14:37:16,051 Newsroom : Opening Website
+2020-06-25 14:37:16,155 Newsroom : Iterating Article
+2020-06-25 14:37:16,155 Iterating...
+2020-06-25 14:37:16,254 2020-06-25 04:45:00
+2020-06-25 14:37:16,254 No More Aricle
+2020-06-25 14:37:16,254 Newsroom : Run Succesfully
+2020-06-25 14:37:16,317 Executing finally bllock
+2020-06-25 14:37:16,318 Accesswire Job Completed
+2020-06-25 14:39:09,016 :Running..
+2020-06-25 14:39:09,017 2020-06-25 05:09:09.016338
+2020-06-25 14:39:09,017 Accesswire Job Started
+2020-06-25 14:39:09,017 Newsroom : Scrapping..
+2020-06-25 14:39:15,981 News:Reading txt tile
+2020-06-25 14:39:16,003 Newsroom : Opening Website
+2020-06-25 14:39:16,128 Newsroom : Iterating Article
+2020-06-25 14:39:16,128 Iterating...
+2020-06-25 14:39:16,227 2020-06-25 04:45:00
+2020-06-25 14:39:16,227 No More Aricle
+2020-06-25 14:39:16,227 Newsroom : Run Succesfully
+2020-06-25 14:39:16,343 Executing finally bllock
+2020-06-25 14:39:16,343 Accesswire Job Completed
+2020-06-25 14:41:09,024 :Running..
+2020-06-25 14:41:09,024 2020-06-25 05:11:09.023841
+2020-06-25 14:41:09,024 Accesswire Job Started
+2020-06-25 14:41:09,024 Newsroom : Scrapping..
+2020-06-25 14:41:15,198 News:Reading txt tile
+2020-06-25 14:41:15,199 Newsroom : Opening Website
+2020-06-25 14:41:15,296 Newsroom : Iterating Article
+2020-06-25 14:41:15,296 Iterating...
+2020-06-25 14:41:15,394 2020-06-25 04:45:00
+2020-06-25 14:41:15,394 No More Aricle
+2020-06-25 14:41:15,395 Newsroom : Run Succesfully
+2020-06-25 14:41:15,514 Executing finally bllock
+2020-06-25 14:41:15,515 Accesswire Job Completed
+2020-06-25 14:43:09,019 :Running..
+2020-06-25 14:43:09,020 2020-06-25 05:13:09.019724
+2020-06-25 14:43:09,020 Accesswire Job Started
+2020-06-25 14:43:09,020 Newsroom : Scrapping..
+2020-06-25 14:43:23,368 News:Reading txt tile
+2020-06-25 14:43:23,368 Newsroom : Opening Website
+2020-06-25 14:43:23,471 Newsroom : Iterating Article
+2020-06-25 14:43:23,471 Iterating...
+2020-06-25 14:43:23,567 2020-06-25 04:45:00
+2020-06-25 14:43:23,567 No More Aricle
+2020-06-25 14:43:23,567 Newsroom : Run Succesfully
+2020-06-25 14:43:23,687 Executing finally bllock
+2020-06-25 14:43:23,688 Accesswire Job Completed
+2020-06-25 14:45:09,020 :Running..
+2020-06-25 14:45:09,020 2020-06-25 05:15:09.019831
+2020-06-25 14:45:09,020 Accesswire Job Started
+2020-06-25 14:45:09,020 Newsroom : Scrapping..
+2020-06-25 14:45:15,087 News:Reading txt tile
+2020-06-25 14:45:15,088 Newsroom : Opening Website
+2020-06-25 14:45:15,183 Newsroom : Iterating Article
+2020-06-25 14:45:15,183 Iterating...
+2020-06-25 14:45:15,273 2020-06-25 04:45:00
+2020-06-25 14:45:15,273 No More Aricle
+2020-06-25 14:45:15,273 Newsroom : Run Succesfully
+2020-06-25 14:45:15,389 Executing finally bllock
+2020-06-25 14:45:15,389 Accesswire Job Completed
+2020-06-25 14:47:09,018 :Running..
+2020-06-25 14:47:09,018 2020-06-25 05:17:09.017742
+2020-06-25 14:47:09,018 Accesswire Job Started
+2020-06-25 14:47:09,019 Newsroom : Scrapping..
+2020-06-25 14:47:15,392 News:Reading txt tile
+2020-06-25 14:47:15,393 Newsroom : Opening Website
+2020-06-25 14:47:15,507 Newsroom : Iterating Article
+2020-06-25 14:47:15,507 Iterating...
+2020-06-25 14:47:15,602 2020-06-25 04:45:00
+2020-06-25 14:47:15,602 No More Aricle
+2020-06-25 14:47:15,603 Newsroom : Run Succesfully
+2020-06-25 14:47:15,717 Executing finally bllock
+2020-06-25 14:47:15,718 Accesswire Job Completed
+2020-06-25 14:49:09,017 :Running..
+2020-06-25 14:49:09,017 2020-06-25 05:19:09.016985
+2020-06-25 14:49:09,017 Accesswire Job Started
+2020-06-25 14:49:09,017 Newsroom : Scrapping..
+2020-06-25 14:49:39,954 Heartbeat blocked for more than 5 seconds.
+2020-06-25 14:49:44,955 Heartbeat blocked for more than 10 seconds.
+2020-06-25 14:49:46,672 News:Reading txt tile
+2020-06-25 14:49:46,673 Newsroom : Opening Website
+2020-06-25 14:49:46,770 Newsroom : Iterating Article
+2020-06-25 14:49:46,770 Iterating...
+2020-06-25 14:49:46,869 2020-06-25 04:45:00
+2020-06-25 14:49:46,869 No More Aricle
+2020-06-25 14:49:46,870 Newsroom : Run Succesfully
+2020-06-25 14:49:46,995 Executing finally bllock
+2020-06-25 14:49:46,996 Accesswire Job Completed
+2020-06-25 14:49:47,282 Websocket closed with 1006 (), attempting a reconnect.
+2020-06-25 14:49:47,283 Got a request to RESUME the websocket.
+2020-06-25 14:49:48,126 Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-06-25 14:49:48,129 Shard ID None has sent the RESUME payload.
+2020-06-25 14:49:48,417 Shard ID None has successfully RESUMED session 306f0eac608c7e509719731bb867289d under trace ["gateway-prd-main-xk9m",{"micros":6996,"calls":["discord-sessions-prd-1-52",{"micros":25}]}].
+2020-06-25 14:50:28,248 Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-06-25 14:51:09,016 :Running..
+2020-06-25 14:51:09,017 2020-06-25 05:21:09.016560
+2020-06-25 14:51:09,017 Accesswire Job Started
+2020-06-25 14:51:09,017 Newsroom : Scrapping..
+2020-06-25 14:51:15,631 Heartbeat blocked for more than 5 seconds.
+2020-06-25 14:51:16,843 News:Reading txt tile
+2020-06-25 14:51:16,843 Newsroom : Opening Website
+2020-06-25 14:51:16,933 Newsroom : Iterating Article
+2020-06-25 14:51:16,934 Iterating...
+2020-06-25 14:51:17,030 2020-06-25 04:45:00
+2020-06-25 14:51:17,030 No More Aricle
+2020-06-25 14:51:17,031 Newsroom : Run Succesfully
+2020-06-25 14:51:17,145 Executing finally bllock
+2020-06-25 14:51:17,146 Accesswire Job Completed
+2020-06-25 14:53:09,024 :Running..
+2020-06-25 14:53:09,024 2020-06-25 05:23:09.024139
+2020-06-25 14:53:09,025 Accesswire Job Started
+2020-06-25 14:53:09,025 Newsroom : Scrapping..
+2020-06-25 14:53:15,209 News:Reading txt tile
+2020-06-25 14:53:15,210 Newsroom : Opening Website
+2020-06-25 14:53:15,305 Newsroom : Iterating Article
+2020-06-25 14:53:15,305 Iterating...
+2020-06-25 14:53:15,402 2020-06-25 04:45:00
+2020-06-25 14:53:15,402 No More Aricle
+2020-06-25 14:53:15,402 Newsroom : Run Succesfully
+2020-06-25 14:53:15,520 Executing finally bllock
+2020-06-25 14:53:15,520 Accesswire Job Completed
+2020-06-25 14:55:09,024 :Running..
+2020-06-25 14:55:09,024 2020-06-25 05:25:09.023834
+2020-06-25 14:55:09,024 Accesswire Job Started
+2020-06-25 14:55:09,024 Newsroom : Scrapping..
+2020-06-25 14:55:15,994 News:Reading txt tile
+2020-06-25 14:55:15,994 Newsroom : Opening Website
+2020-06-25 14:55:16,095 Newsroom : Iterating Article
+2020-06-25 14:55:16,095 Iterating...
+2020-06-25 14:55:16,198 2020-06-25 04:45:00
+2020-06-25 14:55:16,199 No More Aricle
+2020-06-25 14:55:16,199 Newsroom : Run Succesfully
+2020-06-25 14:55:16,318 Executing finally bllock
+2020-06-25 14:55:16,319 Accesswire Job Completed
+2020-06-25 14:57:09,020 :Running..
+2020-06-25 14:57:09,020 2020-06-25 05:27:09.019835
+2020-06-25 14:57:09,020 Accesswire Job Started
+2020-06-25 14:57:09,020 Newsroom : Scrapping..
+2020-06-25 14:57:33,410 Heartbeat blocked for more than 5 seconds.
+2020-06-25 14:57:36,804 News:Reading txt tile
+2020-06-25 14:57:36,804 Newsroom : Opening Website
+2020-06-25 14:57:36,880 Newsroom : Iterating Article
+2020-06-25 14:57:36,881 Newsroom : Run Succesfully
+2020-06-25 14:57:37,007 Executing finally bllock
+2020-06-25 14:57:37,012 Accesswire Job Completed
+2020-06-25 14:59:09,023 :Running..
+2020-06-25 14:59:09,024 2020-06-25 05:29:09.023721
+2020-06-25 14:59:09,024 Accesswire Job Started
+2020-06-25 14:59:09,024 Newsroom : Scrapping..
+2020-06-25 14:59:29,442 News:Reading txt tile
+2020-06-25 14:59:29,442 Newsroom : Opening Website
+2020-06-25 14:59:29,544 Newsroom : Iterating Article
+2020-06-25 14:59:29,545 Iterating...
+2020-06-25 14:59:29,637 2020-06-25 04:45:00
+2020-06-25 14:59:29,637 No More Aricle
+2020-06-25 14:59:29,637 Newsroom : Run Succesfully
+2020-06-25 14:59:29,753 Executing finally bllock
+2020-06-25 14:59:29,754 Accesswire Job Completed
+2020-06-25 15:01:09,022 :Running..
+2020-06-25 15:01:09,022 2020-06-25 05:31:09.022105
+2020-06-25 15:01:09,022 Accesswire Job Started
+2020-06-25 15:01:09,022 Newsroom : Scrapping..
+2020-06-25 15:01:15,608 News:Reading txt tile
+2020-06-25 15:01:15,608 Newsroom : Opening Website
+2020-06-25 15:01:15,703 Newsroom : Iterating Article
+2020-06-25 15:01:15,703 Iterating...
+2020-06-25 15:01:15,789 2020-06-25 04:45:00
+2020-06-25 15:01:15,789 No More Aricle
+2020-06-25 15:01:15,789 Newsroom : Run Succesfully
+2020-06-25 15:01:15,906 Executing finally bllock
+2020-06-25 15:01:15,907 Accesswire Job Completed
+2020-06-25 15:03:09,018 :Running..
+2020-06-25 15:03:09,018 2020-06-25 05:33:09.018107
+2020-06-25 15:03:09,019 Accesswire Job Started
+2020-06-25 15:03:09,019 Newsroom : Scrapping..
+2020-06-25 15:03:15,842 News:Reading txt tile
+2020-06-25 15:03:15,844 Newsroom : Opening Website
+2020-06-25 15:03:15,933 Newsroom : Iterating Article
+2020-06-25 15:03:15,933 Iterating...
+2020-06-25 15:03:16,024 2020-06-25 04:45:00
+2020-06-25 15:03:16,024 No More Aricle
+2020-06-25 15:03:16,025 Newsroom : Run Succesfully
+2020-06-25 15:03:16,140 Executing finally bllock
+2020-06-25 15:03:16,141 Accesswire Job Completed
+2020-06-25 15:05:09,023 :Running..
+2020-06-25 15:05:09,024 2020-06-25 05:35:09.023749
+2020-06-25 15:05:09,024 Accesswire Job Started
+2020-06-25 15:05:09,024 Newsroom : Scrapping..
+2020-06-25 15:05:15,781 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:05:20,782 Heartbeat blocked for more than 10 seconds.
+2020-06-25 15:05:25,782 Heartbeat blocked for more than 15 seconds.
+2020-06-25 15:05:30,533 News:Reading txt tile
+2020-06-25 15:05:30,534 Newsroom : Opening Website
+2020-06-25 15:05:30,655 Newsroom : Iterating Article
+2020-06-25 15:05:30,656 Iterating...
+2020-06-25 15:05:30,757 2020-06-25 04:45:00
+2020-06-25 15:05:30,759 No More Aricle
+2020-06-25 15:05:30,759 Newsroom : Run Succesfully
+2020-06-25 15:05:30,783 Heartbeat blocked for more than 20 seconds.
+2020-06-25 15:05:30,872 Executing finally bllock
+2020-06-25 15:05:30,873 Accesswire Job Completed
+2020-06-25 15:07:09,024 :Running..
+2020-06-25 15:07:09,024 2020-06-25 05:37:09.023954
+2020-06-25 15:07:09,025 Accesswire Job Started
+2020-06-25 15:07:09,025 Newsroom : Scrapping..
+2020-06-25 15:07:24,003 News:Reading txt tile
+2020-06-25 15:07:24,004 Newsroom : Opening Website
+2020-06-25 15:07:24,104 Newsroom : Iterating Article
+2020-06-25 15:07:24,104 Iterating...
+2020-06-25 15:07:24,200 2020-06-25 04:45:00
+2020-06-25 15:07:24,200 No More Aricle
+2020-06-25 15:07:24,200 Newsroom : Run Succesfully
+2020-06-25 15:07:24,318 Executing finally bllock
+2020-06-25 15:07:24,322 Accesswire Job Completed
+2020-06-25 15:09:09,020 :Running..
+2020-06-25 15:09:09,020 2020-06-25 05:39:09.019691
+2020-06-25 15:09:09,020 Accesswire Job Started
+2020-06-25 15:09:09,020 Newsroom : Scrapping..
+2020-06-25 15:09:30,570 News:Reading txt tile
+2020-06-25 15:09:30,570 Newsroom : Opening Website
+2020-06-25 15:09:30,671 Newsroom : Iterating Article
+2020-06-25 15:09:30,671 Iterating...
+2020-06-25 15:09:30,792 2020-06-25 04:45:00
+2020-06-25 15:09:30,792 No More Aricle
+2020-06-25 15:09:30,793 Newsroom : Run Succesfully
+2020-06-25 15:09:30,909 Executing finally bllock
+2020-06-25 15:09:30,910 Accesswire Job Completed
+2020-06-25 15:11:09,024 :Running..
+2020-06-25 15:11:09,024 2020-06-25 05:41:09.024023
+2020-06-25 15:11:09,024 Accesswire Job Started
+2020-06-25 15:11:09,025 Newsroom : Scrapping..
+2020-06-25 15:11:15,936 News:Reading txt tile
+2020-06-25 15:11:15,937 Newsroom : Opening Website
+2020-06-25 15:11:16,032 Newsroom : Iterating Article
+2020-06-25 15:11:16,032 Iterating...
+2020-06-25 15:11:16,118 2020-06-25 04:45:00
+2020-06-25 15:11:16,119 No More Aricle
+2020-06-25 15:11:16,119 Newsroom : Run Succesfully
+2020-06-25 15:11:16,238 Executing finally bllock
+2020-06-25 15:11:16,239 Accesswire Job Completed
+2020-06-25 15:13:09,020 :Running..
+2020-06-25 15:13:09,020 2020-06-25 05:43:09.019985
+2020-06-25 15:13:09,021 Accesswire Job Started
+2020-06-25 15:13:09,021 Newsroom : Scrapping..
+2020-06-25 15:13:15,429 News:Reading txt tile
+2020-06-25 15:13:15,430 Newsroom : Opening Website
+2020-06-25 15:13:15,534 Newsroom : Iterating Article
+2020-06-25 15:13:15,534 Iterating...
+2020-06-25 15:13:15,631 2020-06-25 04:45:00
+2020-06-25 15:13:15,632 No More Aricle
+2020-06-25 15:13:15,632 Newsroom : Run Succesfully
+2020-06-25 15:13:15,700 Executing finally bllock
+2020-06-25 15:13:15,700 Accesswire Job Completed
+2020-06-25 15:15:09,017 :Running..
+2020-06-25 15:15:09,017 2020-06-25 05:45:09.016881
+2020-06-25 15:15:09,017 Accesswire Job Started
+2020-06-25 15:15:09,017 Newsroom : Scrapping..
+2020-06-25 15:15:21,304 News:Reading txt tile
+2020-06-25 15:15:21,305 Newsroom : Opening Website
+2020-06-25 15:15:21,393 Newsroom : Iterating Article
+2020-06-25 15:15:21,394 Iterating...
+2020-06-25 15:15:21,490 2020-06-25 04:45:00
+2020-06-25 15:15:21,491 No More Aricle
+2020-06-25 15:15:21,491 Newsroom : Run Succesfully
+2020-06-25 15:15:21,616 Executing finally bllock
+2020-06-25 15:15:21,617 Accesswire Job Completed
+2020-06-25 15:17:09,022 :Running..
+2020-06-25 15:17:09,022 2020-06-25 05:47:09.022064
+2020-06-25 15:17:09,022 Accesswire Job Started
+2020-06-25 15:17:09,022 Newsroom : Scrapping..
+2020-06-25 15:17:17,150 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:17:17,297 News:Reading txt tile
+2020-06-25 15:17:17,297 Newsroom : Opening Website
+2020-06-25 15:17:17,384 Newsroom : Iterating Article
+2020-06-25 15:17:17,385 Iterating...
+2020-06-25 15:17:17,472 2020-06-25 04:45:00
+2020-06-25 15:17:17,472 No More Aricle
+2020-06-25 15:17:17,472 Newsroom : Run Succesfully
+2020-06-25 15:17:17,587 Executing finally bllock
+2020-06-25 15:17:17,587 Accesswire Job Completed
+2020-06-25 15:19:09,019 :Running..
+2020-06-25 15:19:09,020 2020-06-25 05:49:09.019757
+2020-06-25 15:19:09,020 Accesswire Job Started
+2020-06-25 15:19:09,020 Newsroom : Scrapping..
+2020-06-25 15:19:26,342 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:19:29,427 News:Reading txt tile
+2020-06-25 15:19:29,428 Newsroom : Opening Website
+2020-06-25 15:19:29,519 Newsroom : Iterating Article
+2020-06-25 15:19:29,520 Iterating...
+2020-06-25 15:19:29,612 2020-06-25 04:45:00
+2020-06-25 15:19:29,612 No More Aricle
+2020-06-25 15:19:29,613 Newsroom : Run Succesfully
+2020-06-25 15:19:29,727 Executing finally bllock
+2020-06-25 15:19:29,728 Accesswire Job Completed
+2020-06-25 15:21:09,024 :Running..
+2020-06-25 15:21:09,024 2020-06-25 05:51:09.023814
+2020-06-25 15:21:09,024 Accesswire Job Started
+2020-06-25 15:21:09,024 Newsroom : Scrapping..
+2020-06-25 15:21:20,638 News:Reading txt tile
+2020-06-25 15:21:20,638 Newsroom : Opening Website
+2020-06-25 15:21:38,485 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:21:40,856 Exception
+2020-06-25 15:21:40,857 Message: 
+
+2020-06-25 15:21:40,975 Executing finally bllock
+2020-06-25 15:21:40,975 Accesswire Job Completed
+2020-06-25 15:23:09,021 :Running..
+2020-06-25 15:23:09,021 2020-06-25 05:53:09.021247
+2020-06-25 15:23:09,022 Accesswire Job Started
+2020-06-25 15:23:09,022 Newsroom : Scrapping..
+2020-06-25 15:23:24,081 News:Reading txt tile
+2020-06-25 15:23:24,081 Newsroom : Opening Website
+2020-06-25 15:23:24,200 Newsroom : Iterating Article
+2020-06-25 15:23:24,200 Iterating...
+2020-06-25 15:23:24,298 2020-06-25 04:45:00
+2020-06-25 15:23:24,299 No More Aricle
+2020-06-25 15:23:24,299 Newsroom : Run Succesfully
+2020-06-25 15:23:24,415 Executing finally bllock
+2020-06-25 15:23:24,415 Accesswire Job Completed
+2020-06-25 15:25:09,018 :Running..
+2020-06-25 15:25:09,018 2020-06-25 05:55:09.018089
+2020-06-25 15:25:09,019 Accesswire Job Started
+2020-06-25 15:25:09,019 Newsroom : Scrapping..
+2020-06-25 15:25:19,429 News:Reading txt tile
+2020-06-25 15:25:19,429 Newsroom : Opening Website
+2020-06-25 15:25:39,595 Exception
+2020-06-25 15:25:39,595 Message: 
+
+2020-06-25 15:25:39,716 Executing finally bllock
+2020-06-25 15:25:39,716 Accesswire Job Completed
+2020-06-25 15:27:09,024 :Running..
+2020-06-25 15:27:09,024 2020-06-25 05:57:09.023982
+2020-06-25 15:27:09,024 Accesswire Job Started
+2020-06-25 15:27:09,025 Newsroom : Scrapping..
+2020-06-25 15:27:15,989 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:27:20,989 Heartbeat blocked for more than 10 seconds.
+2020-06-25 15:27:21,551 News:Reading txt tile
+2020-06-25 15:27:21,552 Newsroom : Opening Website
+2020-06-25 15:27:21,651 Newsroom : Iterating Article
+2020-06-25 15:27:21,651 Iterating...
+2020-06-25 15:27:21,739 2020-06-25 04:45:00
+2020-06-25 15:27:21,739 No More Aricle
+2020-06-25 15:27:21,739 Newsroom : Run Succesfully
+2020-06-25 15:27:21,854 Executing finally bllock
+2020-06-25 15:27:21,856 Accesswire Job Completed
+2020-06-25 15:29:09,020 :Running..
+2020-06-25 15:29:09,020 2020-06-25 05:59:09.019880
+2020-06-25 15:29:09,020 Accesswire Job Started
+2020-06-25 15:29:09,020 Newsroom : Scrapping..
+2020-06-25 15:29:25,221 News:Reading txt tile
+2020-06-25 15:29:25,221 Newsroom : Opening Website
+2020-06-25 15:29:25,335 Newsroom : Iterating Article
+2020-06-25 15:29:25,335 Iterating...
+2020-06-25 15:29:25,438 2020-06-25 04:45:00
+2020-06-25 15:29:25,438 No More Aricle
+2020-06-25 15:29:25,438 Newsroom : Run Succesfully
+2020-06-25 15:29:25,553 Executing finally bllock
+2020-06-25 15:29:25,554 Accesswire Job Completed
+2020-06-25 15:31:09,018 :Running..
+2020-06-25 15:31:09,018 2020-06-25 06:01:09.017760
+2020-06-25 15:31:09,018 Accesswire Job Started
+2020-06-25 15:31:09,019 Newsroom : Scrapping..
+2020-06-25 15:31:15,740 News:Reading txt tile
+2020-06-25 15:31:15,741 Newsroom : Opening Website
+2020-06-25 15:31:15,860 Newsroom : Iterating Article
+2020-06-25 15:31:15,860 Iterating...
+2020-06-25 15:31:15,954 2020-06-25 06:00:00
+2020-06-25 15:31:15,954 checking for value in last run
+2020-06-25 15:31:15,981 Newsroom : Article Found
+2020-06-25 15:31:16,021 Newsroom : Opening Tab
+2020-06-25 15:31:19,541 Newsroom : Searching for keyword
+2020-06-25 15:31:19,542 Iterating...
+2020-06-25 15:31:19,645 2020-06-25 04:45:00
+2020-06-25 15:31:19,646 No More Aricle
+2020-06-25 15:31:19,646 Newsroom : Run Succesfully
+2020-06-25 15:31:19,722 Executing finally bllock
+2020-06-25 15:31:19,722 Accesswire Job Completed
+2020-06-25 15:33:09,016 :Running..
+2020-06-25 15:33:09,016 2020-06-25 06:03:09.016456
+2020-06-25 15:33:09,017 Accesswire Job Started
+2020-06-25 15:33:09,017 Newsroom : Scrapping..
+2020-06-25 15:33:15,709 News:Reading txt tile
+2020-06-25 15:33:15,710 Newsroom : Opening Website
+2020-06-25 15:33:15,889 Newsroom : Iterating Article
+2020-06-25 15:33:15,889 Iterating...
+2020-06-25 15:33:16,008 2020-06-25 06:00:00
+2020-06-25 15:33:16,008 No More Aricle
+2020-06-25 15:33:16,008 Newsroom : Run Succesfully
+2020-06-25 15:33:16,132 Executing finally bllock
+2020-06-25 15:33:16,133 Accesswire Job Completed
+2020-06-25 15:35:09,023 :Running..
+2020-06-25 15:35:09,024 2020-06-25 06:05:09.023745
+2020-06-25 15:35:09,024 Accesswire Job Started
+2020-06-25 15:35:09,024 Newsroom : Scrapping..
+2020-06-25 15:35:20,251 News:Reading txt tile
+2020-06-25 15:35:20,261 Newsroom : Opening Website
+2020-06-25 15:35:40,623 Exception
+2020-06-25 15:35:40,623 Message: 
+
+2020-06-25 15:35:40,838 Executing finally bllock
+2020-06-25 15:35:40,839 Accesswire Job Completed
+2020-06-25 15:37:09,021 :Running..
+2020-06-25 15:37:09,021 2020-06-25 06:07:09.020845
+2020-06-25 15:37:09,021 Accesswire Job Started
+2020-06-25 15:37:09,022 Newsroom : Scrapping..
+2020-06-25 15:37:25,401 News:Reading txt tile
+2020-06-25 15:37:25,416 Newsroom : Opening Website
+2020-06-25 15:37:25,616 Newsroom : Iterating Article
+2020-06-25 15:37:25,616 Iterating...
+2020-06-25 15:37:25,780 2020-06-25 06:00:00
+2020-06-25 15:37:25,780 No More Aricle
+2020-06-25 15:37:25,781 Newsroom : Run Succesfully
+2020-06-25 15:37:25,900 Executing finally bllock
+2020-06-25 15:37:25,901 Accesswire Job Completed
+2020-06-25 15:39:09,018 :Running..
+2020-06-25 15:39:09,018 2020-06-25 06:09:09.017656
+2020-06-25 15:39:09,018 Accesswire Job Started
+2020-06-25 15:39:09,019 Newsroom : Scrapping..
+2020-06-25 15:39:19,702 News:Reading txt tile
+2020-06-25 15:39:19,703 Newsroom : Opening Website
+2020-06-25 15:39:19,821 Newsroom : Iterating Article
+2020-06-25 15:39:19,821 Iterating...
+2020-06-25 15:39:19,917 2020-06-25 06:00:00
+2020-06-25 15:39:19,917 No More Aricle
+2020-06-25 15:39:19,917 Newsroom : Run Succesfully
+2020-06-25 15:39:20,038 Executing finally bllock
+2020-06-25 15:39:20,038 Accesswire Job Completed
+2020-06-25 15:41:09,023 :Running..
+2020-06-25 15:41:09,024 2020-06-25 06:11:09.023780
+2020-06-25 15:41:09,024 Accesswire Job Started
+2020-06-25 15:41:09,024 Newsroom : Scrapping..
+2020-06-25 15:41:15,852 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:41:16,003 News:Reading txt tile
+2020-06-25 15:41:16,003 Newsroom : Opening Website
+2020-06-25 15:41:16,109 Newsroom : Iterating Article
+2020-06-25 15:41:16,109 Iterating...
+2020-06-25 15:41:16,202 2020-06-25 06:00:00
+2020-06-25 15:41:16,202 No More Aricle
+2020-06-25 15:41:16,202 Newsroom : Run Succesfully
+2020-06-25 15:41:16,325 Executing finally bllock
+2020-06-25 15:41:16,326 Accesswire Job Completed
+2020-06-25 15:43:09,024 :Running..
+2020-06-25 15:43:09,024 2020-06-25 06:13:09.023867
+2020-06-25 15:43:09,024 Accesswire Job Started
+2020-06-25 15:43:09,025 Newsroom : Scrapping..
+2020-06-25 15:43:25,082 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:43:25,314 News:Reading txt tile
+2020-06-25 15:43:25,315 Newsroom : Opening Website
+2020-06-25 15:43:25,428 Newsroom : Iterating Article
+2020-06-25 15:43:25,429 Iterating...
+2020-06-25 15:43:25,525 2020-06-25 06:00:00
+2020-06-25 15:43:25,525 No More Aricle
+2020-06-25 15:43:25,526 Newsroom : Run Succesfully
+2020-06-25 15:43:25,640 Executing finally bllock
+2020-06-25 15:43:25,640 Accesswire Job Completed
+2020-06-25 15:45:09,019 :Running..
+2020-06-25 15:45:09,019 2020-06-25 06:15:09.019123
+2020-06-25 15:45:09,020 Accesswire Job Started
+2020-06-25 15:45:09,020 Newsroom : Scrapping..
+2020-06-25 15:45:16,051 News:Reading txt tile
+2020-06-25 15:45:16,052 Newsroom : Opening Website
+2020-06-25 15:45:16,164 Newsroom : Iterating Article
+2020-06-25 15:45:16,165 Iterating...
+2020-06-25 15:45:16,270 2020-06-25 06:00:00
+2020-06-25 15:45:16,270 No More Aricle
+2020-06-25 15:45:16,270 Newsroom : Run Succesfully
+2020-06-25 15:45:16,400 Executing finally bllock
+2020-06-25 15:45:16,401 Accesswire Job Completed
+2020-06-25 15:47:09,016 :Running..
+2020-06-25 15:47:09,017 2020-06-25 06:17:09.016714
+2020-06-25 15:47:09,017 Accesswire Job Started
+2020-06-25 15:47:09,017 Newsroom : Scrapping..
+2020-06-25 15:47:25,989 News:Reading txt tile
+2020-06-25 15:47:25,991 Newsroom : Opening Website
+2020-06-25 15:47:26,098 Newsroom : Iterating Article
+2020-06-25 15:47:26,098 Iterating...
+2020-06-25 15:47:26,197 2020-06-25 06:00:00
+2020-06-25 15:47:26,197 No More Aricle
+2020-06-25 15:47:26,198 Newsroom : Run Succesfully
+2020-06-25 15:47:26,315 Executing finally bllock
+2020-06-25 15:47:26,316 Accesswire Job Completed
+2020-06-25 15:49:09,017 :Running..
+2020-06-25 15:49:09,017 2020-06-25 06:19:09.017169
+2020-06-25 15:49:09,018 Accesswire Job Started
+2020-06-25 15:49:09,018 Newsroom : Scrapping..
+2020-06-25 15:49:41,905 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:49:46,906 Heartbeat blocked for more than 10 seconds.
+2020-06-25 15:49:47,318 News:Reading txt tile
+2020-06-25 15:49:47,319 Newsroom : Opening Website
+2020-06-25 15:49:47,421 Newsroom : Iterating Article
+2020-06-25 15:49:47,421 Iterating...
+2020-06-25 15:49:47,522 2020-06-25 06:00:00
+2020-06-25 15:49:47,522 No More Aricle
+2020-06-25 15:49:47,522 Newsroom : Run Succesfully
+2020-06-25 15:49:47,649 Executing finally bllock
+2020-06-25 15:49:47,650 Accesswire Job Completed
+2020-06-25 15:51:09,017 :Running..
+2020-06-25 15:51:09,017 2020-06-25 06:21:09.016973
+2020-06-25 15:51:09,018 Accesswire Job Started
+2020-06-25 15:51:09,018 Newsroom : Scrapping..
+2020-06-25 15:51:15,159 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:51:20,160 Heartbeat blocked for more than 10 seconds.
+2020-06-25 15:51:25,161 Heartbeat blocked for more than 15 seconds.
+2020-06-25 15:51:25,913 News:Reading txt tile
+2020-06-25 15:51:25,913 Newsroom : Opening Website
+2020-06-25 15:51:26,021 Newsroom : Iterating Article
+2020-06-25 15:51:26,021 Iterating...
+2020-06-25 15:51:26,107 2020-06-25 06:00:00
+2020-06-25 15:51:26,107 No More Aricle
+2020-06-25 15:51:26,107 Newsroom : Run Succesfully
+2020-06-25 15:51:26,222 Executing finally bllock
+2020-06-25 15:51:26,223 Accesswire Job Completed
+2020-06-25 15:53:09,017 :Running..
+2020-06-25 15:53:09,018 2020-06-25 06:23:09.017628
+2020-06-25 15:53:09,018 Accesswire Job Started
+2020-06-25 15:53:09,019 Newsroom : Scrapping..
+2020-06-25 15:53:20,452 News:Reading txt tile
+2020-06-25 15:53:20,452 Newsroom : Opening Website
+2020-06-25 15:53:34,979 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:53:39,980 Heartbeat blocked for more than 10 seconds.
+2020-06-25 15:53:40,673 Exception
+2020-06-25 15:53:40,674 Message: 
+
+2020-06-25 15:53:40,789 Executing finally bllock
+2020-06-25 15:53:40,789 Accesswire Job Completed
+2020-06-25 15:55:09,020 :Running..
+2020-06-25 15:55:09,020 2020-06-25 06:25:09.019902
+2020-06-25 15:55:09,020 Accesswire Job Started
+2020-06-25 15:55:09,021 Newsroom : Scrapping..
+2020-06-25 15:55:33,197 News:Reading txt tile
+2020-06-25 15:55:33,198 Newsroom : Opening Website
+2020-06-25 15:55:33,296 Newsroom : Iterating Article
+2020-06-25 15:55:33,297 Iterating...
+2020-06-25 15:55:33,398 2020-06-25 06:00:00
+2020-06-25 15:55:33,398 No More Aricle
+2020-06-25 15:55:33,399 Newsroom : Run Succesfully
+2020-06-25 15:55:33,513 Executing finally bllock
+2020-06-25 15:55:33,514 Accesswire Job Completed
+2020-06-25 15:57:09,018 :Running..
+2020-06-25 15:57:09,018 2020-06-25 06:27:09.018029
+2020-06-25 15:57:09,018 Accesswire Job Started
+2020-06-25 15:57:09,018 Newsroom : Scrapping..
+2020-06-25 15:57:19,333 News:Reading txt tile
+2020-06-25 15:57:19,334 Newsroom : Opening Website
+2020-06-25 15:57:19,426 Newsroom : Iterating Article
+2020-06-25 15:57:19,426 Iterating...
+2020-06-25 15:57:19,515 2020-06-25 06:00:00
+2020-06-25 15:57:19,515 No More Aricle
+2020-06-25 15:57:19,516 Newsroom : Run Succesfully
+2020-06-25 15:57:19,632 Executing finally bllock
+2020-06-25 15:57:19,633 Accesswire Job Completed
+2020-06-25 15:59:09,023 :Running..
+2020-06-25 15:59:09,024 2020-06-25 06:29:09.023755
+2020-06-25 15:59:09,024 Accesswire Job Started
+2020-06-25 15:59:09,024 Newsroom : Scrapping..
+2020-06-25 15:59:15,803 Heartbeat blocked for more than 5 seconds.
+2020-06-25 15:59:19,685 News:Reading txt tile
+2020-06-25 15:59:19,686 Newsroom : Opening Website
+2020-06-25 15:59:19,781 Newsroom : Iterating Article
+2020-06-25 15:59:19,781 Iterating...
+2020-06-25 15:59:19,868 2020-06-25 06:00:00
+2020-06-25 15:59:19,868 No More Aricle
+2020-06-25 15:59:19,868 Newsroom : Run Succesfully
+2020-06-25 15:59:20,187 Executing finally bllock
+2020-06-25 15:59:20,188 Accesswire Job Completed
+2020-06-25 16:01:09,020 :Running..
+2020-06-25 16:01:09,020 2020-06-25 06:31:09.020038
+2020-06-25 16:01:09,021 Accesswire Job Started
+2020-06-25 16:01:09,021 Newsroom : Scrapping..
+2020-06-25 16:01:15,945 News:Reading txt tile
+2020-06-25 16:01:15,946 Newsroom : Opening Website
+2020-06-25 16:01:16,099 Newsroom : Iterating Article
+2020-06-25 16:01:16,099 Iterating...
+2020-06-25 16:01:16,202 2020-06-25 06:00:00
+2020-06-25 16:01:16,202 No More Aricle
+2020-06-25 16:01:16,203 Newsroom : Run Succesfully
+2020-06-25 16:01:16,329 Executing finally bllock
+2020-06-25 16:01:16,329 Accesswire Job Completed
+2020-06-25 16:03:09,020 :Running..
+2020-06-25 16:03:09,020 2020-06-25 06:33:09.019942
+2020-06-25 16:03:09,021 Accesswire Job Started
+2020-06-25 16:03:09,021 Newsroom : Scrapping..
+2020-06-25 16:03:15,505 News:Reading txt tile
+2020-06-25 16:03:15,507 Newsroom : Opening Website
+2020-06-25 16:03:15,597 Newsroom : Iterating Article
+2020-06-25 16:03:15,597 Iterating...
+2020-06-25 16:03:15,690 2020-06-25 06:00:00
+2020-06-25 16:03:15,690 No More Aricle
+2020-06-25 16:03:15,691 Newsroom : Run Succesfully
+2020-06-25 16:03:15,806 Executing finally bllock
+2020-06-25 16:03:15,807 Accesswire Job Completed
+2020-06-25 16:05:09,018 :Running..
+2020-06-25 16:05:09,018 2020-06-25 06:35:09.018315
+2020-06-25 16:05:09,019 Accesswire Job Started
+2020-06-25 16:05:09,019 Newsroom : Scrapping..
+2020-06-25 16:05:16,022 News:Reading txt tile
+2020-06-25 16:05:16,023 Newsroom : Opening Website
+2020-06-25 16:05:16,140 Newsroom : Iterating Article
+2020-06-25 16:05:16,140 Iterating...
+2020-06-25 16:05:16,253 2020-06-25 06:00:00
+2020-06-25 16:05:16,253 No More Aricle
+2020-06-25 16:05:16,253 Newsroom : Run Succesfully
+2020-06-25 16:05:16,380 Executing finally bllock
+2020-06-25 16:05:16,381 Accesswire Job Completed
+2020-06-25 16:07:09,017 :Running..
+2020-06-25 16:07:09,017 2020-06-25 06:37:09.016978
+2020-06-25 16:07:09,018 Accesswire Job Started
+2020-06-25 16:07:09,018 Newsroom : Scrapping..
+2020-06-25 16:07:15,445 News:Reading txt tile
+2020-06-25 16:07:15,446 Newsroom : Opening Website
+2020-06-25 16:07:15,537 Newsroom : Iterating Article
+2020-06-25 16:07:15,538 Iterating...
+2020-06-25 16:07:15,631 2020-06-25 06:00:00
+2020-06-25 16:07:15,632 No More Aricle
+2020-06-25 16:07:15,632 Newsroom : Run Succesfully
+2020-06-25 16:07:15,747 Executing finally bllock
+2020-06-25 16:07:15,747 Accesswire Job Completed
+2020-06-25 16:09:09,024 :Running..
+2020-06-25 16:09:09,024 2020-06-25 06:39:09.023903
+2020-06-25 16:09:09,025 Accesswire Job Started
+2020-06-25 16:09:09,025 Newsroom : Scrapping..
+2020-06-25 16:09:38,323 News:Reading txt tile
+2020-06-25 16:09:38,326 Newsroom : Opening Website
+2020-06-25 16:09:38,634 Newsroom : Iterating Article
+2020-06-25 16:09:38,639 Iterating...
+2020-06-25 16:09:38,890 2020-06-25 06:00:00
+2020-06-25 16:09:38,891 No More Aricle
+2020-06-25 16:09:38,891 Newsroom : Run Succesfully
+2020-06-25 16:09:39,045 Executing finally bllock
+2020-06-25 16:09:39,045 Accesswire Job Completed
+2020-06-25 16:11:09,023 :Running..
+2020-06-25 16:11:09,024 2020-06-25 06:41:09.023708
+2020-06-25 16:11:09,024 Accesswire Job Started
+2020-06-25 16:11:09,024 Newsroom : Scrapping..
+2020-06-25 16:11:15,766 News:Reading txt tile
+2020-06-25 16:11:15,769 Newsroom : Opening Website
+2020-06-25 16:11:15,867 Newsroom : Iterating Article
+2020-06-25 16:11:15,868 Iterating...
+2020-06-25 16:11:15,979 2020-06-25 06:00:00
+2020-06-25 16:11:15,979 No More Aricle
+2020-06-25 16:11:15,979 Newsroom : Run Succesfully
+2020-06-25 16:11:16,108 Executing finally bllock
+2020-06-25 16:11:16,109 Accesswire Job Completed
+2020-06-25 16:13:09,020 :Running..
+2020-06-25 16:13:09,020 2020-06-25 06:43:09.019954
+2020-06-25 16:13:09,020 Accesswire Job Started
+2020-06-25 16:13:09,021 Newsroom : Scrapping..
+2020-06-25 16:13:24,989 News:Reading txt tile
+2020-06-25 16:13:24,990 Newsroom : Opening Website
+2020-06-25 16:13:25,087 Newsroom : Iterating Article
+2020-06-25 16:13:25,087 Iterating...
+2020-06-25 16:13:25,185 2020-06-25 06:00:00
+2020-06-25 16:13:25,186 No More Aricle
+2020-06-25 16:13:25,186 Newsroom : Run Succesfully
+2020-06-25 16:13:25,301 Executing finally bllock
+2020-06-25 16:13:25,302 Accesswire Job Completed
+2020-06-25 16:15:09,019 :Running..
+2020-06-25 16:15:09,019 2020-06-25 06:45:09.018947
+2020-06-25 16:15:09,019 Accesswire Job Started
+2020-06-25 16:15:09,019 Newsroom : Scrapping..
+2020-06-25 16:15:14,059 Heartbeat blocked for more than 5 seconds.
+2020-06-25 16:15:19,060 Heartbeat blocked for more than 10 seconds.
+2020-06-25 16:15:20,183 News:Reading txt tile
+2020-06-25 16:15:20,184 Newsroom : Opening Website
+2020-06-25 16:15:24,061 Heartbeat blocked for more than 15 seconds.
+2020-06-25 16:15:29,061 Heartbeat blocked for more than 20 seconds.
+2020-06-25 16:15:34,062 Heartbeat blocked for more than 25 seconds.
+2020-06-25 16:15:39,062 Heartbeat blocked for more than 30 seconds.
+2020-06-25 16:15:40,343 Exception
+2020-06-25 16:15:40,343 Message: 
+
+2020-06-25 16:15:40,460 Executing finally bllock
+2020-06-25 16:15:40,460 Accesswire Job Completed
+2020-06-25 16:17:09,020 :Running..
+2020-06-25 16:17:09,020 2020-06-25 06:47:09.020137
+2020-06-25 16:17:09,021 Accesswire Job Started
+2020-06-25 16:17:09,021 Newsroom : Scrapping..
+2020-06-25 16:17:25,031 News:Reading txt tile
+2020-06-25 16:17:25,031 Newsroom : Opening Website
+2020-06-25 16:17:25,137 Newsroom : Iterating Article
+2020-06-25 16:17:25,137 Iterating...
+2020-06-25 16:17:25,230 2020-06-25 06:00:00
+2020-06-25 16:17:25,231 No More Aricle
+2020-06-25 16:17:25,231 Newsroom : Run Succesfully
+2020-06-25 16:17:25,298 Executing finally bllock
+2020-06-25 16:17:25,299 Accesswire Job Completed
+2020-06-25 16:19:09,018 :Running..
+2020-06-25 16:19:09,019 2020-06-25 06:49:09.018650
+2020-06-25 16:19:09,019 Accesswire Job Started
+2020-06-25 16:19:09,019 Newsroom : Scrapping..
+2020-06-25 16:19:15,777 News:Reading txt tile
+2020-06-25 16:19:15,778 Newsroom : Opening Website
+2020-06-25 16:19:15,868 Newsroom : Iterating Article
+2020-06-25 16:19:15,869 Iterating...
+2020-06-25 16:19:15,967 2020-06-25 06:00:00
+2020-06-25 16:19:15,967 No More Aricle
+2020-06-25 16:19:15,967 Newsroom : Run Succesfully
+2020-06-25 16:19:16,084 Executing finally bllock
+2020-06-25 16:19:16,085 Accesswire Job Completed
+2020-06-25 16:21:09,017 :Running..
+2020-06-25 16:21:09,017 2020-06-25 06:51:09.017001
+2020-06-25 16:21:09,017 Accesswire Job Started
+2020-06-25 16:21:09,018 Newsroom : Scrapping..
+2020-06-25 16:21:15,474 Heartbeat blocked for more than 5 seconds.
+2020-06-25 16:21:20,474 Heartbeat blocked for more than 10 seconds.
+2020-06-25 16:21:24,968 News:Reading txt tile
+2020-06-25 16:21:24,969 Newsroom : Opening Website
+2020-06-25 16:21:25,067 Newsroom : Iterating Article
+2020-06-25 16:21:25,068 Iterating...
+2020-06-25 16:21:25,164 2020-06-25 06:00:00
+2020-06-25 16:21:25,165 No More Aricle
+2020-06-25 16:21:25,165 Newsroom : Run Succesfully
+2020-06-25 16:21:25,230 Executing finally bllock
+2020-06-25 16:21:25,231 Accesswire Job Completed
+2020-06-25 16:23:09,021 :Running..
+2020-06-25 16:23:09,021 2020-06-25 06:53:09.021370
+2020-06-25 16:23:09,022 Accesswire Job Started
+2020-06-25 16:23:09,022 Newsroom : Scrapping..
+2020-06-25 16:23:26,103 News:Reading txt tile
+2020-06-25 16:23:26,104 Newsroom : Opening Website
+2020-06-25 16:23:26,204 Newsroom : Iterating Article
+2020-06-25 16:23:26,204 Iterating...
+2020-06-25 16:23:26,298 2020-06-25 06:00:00
+2020-06-25 16:23:26,298 No More Aricle
+2020-06-25 16:23:26,299 Newsroom : Run Succesfully
+2020-06-25 16:23:26,413 Executing finally bllock
+2020-06-25 16:23:26,414 Accesswire Job Completed
+2020-06-25 16:25:09,017 :Running..
+2020-06-25 16:25:09,018 2020-06-25 06:55:09.017602
+2020-06-25 16:25:09,018 Accesswire Job Started
+2020-06-25 16:25:09,019 Newsroom : Scrapping..
+2020-06-25 16:25:24,341 News:Reading txt tile
+2020-06-25 16:25:24,341 Newsroom : Opening Website
+2020-06-25 16:25:24,426 Newsroom : Iterating Article
+2020-06-25 16:25:24,427 Iterating...
+2020-06-25 16:25:24,516 2020-06-25 06:00:00
+2020-06-25 16:25:24,516 No More Aricle
+2020-06-25 16:25:24,516 Newsroom : Run Succesfully
+2020-06-25 16:25:24,985 Executing finally bllock
+2020-06-25 16:25:24,986 Accesswire Job Completed
+2020-06-25 16:27:09,024 :Running..
+2020-06-25 16:27:09,024 2020-06-25 06:57:09.023932
+2020-06-25 16:27:09,025 Accesswire Job Started
+2020-06-25 16:27:09,025 Newsroom : Scrapping..
+2020-06-25 16:27:15,471 News:Reading txt tile
+2020-06-25 16:27:15,472 Newsroom : Opening Website
+2020-06-25 16:27:15,597 Newsroom : Iterating Article
+2020-06-25 16:27:15,597 Iterating...
+2020-06-25 16:27:15,698 2020-06-25 06:00:00
+2020-06-25 16:27:15,698 No More Aricle
+2020-06-25 16:27:15,699 Newsroom : Run Succesfully
+2020-06-25 16:27:15,770 Executing finally bllock
+2020-06-25 16:27:15,771 Accesswire Job Completed
+2020-06-25 16:29:09,024 :Running..
+2020-06-25 16:29:09,024 2020-06-25 06:59:09.023974
+2020-06-25 16:29:09,025 Accesswire Job Started
+2020-06-25 16:29:09,025 Newsroom : Scrapping..
+2020-06-25 16:29:16,943 News:Reading txt tile
+2020-06-25 16:29:16,943 Newsroom : Opening Website
+2020-06-25 16:29:17,050 Newsroom : Iterating Article
+2020-06-25 16:29:17,050 Iterating...
+2020-06-25 16:29:17,150 2020-06-25 06:00:00
+2020-06-25 16:29:17,150 No More Aricle
+2020-06-25 16:29:17,150 Newsroom : Run Succesfully
+2020-06-25 16:29:17,264 Executing finally bllock
+2020-06-25 16:29:17,265 Accesswire Job Completed
+2020-06-25 16:31:09,020 :Running..
+2020-06-25 16:31:09,020 2020-06-25 07:01:09.019909
+2020-06-25 16:31:09,021 Accesswire Job Started
+2020-06-25 16:31:09,021 Newsroom : Scrapping..
+2020-06-25 16:31:17,471 News:Reading txt tile
+2020-06-25 16:31:17,472 Newsroom : Opening Website
+2020-06-25 16:31:37,637 Exception
+2020-06-25 16:31:37,638 Message: 
+
+2020-06-25 16:31:37,789 Executing finally bllock
+2020-06-25 16:31:37,790 Accesswire Job Completed
+2020-06-25 16:33:09,020 :Running..
+2020-06-25 16:33:09,020 2020-06-25 07:03:09.020073
+2020-06-25 16:33:09,021 Accesswire Job Started
+2020-06-25 16:33:09,022 Newsroom : Scrapping..
+2020-06-25 16:33:27,080 News:Reading txt tile
+2020-06-25 16:33:27,083 Newsroom : Opening Website
+2020-06-25 16:33:28,041 Newsroom : Iterating Article
+2020-06-25 16:33:28,042 Iterating...
+2020-06-25 16:33:30,717 2020-06-25 07:00:00
+2020-06-25 16:33:30,717 No More Aricle
+2020-06-25 16:33:30,718 Newsroom : Run Succesfully
+2020-06-25 16:33:30,961 Executing finally bllock
+2020-06-25 16:33:30,962 Accesswire Job Completed
+2020-06-25 16:35:09,036 :Running..
+2020-06-25 16:35:09,037 2020-06-25 07:05:09.036610
+2020-06-25 16:35:09,037 Accesswire Job Started
+2020-06-25 16:35:09,038 Newsroom : Scrapping..
+2020-06-25 16:35:15,295 Heartbeat blocked for more than 5 seconds.
+2020-06-25 16:35:20,299 Heartbeat blocked for more than 10 seconds.
+2020-06-25 16:35:25,315 Heartbeat blocked for more than 15 seconds.
+2020-06-25 16:35:30,316 Heartbeat blocked for more than 20 seconds.
+2020-06-25 16:35:30,419 News:Reading txt tile
+2020-06-25 16:35:30,420 Newsroom : Opening Website
+2020-06-25 16:35:30,789 Newsroom : Iterating Article
+2020-06-25 16:35:30,789 Iterating...
+2020-06-25 16:35:31,332 2020-06-25 07:00:00
+2020-06-25 16:35:31,335 No More Aricle
+2020-06-25 16:35:31,335 Newsroom : Run Succesfully
+2020-06-25 16:35:31,561 Executing finally bllock
+2020-06-25 16:35:31,561 Accesswire Job Completed
+2020-06-25 16:37:09,025 :Running..
+2020-06-25 16:37:09,025 2020-06-25 07:07:09.025172
+2020-06-25 16:37:09,026 Accesswire Job Started
+2020-06-25 16:37:09,026 Newsroom : Scrapping..
+2020-06-25 16:37:34,430 News:Reading txt tile
+2020-06-25 16:37:34,431 Newsroom : Opening Website
+2020-06-25 16:37:35,662 Newsroom : Iterating Article
+2020-06-25 16:37:35,665 Iterating...
+2020-06-25 16:37:38,784 2020-06-25 07:00:00
+2020-06-25 16:37:38,792 No More Aricle
+2020-06-25 16:37:38,793 Newsroom : Run Succesfully
+2020-06-25 16:37:39,175 Executing finally bllock
+2020-06-25 16:37:39,176 Accesswire Job Completed
+2020-06-25 16:39:09,020 :Running..
+2020-06-25 16:39:09,021 2020-06-25 07:09:09.020526
+2020-06-25 16:39:09,021 Accesswire Job Started
+2020-06-25 16:39:09,021 Newsroom : Scrapping..
+2020-06-25 16:39:25,084 News:Reading txt tile
+2020-06-25 16:39:25,086 Newsroom : Opening Website
+2020-06-25 16:39:25,273 Newsroom : Iterating Article
+2020-06-25 16:39:25,273 Iterating...
+2020-06-25 16:39:25,447 2020-06-25 07:00:00
+2020-06-25 16:39:25,447 No More Aricle
+2020-06-25 16:39:25,447 Newsroom : Run Succesfully
+2020-06-25 16:39:25,576 Executing finally bllock
+2020-06-25 16:39:25,577 Accesswire Job Completed
+2020-06-25 16:41:09,018 :Running..
+2020-06-25 16:41:09,018 2020-06-25 07:11:09.018412
+2020-06-25 16:41:09,019 Accesswire Job Started
+2020-06-25 16:41:09,019 Newsroom : Scrapping..
+2020-06-25 16:41:16,668 News:Reading txt tile
+2020-06-25 16:41:16,669 Newsroom : Opening Website
+2020-06-25 16:41:16,819 Newsroom : Iterating Article
+2020-06-25 16:41:16,819 Iterating...
+2020-06-25 16:41:16,941 2020-06-25 07:00:00
+2020-06-25 16:41:16,941 No More Aricle
+2020-06-25 16:41:16,941 Newsroom : Run Succesfully
+2020-06-25 16:41:17,071 Executing finally bllock
+2020-06-25 16:41:17,071 Accesswire Job Completed
+2020-06-25 16:43:09,018 :Running..
+2020-06-25 16:43:09,018 2020-06-25 07:13:09.017789
+2020-06-25 16:43:09,018 Accesswire Job Started
+2020-06-25 16:43:09,019 Newsroom : Scrapping..
+2020-06-25 16:43:14,231 Heartbeat blocked for more than 5 seconds.
+2020-06-25 16:43:18,055 News:Reading txt tile
+2020-06-25 16:43:18,056 Newsroom : Opening Website
+2020-06-25 16:43:18,154 Newsroom : Iterating Article
+2020-06-25 16:43:18,154 Iterating...
+2020-06-25 16:43:18,245 2020-06-25 07:00:00
+2020-06-25 16:43:18,245 No More Aricle
+2020-06-25 16:43:18,246 Newsroom : Run Succesfully
+2020-06-25 16:43:18,373 Executing finally bllock
+2020-06-25 16:43:18,373 Accesswire Job Completed
+2020-06-25 16:45:09,024 :Running..
+2020-06-25 16:45:09,024 2020-06-25 07:15:09.024152
+2020-06-25 16:45:09,025 Accesswire Job Started
+2020-06-25 16:45:09,025 Newsroom : Scrapping..
+2020-06-25 16:45:17,566 News:Reading txt tile
+2020-06-25 16:45:17,566 Newsroom : Opening Website
+2020-06-25 16:45:17,664 Newsroom : Iterating Article
+2020-06-25 16:45:17,664 Iterating...
+2020-06-25 16:45:17,758 2020-06-25 07:00:00
+2020-06-25 16:45:17,758 No More Aricle
+2020-06-25 16:45:17,758 Newsroom : Run Succesfully
+2020-06-25 16:45:17,873 Executing finally bllock
+2020-06-25 16:45:17,875 Accesswire Job Completed
+2020-06-25 16:47:09,020 :Running..
+2020-06-25 16:47:09,020 2020-06-25 07:17:09.019895
+2020-06-25 16:47:09,020 Accesswire Job Started
+2020-06-25 16:47:09,021 Newsroom : Scrapping..
+2020-06-25 16:47:15,222 News:Reading txt tile
+2020-06-25 16:47:15,223 Newsroom : Opening Website
+2020-06-25 16:47:15,320 Newsroom : Iterating Article
+2020-06-25 16:47:15,320 Iterating...
+2020-06-25 16:47:15,414 2020-06-25 07:00:00
+2020-06-25 16:47:15,414 No More Aricle
+2020-06-25 16:47:15,414 Newsroom : Run Succesfully
+2020-06-25 16:47:15,580 Executing finally bllock
+2020-06-25 16:47:15,581 Accesswire Job Completed
+2020-06-25 16:49:09,022 :Running..
+2020-06-25 16:49:09,022 2020-06-25 07:19:09.021839
+2020-06-25 16:49:09,022 Accesswire Job Started
+2020-06-25 16:49:09,023 Newsroom : Scrapping..
+2020-06-25 16:49:16,512 News:Reading txt tile
+2020-06-25 16:49:16,512 Newsroom : Opening Website
+2020-06-25 16:49:16,613 Newsroom : Iterating Article
+2020-06-25 16:49:16,614 Iterating...
+2020-06-25 16:49:16,705 2020-06-25 07:00:00
+2020-06-25 16:49:16,705 No More Aricle
+2020-06-25 16:49:16,705 Newsroom : Run Succesfully
+2020-06-25 16:49:16,823 Executing finally bllock
+2020-06-25 16:49:16,824 Accesswire Job Completed
+2020-06-25 16:51:09,020 :Running..
+2020-06-25 16:51:09,020 2020-06-25 07:21:09.020101
+2020-06-25 16:51:09,020 Accesswire Job Started
+2020-06-25 16:51:09,021 Newsroom : Scrapping..
+2020-06-25 16:51:16,476 News:Reading txt tile
+2020-06-25 16:51:16,477 Newsroom : Opening Website
+2020-06-25 16:51:16,575 Newsroom : Iterating Article
+2020-06-25 16:51:16,575 Iterating...
+2020-06-25 16:51:16,672 2020-06-25 07:00:00
+2020-06-25 16:51:16,672 No More Aricle
+2020-06-25 16:51:16,672 Newsroom : Run Succesfully
+2020-06-25 16:51:16,788 Executing finally bllock
+2020-06-25 16:51:16,789 Accesswire Job Completed
+2020-06-25 16:53:09,018 :Running..
+2020-06-25 16:53:09,018 2020-06-25 07:23:09.017893
+2020-06-25 16:53:09,018 Accesswire Job Started
+2020-06-25 16:53:09,019 Newsroom : Scrapping..
+2020-06-25 16:53:17,365 News:Reading txt tile
+2020-06-25 16:53:17,366 Newsroom : Opening Website
+2020-06-25 16:53:17,490 Newsroom : Iterating Article
+2020-06-25 16:53:17,491 Iterating...
+2020-06-25 16:53:17,589 2020-06-25 07:00:00
+2020-06-25 16:53:17,589 No More Aricle
+2020-06-25 16:53:17,589 Newsroom : Run Succesfully
+2020-06-25 16:53:17,711 Executing finally bllock
+2020-06-25 16:53:17,711 Accesswire Job Completed
+2020-06-25 16:55:09,018 :Running..
+2020-06-25 16:55:09,018 2020-06-25 07:25:09.017905
+2020-06-25 16:55:09,019 Accesswire Job Started
+2020-06-25 16:55:09,019 Newsroom : Scrapping..
+2020-06-25 16:55:25,215 News:Reading txt tile
+2020-06-25 16:55:25,216 Newsroom : Opening Website
+2020-06-25 16:55:25,309 Newsroom : Iterating Article
+2020-06-25 16:55:25,310 Iterating...
+2020-06-25 16:55:25,402 2020-06-25 07:00:00
+2020-06-25 16:55:25,402 No More Aricle
+2020-06-25 16:55:25,402 Newsroom : Run Succesfully
+2020-06-25 16:55:25,519 Executing finally bllock
+2020-06-25 16:55:25,520 Accesswire Job Completed
+2020-06-25 16:57:09,021 :Running..
+2020-06-25 16:57:09,021 2020-06-25 07:27:09.021265
+2020-06-25 16:57:09,022 Accesswire Job Started
+2020-06-25 16:57:09,022 Newsroom : Scrapping..
+2020-06-25 16:57:17,529 News:Reading txt tile
+2020-06-25 16:57:17,529 Newsroom : Opening Website
+2020-06-25 16:57:17,652 Newsroom : Iterating Article
+2020-06-25 16:57:17,653 Iterating...
+2020-06-25 16:57:17,746 2020-06-25 07:00:00
+2020-06-25 16:57:17,747 No More Aricle
+2020-06-25 16:57:17,747 Newsroom : Run Succesfully
+2020-06-25 16:57:17,923 Executing finally bllock
+2020-06-25 16:57:17,923 Accesswire Job Completed
+2020-06-25 16:59:09,017 :Running..
+2020-06-25 16:59:09,017 2020-06-25 07:29:09.017114
+2020-06-25 16:59:09,017 Accesswire Job Started
+2020-06-25 16:59:09,018 Newsroom : Scrapping..
+2020-06-25 16:59:15,773 News:Reading txt tile
+2020-06-25 16:59:15,775 Newsroom : Opening Website
+2020-06-25 16:59:15,913 Newsroom : Iterating Article
+2020-06-25 16:59:15,913 Iterating...
+2020-06-25 16:59:16,013 2020-06-25 07:00:00
+2020-06-25 16:59:16,014 No More Aricle
+2020-06-25 16:59:16,014 Newsroom : Run Succesfully
+2020-06-25 16:59:16,133 Executing finally bllock
+2020-06-25 16:59:16,134 Accesswire Job Completed
+2020-06-25 17:01:09,024 :Running..
+2020-06-25 17:01:09,024 2020-06-25 07:31:09.024029
+2020-06-25 17:01:09,025 Accesswire Job Started
+2020-06-25 17:01:09,025 Newsroom : Scrapping..
+2020-06-25 17:01:15,909 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:01:20,910 Heartbeat blocked for more than 10 seconds.
+2020-06-25 17:01:24,893 News:Reading txt tile
+2020-06-25 17:01:24,900 Newsroom : Opening Website
+2020-06-25 17:01:25,035 Newsroom : Iterating Article
+2020-06-25 17:01:25,035 Iterating...
+2020-06-25 17:01:25,245 2020-06-25 07:30:00
+2020-06-25 17:01:25,245 checking for value in last run
+2020-06-25 17:01:25,295 Newsroom : Article Found
+2020-06-25 17:01:25,325 Newsroom : Opening Tab
+2020-06-25 17:01:25,910 Heartbeat blocked for more than 15 seconds.
+2020-06-25 17:01:30,911 Heartbeat blocked for more than 20 seconds.
+2020-06-25 17:01:32,014 Newsroom : Searching for keyword
+2020-06-25 17:01:32,014 Iterating...
+2020-06-25 17:01:32,117 2020-06-25 07:00:00
+2020-06-25 17:01:32,117 No More Aricle
+2020-06-25 17:01:32,117 Newsroom : Run Succesfully
+2020-06-25 17:01:32,184 Executing finally bllock
+2020-06-25 17:01:32,185 Accesswire Job Completed
+2020-06-25 17:03:09,025 :Running..
+2020-06-25 17:03:09,025 2020-06-25 07:33:09.024865
+2020-06-25 17:03:09,025 Accesswire Job Started
+2020-06-25 17:03:09,026 Newsroom : Scrapping..
+2020-06-25 17:03:16,707 News:Reading txt tile
+2020-06-25 17:03:16,707 Newsroom : Opening Website
+2020-06-25 17:03:16,803 Newsroom : Iterating Article
+2020-06-25 17:03:16,803 Iterating...
+2020-06-25 17:03:16,906 2020-06-25 07:30:00
+2020-06-25 17:03:16,906 No More Aricle
+2020-06-25 17:03:16,906 Newsroom : Run Succesfully
+2020-06-25 17:03:17,026 Executing finally bllock
+2020-06-25 17:03:17,026 Accesswire Job Completed
+2020-06-25 17:05:09,017 :Running..
+2020-06-25 17:05:09,017 2020-06-25 07:35:09.016742
+2020-06-25 17:05:09,017 Accesswire Job Started
+2020-06-25 17:05:09,018 Newsroom : Scrapping..
+2020-06-25 17:05:15,937 News:Reading txt tile
+2020-06-25 17:05:15,938 Newsroom : Opening Website
+2020-06-25 17:05:16,041 Newsroom : Iterating Article
+2020-06-25 17:05:16,041 Iterating...
+2020-06-25 17:05:16,137 2020-06-25 07:30:00
+2020-06-25 17:05:16,137 No More Aricle
+2020-06-25 17:05:16,138 Newsroom : Run Succesfully
+2020-06-25 17:05:16,255 Executing finally bllock
+2020-06-25 17:05:16,256 Accesswire Job Completed
+2020-06-25 17:07:09,020 :Running..
+2020-06-25 17:07:09,020 2020-06-25 07:37:09.019895
+2020-06-25 17:07:09,020 Accesswire Job Started
+2020-06-25 17:07:09,021 Newsroom : Scrapping..
+2020-06-25 17:07:15,711 News:Reading txt tile
+2020-06-25 17:07:15,712 Newsroom : Opening Website
+2020-06-25 17:07:15,801 Newsroom : Iterating Article
+2020-06-25 17:07:15,801 Iterating...
+2020-06-25 17:07:15,896 2020-06-25 07:30:00
+2020-06-25 17:07:15,897 No More Aricle
+2020-06-25 17:07:15,897 Newsroom : Run Succesfully
+2020-06-25 17:07:16,012 Executing finally bllock
+2020-06-25 17:07:16,012 Accesswire Job Completed
+2020-06-25 17:09:09,017 :Running..
+2020-06-25 17:09:09,017 2020-06-25 07:39:09.017253
+2020-06-25 17:09:09,018 Accesswire Job Started
+2020-06-25 17:09:09,018 Newsroom : Scrapping..
+2020-06-25 17:09:16,242 News:Reading txt tile
+2020-06-25 17:09:16,243 Newsroom : Opening Website
+2020-06-25 17:09:16,338 Newsroom : Iterating Article
+2020-06-25 17:09:16,338 Iterating...
+2020-06-25 17:09:16,433 2020-06-25 07:30:00
+2020-06-25 17:09:16,434 No More Aricle
+2020-06-25 17:09:16,434 Newsroom : Run Succesfully
+2020-06-25 17:09:16,553 Executing finally bllock
+2020-06-25 17:09:16,554 Accesswire Job Completed
+2020-06-25 17:11:09,020 :Running..
+2020-06-25 17:11:09,020 2020-06-25 07:41:09.019930
+2020-06-25 17:11:09,021 Accesswire Job Started
+2020-06-25 17:11:09,021 Newsroom : Scrapping..
+2020-06-25 17:11:14,708 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:11:16,085 News:Reading txt tile
+2020-06-25 17:11:16,086 Newsroom : Opening Website
+2020-06-25 17:11:16,177 Newsroom : Iterating Article
+2020-06-25 17:11:16,178 Iterating...
+2020-06-25 17:11:16,272 2020-06-25 07:30:00
+2020-06-25 17:11:16,272 No More Aricle
+2020-06-25 17:11:16,272 Newsroom : Run Succesfully
+2020-06-25 17:11:16,389 Executing finally bllock
+2020-06-25 17:11:16,390 Accesswire Job Completed
+2020-06-25 17:13:09,019 :Running..
+2020-06-25 17:13:09,020 2020-06-25 07:43:09.019249
+2020-06-25 17:13:09,020 Accesswire Job Started
+2020-06-25 17:13:09,020 Newsroom : Scrapping..
+2020-06-25 17:13:16,272 News:Reading txt tile
+2020-06-25 17:13:16,273 Newsroom : Opening Website
+2020-06-25 17:13:16,376 Newsroom : Iterating Article
+2020-06-25 17:13:16,376 Iterating...
+2020-06-25 17:13:16,475 2020-06-25 07:30:00
+2020-06-25 17:13:16,477 No More Aricle
+2020-06-25 17:13:16,479 Newsroom : Run Succesfully
+2020-06-25 17:13:16,604 Executing finally bllock
+2020-06-25 17:13:16,604 Accesswire Job Completed
+2020-06-25 17:15:09,017 :Running..
+2020-06-25 17:15:09,018 2020-06-25 07:45:09.017604
+2020-06-25 17:15:09,018 Accesswire Job Started
+2020-06-25 17:15:09,018 Newsroom : Scrapping..
+2020-06-25 17:15:17,658 News:Reading txt tile
+2020-06-25 17:15:17,659 Newsroom : Opening Website
+2020-06-25 17:15:28,901 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:15:33,901 Heartbeat blocked for more than 10 seconds.
+2020-06-25 17:15:37,863 Exception
+2020-06-25 17:15:37,864 Message: 
+
+2020-06-25 17:15:37,983 Executing finally bllock
+2020-06-25 17:15:37,983 Accesswire Job Completed
+2020-06-25 17:17:09,024 :Running..
+2020-06-25 17:17:09,024 2020-06-25 07:47:09.023966
+2020-06-25 17:17:09,024 Accesswire Job Started
+2020-06-25 17:17:09,025 Newsroom : Scrapping..
+2020-06-25 17:17:18,449 News:Reading txt tile
+2020-06-25 17:17:18,450 Newsroom : Opening Website
+2020-06-25 17:17:18,547 Newsroom : Iterating Article
+2020-06-25 17:17:18,547 Iterating...
+2020-06-25 17:17:18,640 2020-06-25 07:45:00
+2020-06-25 17:17:18,642 checking for value in last run
+2020-06-25 17:17:18,673 Newsroom : Article Found
+2020-06-25 17:17:18,701 Newsroom : Opening Tab
+2020-06-25 17:17:41,531 Exception
+2020-06-25 17:17:41,532 Message: 
+
+2020-06-25 17:17:41,598 Executing finally bllock
+2020-06-25 17:17:41,599 Accesswire Job Completed
+2020-06-25 17:19:09,020 :Running..
+2020-06-25 17:19:09,020 2020-06-25 07:49:09.020077
+2020-06-25 17:19:09,021 Accesswire Job Started
+2020-06-25 17:19:09,021 Newsroom : Scrapping..
+2020-06-25 17:19:20,762 News:Reading txt tile
+2020-06-25 17:19:20,763 Newsroom : Opening Website
+2020-06-25 17:19:21,529 Newsroom : Iterating Article
+2020-06-25 17:19:21,536 Iterating...
+2020-06-25 17:19:21,869 2020-06-25 07:45:00
+2020-06-25 17:19:21,869 No More Aricle
+2020-06-25 17:19:21,869 Newsroom : Run Succesfully
+2020-06-25 17:19:22,069 Executing finally bllock
+2020-06-25 17:19:22,069 Accesswire Job Completed
+2020-06-25 17:21:09,018 :Running..
+2020-06-25 17:21:09,018 2020-06-25 07:51:09.017645
+2020-06-25 17:21:09,019 Accesswire Job Started
+2020-06-25 17:21:09,019 Newsroom : Scrapping..
+2020-06-25 17:21:22,789 News:Reading txt tile
+2020-06-25 17:21:22,793 Newsroom : Opening Website
+2020-06-25 17:21:23,232 Newsroom : Iterating Article
+2020-06-25 17:21:23,235 Iterating...
+2020-06-25 17:21:23,684 2020-06-25 07:45:00
+2020-06-25 17:21:23,685 No More Aricle
+2020-06-25 17:21:23,686 Newsroom : Run Succesfully
+2020-06-25 17:21:23,901 Executing finally bllock
+2020-06-25 17:21:23,902 Accesswire Job Completed
+2020-06-25 17:23:09,019 :Running..
+2020-06-25 17:23:09,019 2020-06-25 07:53:09.019164
+2020-06-25 17:23:09,020 Accesswire Job Started
+2020-06-25 17:23:09,020 Newsroom : Scrapping..
+2020-06-25 17:23:15,785 News:Reading txt tile
+2020-06-25 17:23:15,786 Newsroom : Opening Website
+2020-06-25 17:23:15,887 Newsroom : Iterating Article
+2020-06-25 17:23:15,887 Iterating...
+2020-06-25 17:23:15,990 2020-06-25 07:45:00
+2020-06-25 17:23:15,990 No More Aricle
+2020-06-25 17:23:15,990 Newsroom : Run Succesfully
+2020-06-25 17:23:16,061 Executing finally bllock
+2020-06-25 17:23:16,061 Accesswire Job Completed
+2020-06-25 17:25:09,016 :Running..
+2020-06-25 17:25:09,016 2020-06-25 07:55:09.016264
+2020-06-25 17:25:09,016 Accesswire Job Started
+2020-06-25 17:25:09,016 Newsroom : Scrapping..
+2020-06-25 17:25:16,385 News:Reading txt tile
+2020-06-25 17:25:16,386 Newsroom : Opening Website
+2020-06-25 17:25:16,488 Newsroom : Iterating Article
+2020-06-25 17:25:16,488 Iterating...
+2020-06-25 17:25:16,596 2020-06-25 07:45:00
+2020-06-25 17:25:16,597 No More Aricle
+2020-06-25 17:25:16,598 Newsroom : Run Succesfully
+2020-06-25 17:25:16,717 Executing finally bllock
+2020-06-25 17:25:16,718 Accesswire Job Completed
+2020-06-25 17:27:09,024 :Running..
+2020-06-25 17:27:09,024 2020-06-25 07:57:09.024240
+2020-06-25 17:27:09,025 Accesswire Job Started
+2020-06-25 17:27:09,025 Newsroom : Scrapping..
+2020-06-25 17:27:18,229 News:Reading txt tile
+2020-06-25 17:27:18,230 Newsroom : Opening Website
+2020-06-25 17:27:18,359 Newsroom : Iterating Article
+2020-06-25 17:27:18,359 Iterating...
+2020-06-25 17:27:18,480 2020-06-25 07:45:00
+2020-06-25 17:27:18,480 No More Aricle
+2020-06-25 17:27:18,480 Newsroom : Run Succesfully
+2020-06-25 17:27:18,612 Executing finally bllock
+2020-06-25 17:27:18,613 Accesswire Job Completed
+2020-06-25 17:29:09,024 :Running..
+2020-06-25 17:29:09,025 2020-06-25 07:59:09.024609
+2020-06-25 17:29:09,025 Accesswire Job Started
+2020-06-25 17:29:09,025 Newsroom : Scrapping..
+2020-06-25 17:29:19,401 News:Reading txt tile
+2020-06-25 17:29:19,402 Newsroom : Opening Website
+2020-06-25 17:29:19,718 Newsroom : Iterating Article
+2020-06-25 17:29:19,723 Iterating...
+2020-06-25 17:29:19,948 2020-06-25 07:45:00
+2020-06-25 17:29:19,953 No More Aricle
+2020-06-25 17:29:19,954 Newsroom : Run Succesfully
+2020-06-25 17:29:20,367 Executing finally bllock
+2020-06-25 17:29:20,369 Accesswire Job Completed
+2020-06-25 17:31:09,023 :Running..
+2020-06-25 17:31:09,024 2020-06-25 08:01:09.023584
+2020-06-25 17:31:09,024 Accesswire Job Started
+2020-06-25 17:31:09,025 Newsroom : Scrapping..
+2020-06-25 17:31:33,449 News:Reading txt tile
+2020-06-25 17:31:33,456 Newsroom : Opening Website
+2020-06-25 17:31:34,854 Newsroom : Iterating Article
+2020-06-25 17:31:34,854 Iterating...
+2020-06-25 17:31:36,102 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:31:37,491 2020-06-25 08:00:00
+2020-06-25 17:31:37,492 checking for value in last run
+2020-06-25 17:31:37,763 Newsroom : Article Found
+2020-06-25 17:31:37,961 Newsroom : Opening Tab
+2020-06-25 17:31:41,102 Heartbeat blocked for more than 10 seconds.
+2020-06-25 17:31:46,123 Heartbeat blocked for more than 15 seconds.
+2020-06-25 17:31:51,124 Heartbeat blocked for more than 20 seconds.
+2020-06-25 17:31:56,163 Heartbeat blocked for more than 25 seconds.
+2020-06-25 17:32:01,215 Heartbeat blocked for more than 30 seconds.
+2020-06-25 17:32:04,315 Exception
+2020-06-25 17:32:04,316 Message: 
+
+2020-06-25 17:32:04,569 Executing finally bllock
+2020-06-25 17:32:04,571 Accesswire Job Completed
+2020-06-25 17:32:04,615 Websocket closed with 1000 (), cannot reconnect.
+2020-06-25 17:32:04,616 Attempting a reconnect in 1.24s
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 470, in poll_event
+    msg = await self.recv()
+  File "/home/maddy/.local/lib/python3.6/site-packages/websockets/protocol.py", line 509, in recv
+    await self.ensure_open()
+  File "/home/maddy/.local/lib/python3.6/site-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: code = 1000 (OK), no reason
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 499, in connect
+    await self._connect()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 463, in _connect
+    await self.ws.poll_event()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 478, in poll_event
+    raise ConnectionClosed(exc, shard_id=self.shard_id) from exc
+discord.errors.ConnectionClosed: code = 1000 (OK), no reason
+2020-06-25 17:32:15,405 Attempting a reconnect in 1.27s
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/aiohttp/connector.py", line 967, in _create_direct_connection
+    traces=traces), loop=self._loop)
+  File "/home/maddy/.local/lib/python3.6/site-packages/aiohttp/connector.py", line 830, in _resolve_host
+    self._resolver.resolve(host, port, family=self._family)
+  File "/home/maddy/.local/lib/python3.6/site-packages/aiohttp/resolver.py", line 30, in resolve
+    host, port, type=socket.SOCK_STREAM, family=family)
+  File "/usr/lib/python3.6/concurrent/futures/thread.py", line 56, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 499, in connect
+    await self._connect()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 460, in _connect
+    self.ws = await asyncio.wait_for(coro, timeout=180.0)
+  File "/usr/lib/python3.6/asyncio/tasks.py", line 358, in wait_for
+    return fut.result()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 224, in from_client
+    gateway = await client.http.get_gateway()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/http.py", line 827, in get_gateway
+    data = await self.request(Route('GET', '/gateway'))
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/http.py", line 165, in request
+    async with self.__session.request(method, url, **kwargs) as r:
+  File "/home/maddy/.local/lib/python3.6/site-packages/aiohttp/client.py", line 1012, in __aenter__
+    self._resp = await self._coro
+  File "/home/maddy/.local/lib/python3.6/site-packages/aiohttp/client.py", line 483, in _request
+    timeout=real_timeout
+  File "/home/maddy/.local/lib/python3.6/site-packages/aiohttp/connector.py", line 523, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/home/maddy/.local/lib/python3.6/site-packages/aiohttp/connector.py", line 859, in _create_connection
+    req, traces, timeout)
+  File "/home/maddy/.local/lib/python3.6/site-packages/aiohttp/connector.py", line 971, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host discordapp.com:443 ssl:default [Name or service not known]
+2020-06-25 17:32:31,680 Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-06-25 17:32:31,740 Shard ID None has sent the IDENTIFY payload.
+2020-06-25 17:32:32,109 Shard ID None has connected to Gateway: ["gateway-prd-main-m4c7",{"micros":63109,"calls":["discord-sessions-prd-1-65",{"micros":60219,"calls":["start_session",{"micros":55477,"calls":["api-prd-main-pbjp",{"micros":52181,"calls":["get_user",{"micros":3187},"add_authorized_ip",{"micros":1516},"get_guilds",{"micros":4310},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":1,"calls":[]}]}]}] (Session ID: feedb465d46270f9e2e0c795f44ce387).
+2020-06-25 17:32:45,856 Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-06-25 17:33:09,026 :Running..
+2020-06-25 17:33:09,026 2020-06-25 08:03:09.025786
+2020-06-25 17:33:09,026 Accesswire Job Started
+2020-06-25 17:33:09,027 Newsroom : Scrapping..
+2020-06-25 17:33:18,013 Heartbeat blocked for more than 5 seconds.
+2020-06-25 17:33:23,035 Heartbeat blocked for more than 10 seconds.
+2020-06-25 17:33:24,989 News:Reading txt tile
+2020-06-25 17:33:25,025 Newsroom : Opening Website
+2020-06-25 17:33:25,716 Newsroom : Iterating Article
+2020-06-25 17:33:25,717 Iterating...
+2020-06-25 17:33:28,040 Heartbeat blocked for more than 15 seconds.
+2020-06-25 17:33:28,060 2020-06-25 08:00:00
+2020-06-25 17:33:28,064 No More Aricle
+2020-06-25 17:33:28,091 Newsroom : Run Succesfully
+2020-06-25 17:33:28,477 Executing finally bllock
+2020-06-25 17:33:28,480 Accesswire Job Completed
+2020-06-25 17:35:09,024 :Running..
+2020-06-25 17:35:09,024 2020-06-25 08:05:09.023998
+2020-06-25 17:35:09,025 Accesswire Job Started
+2020-06-25 17:35:09,025 Newsroom : Scrapping..
+2020-06-25 17:35:18,924 Exception
+2020-06-25 17:35:18,925 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2020-06-25 17:35:18,928 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f82141545c0>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/2a2996ea110443920e23ce4d322079fe/window
+2020-06-25 17:35:18,960 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8214154a20>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/2a2996ea110443920e23ce4d322079fe/window
+2020-06-25 17:35:18,962 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f821416c860>: Failed to establish a new connection: [Errno 111] Connection refused',)': /session/2a2996ea110443920e23ce4d322079fe/window
+2020-06-25 17:35:19,022 Executing finally bllock
+2020-06-25 17:35:19,023 Internal background task failed.
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1356, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 276, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/maddy/fiverr/news_web_scrapping/newsroom1.py", line 34, in newsroom_scrap
+    driver.get("https://www.accesswire.com/newsroom/")
+  File "/home/maddy/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/home/maddy/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/maddy/.local/lib/python3.6/site-packages/selenium/webdriver/remote/remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/maddy/.local/lib/python3.6/site-packages/selenium/webdriver/remote/remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/request.py", line 80, in request
+    method, url, fields=fields, headers=headers, **urlopen_kw
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/request.py", line 171, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/util/retry.py", line 403, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/packages/six.py", line 734, in reraise
+    raise value.with_traceback(tb)
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 426, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 421, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.6/http/client.py", line 1356, in getresponse
+    response.begin()
+  File "/usr/lib/python3.6/http/client.py", line 307, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.6/http/client.py", line 276, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 84, in create_connection
+    raise err
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/util/connection.py", line 74, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 392, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.6/http/client.py", line 1264, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1310, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1259, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.6/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.6/http/client.py", line 976, in send
+    self.connect()
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connection.py", line 187, in connect
+    conn = self._new_conn()
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f821416cc18>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/ext/tasks/__init__.py", line 73, in _loop
+    await self.coro(*args, **kwargs)
+  File "bot1.py", line 53, in my_background_task
+    my_list = newsroom_scrap(us_curr_time,last_run_time,logger)
+  File "/home/maddy/fiverr/news_web_scrapping/newsroom1.py", line 116, in newsroom_scrap
+    driver.close()
+  File "/home/maddy/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 688, in close
+    self.execute(Command.CLOSE)
+  File "/home/maddy/.local/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/home/maddy/.local/lib/python3.6/site-packages/selenium/webdriver/remote/remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "/home/maddy/.local/lib/python3.6/site-packages/selenium/webdriver/remote/remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/request.py", line 76, in request
+    method, url, fields=fields, headers=headers, **urlopen_kw
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/request.py", line 97, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/poolmanager.py", line 336, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 765, in urlopen
+    **response_kw
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 765, in urlopen
+    **response_kw
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 765, in urlopen
+    **response_kw
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 725, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "/home/maddy/.local/lib/python3.6/site-packages/urllib3/util/retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=39635): Max retries exceeded with url: /session/2a2996ea110443920e23ce4d322079fe/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f821416cc18>: Failed to establish a new connection: [Errno 111] Connection refused',))
+2020-06-25 17:35:19,136 Cleaning up tasks.
+2020-06-25 17:35:19,137 Cleaning up after 4 tasks.
+2020-06-25 17:35:19,286 Closing the event loop.
+2020-06-25 19:21:32,264 :Running..
+2020-06-25 19:21:32,264 2020-06-25 09:51:32.264312
+2020-06-25 19:21:32,264 Accesswire Job Started
+2020-06-25 19:21:32,265 Newsroom : Scrapping..
+2020-06-25 19:21:38,731 News:Reading txt tile
+2020-06-25 19:21:38,732 Newsroom : Opening Website
+2020-06-25 19:21:38,845 Newsroom : Iterating Article
+2020-06-25 19:21:38,846 Iterating...
+2020-06-25 19:21:38,953 2020-06-25 09:45:00
+2020-06-25 19:21:38,980 Executing finally bllock
+2020-06-25 19:21:38,980 No More Aricle
+2020-06-25 19:21:38,980 Newsroom : Run Succesfully
+2020-06-25 19:21:39,096 Executing finally bllock
+2020-06-25 19:21:39,096 Accesswire Job Completed
+2020-06-25 19:23:32,237 :Running..
+2020-06-25 19:23:32,237 2020-06-25 09:53:32.237169
+2020-06-25 19:23:32,238 Accesswire Job Started
+2020-06-25 19:23:32,238 Newsroom : Scrapping..
+2020-06-25 19:23:38,552 Heartbeat blocked for more than 5 seconds.
+2020-06-25 19:23:43,447 News:Reading txt tile
+2020-06-25 19:23:43,448 Newsroom : Opening Website
+2020-06-25 19:23:43,554 Heartbeat blocked for more than 10 seconds.
+2020-06-25 19:23:43,562 Newsroom : Iterating Article
+2020-06-25 19:23:43,563 Iterating...
+2020-06-25 19:23:43,663 2020-06-25 09:45:00
+2020-06-25 19:23:43,685 Executing finally bllock
+2020-06-25 19:23:43,686 No More Aricle
+2020-06-25 19:23:43,686 Newsroom : Run Succesfully
+2020-06-25 19:23:43,808 Executing finally bllock
+2020-06-25 19:23:43,809 Accesswire Job Completed
+2020-06-25 19:25:32,236 :Running..
+2020-06-25 19:25:32,236 2020-06-25 09:55:32.235983
+2020-06-25 19:25:32,237 Accesswire Job Started
+2020-06-25 19:25:32,237 Newsroom : Scrapping..
+2020-06-25 19:25:52,564 Heartbeat blocked for more than 5 seconds.
+2020-06-25 19:25:53,982 News:Reading txt tile
+2020-06-25 19:25:53,982 Newsroom : Opening Website
+2020-06-25 19:25:54,087 Newsroom : Iterating Article
+2020-06-25 19:25:54,087 Iterating...
+2020-06-25 19:25:54,180 2020-06-25 09:45:00
+2020-06-25 19:25:54,203 Executing finally bllock
+2020-06-25 19:25:54,203 No More Aricle
+2020-06-25 19:25:54,203 Newsroom : Run Succesfully
+2020-06-25 19:25:54,323 Executing finally bllock
+2020-06-25 19:25:54,326 Accesswire Job Completed
+2020-06-25 19:27:32,237 :Running..
+2020-06-25 19:27:32,237 2020-06-25 09:57:32.236787
+2020-06-25 19:27:32,237 Accesswire Job Started
+2020-06-25 19:27:32,238 Newsroom : Scrapping..
+2020-06-25 19:27:38,647 News:Reading txt tile
+2020-06-25 19:27:38,648 Newsroom : Opening Website
+2020-06-25 19:27:38,765 Newsroom : Iterating Article
+2020-06-25 19:27:38,765 Iterating...
+2020-06-25 19:27:38,873 2020-06-25 09:45:00
+2020-06-25 19:27:38,901 Executing finally bllock
+2020-06-25 19:27:38,901 No More Aricle
+2020-06-25 19:27:38,901 Newsroom : Run Succesfully
+2020-06-25 19:27:39,013 Executing finally bllock
+2020-06-25 19:27:39,014 Accesswire Job Completed
+2020-06-25 19:29:32,237 :Running..
+2020-06-25 19:29:32,238 2020-06-25 09:59:32.237246
+2020-06-25 19:29:32,238 Accesswire Job Started
+2020-06-25 19:29:32,239 Newsroom : Scrapping..
+2020-06-25 19:29:39,439 News:Reading txt tile
+2020-06-25 19:29:39,439 Newsroom : Opening Website
+2020-06-25 19:29:39,545 Newsroom : Iterating Article
+2020-06-25 19:29:39,546 Iterating...
+2020-06-25 19:29:39,638 2020-06-25 09:45:00
+2020-06-25 19:29:39,662 Executing finally bllock
+2020-06-25 19:29:39,662 No More Aricle
+2020-06-25 19:29:39,663 Newsroom : Run Succesfully
+2020-06-25 19:29:39,781 Executing finally bllock
+2020-06-25 19:29:39,781 Accesswire Job Completed
+2020-06-25 19:31:32,236 :Running..
+2020-06-25 19:31:32,236 2020-06-25 10:01:32.235944
+2020-06-25 19:31:32,237 Accesswire Job Started
+2020-06-25 19:31:32,237 Newsroom : Scrapping..
+2020-06-25 19:31:39,108 News:Reading txt tile
+2020-06-25 19:31:39,109 Newsroom : Opening Website
+2020-06-25 19:31:39,215 Newsroom : Iterating Article
+2020-06-25 19:31:39,216 Iterating...
+2020-06-25 19:31:39,313 2020-06-25 10:00:00
+2020-06-25 19:31:39,339 Executing finally bllock
+2020-06-25 19:31:39,340 checking for value in last run
+2020-06-25 19:31:39,357 Newsroom : Article Found
+2020-06-25 19:31:39,386 Newsroom : Opening Tab
+2020-06-25 19:31:43,963 Newsroom : Searching for keyword
+2020-06-25 19:31:43,964 Iterating...
+2020-06-25 19:31:44,059 2020-06-25 09:45:00
+2020-06-25 19:31:44,085 Executing finally bllock
+2020-06-25 19:31:44,086 No More Aricle
+2020-06-25 19:31:44,086 Newsroom : Run Succesfully
+2020-06-25 19:31:44,154 Executing finally bllock
+2020-06-25 19:31:44,154 Accesswire Job Completed
+2020-06-25 19:33:32,236 :Running..
+2020-06-25 19:33:32,236 2020-06-25 10:03:32.236066
+2020-06-25 19:33:32,237 Accesswire Job Started
+2020-06-25 19:33:32,237 Newsroom : Scrapping..
+2020-06-25 19:33:39,443 News:Reading txt tile
+2020-06-25 19:33:39,444 Newsroom : Opening Website
+2020-06-25 19:33:39,549 Newsroom : Iterating Article
+2020-06-25 19:33:39,550 Iterating...
+2020-06-25 19:33:39,643 2020-06-25 10:00:00
+2020-06-25 19:33:39,668 Executing finally bllock
+2020-06-25 19:33:39,668 No More Aricle
+2020-06-25 19:33:39,668 Newsroom : Run Succesfully
+2020-06-25 19:33:39,785 Executing finally bllock
+2020-06-25 19:33:39,785 Accesswire Job Completed
+2020-06-25 19:35:32,235 :Running..
+2020-06-25 19:35:32,236 2020-06-25 10:05:32.235263
+2020-06-25 19:35:32,236 Accesswire Job Started
+2020-06-25 19:35:32,236 Newsroom : Scrapping..
+2020-06-25 19:35:39,393 News:Reading txt tile
+2020-06-25 19:35:39,394 Newsroom : Opening Website
+2020-06-25 19:35:39,497 Newsroom : Iterating Article
+2020-06-25 19:35:39,498 Iterating...
+2020-06-25 19:35:39,591 2020-06-25 10:00:00
+2020-06-25 19:35:39,615 Executing finally bllock
+2020-06-25 19:35:39,615 No More Aricle
+2020-06-25 19:35:39,615 Newsroom : Run Succesfully
+2020-06-25 19:35:39,736 Executing finally bllock
+2020-06-25 19:35:39,736 Accesswire Job Completed
+2020-06-25 19:37:32,236 :Running..
+2020-06-25 19:37:32,236 2020-06-25 10:07:32.236082
+2020-06-25 19:37:32,237 Accesswire Job Started
+2020-06-25 19:37:32,237 Newsroom : Scrapping..
+2020-06-25 19:37:40,606 Heartbeat blocked for more than 5 seconds.
+2020-06-25 19:37:44,453 News:Reading txt tile
+2020-06-25 19:37:44,453 Newsroom : Opening Website
+2020-06-25 19:37:44,618 Newsroom : Iterating Article
+2020-06-25 19:37:44,618 Iterating...
+2020-06-25 19:37:44,709 2020-06-25 10:00:00
+2020-06-25 19:37:44,728 Executing finally bllock
+2020-06-25 19:37:44,728 No More Aricle
+2020-06-25 19:37:44,728 Newsroom : Run Succesfully
+2020-06-25 19:37:44,846 Executing finally bllock
+2020-06-25 19:37:44,847 Accesswire Job Completed
+2020-06-25 19:39:32,235 :Running..
+2020-06-25 19:39:32,235 2020-06-25 10:09:32.235252
+2020-06-25 19:39:32,236 Accesswire Job Started
+2020-06-25 19:39:32,236 Newsroom : Scrapping..
+2020-06-25 19:39:47,428 News:Reading txt tile
+2020-06-25 19:39:47,428 Newsroom : Opening Website
+2020-06-25 19:39:47,539 Newsroom : Iterating Article
+2020-06-25 19:39:47,539 Iterating...
+2020-06-25 19:39:47,635 2020-06-25 10:00:00
+2020-06-25 19:39:47,663 Executing finally bllock
+2020-06-25 19:39:47,664 No More Aricle
+2020-06-25 19:39:47,664 Newsroom : Run Succesfully
+2020-06-25 19:39:47,779 Executing finally bllock
+2020-06-25 19:39:47,779 Accesswire Job Completed
+2020-06-25 19:41:32,237 :Running..
+2020-06-25 19:41:32,237 2020-06-25 10:11:32.236928
+2020-06-25 19:41:32,237 Accesswire Job Started
+2020-06-25 19:41:32,238 Newsroom : Scrapping..
+2020-06-25 19:41:39,725 News:Reading txt tile
+2020-06-25 19:41:39,725 Newsroom : Opening Website
+2020-06-25 19:41:39,857 Newsroom : Iterating Article
+2020-06-25 19:41:39,857 Iterating...
+2020-06-25 19:41:39,954 2020-06-25 10:00:00
+2020-06-25 19:41:39,976 Executing finally bllock
+2020-06-25 19:41:39,976 No More Aricle
+2020-06-25 19:41:39,977 Newsroom : Run Succesfully
+2020-06-25 19:41:40,094 Executing finally bllock
+2020-06-25 19:41:40,094 Accesswire Job Completed
+2020-06-25 19:43:32,237 :Running..
+2020-06-25 19:43:32,237 2020-06-25 10:13:32.237175
+2020-06-25 19:43:32,238 Accesswire Job Started
+2020-06-25 19:43:32,238 Newsroom : Scrapping..
+2020-06-25 19:43:40,023 News:Reading txt tile
+2020-06-25 19:43:40,024 Newsroom : Opening Website
+2020-06-25 19:43:40,131 Newsroom : Iterating Article
+2020-06-25 19:43:40,131 Iterating...
+2020-06-25 19:43:40,228 2020-06-25 10:00:00
+2020-06-25 19:43:40,248 Executing finally bllock
+2020-06-25 19:43:40,248 No More Aricle
+2020-06-25 19:43:40,248 Newsroom : Run Succesfully
+2020-06-25 19:43:40,366 Executing finally bllock
+2020-06-25 19:43:40,366 Accesswire Job Completed
+2020-06-25 19:45:32,238 :Running..
+2020-06-25 19:45:32,238 2020-06-25 10:15:32.237760
+2020-06-25 19:45:32,238 Accesswire Job Started
+2020-06-25 19:45:32,239 Newsroom : Scrapping..
+2020-06-25 19:45:39,152 News:Reading txt tile
+2020-06-25 19:45:39,153 Newsroom : Opening Website
+2020-06-25 19:45:39,264 Newsroom : Iterating Article
+2020-06-25 19:45:39,264 Iterating...
+2020-06-25 19:45:39,361 2020-06-25 10:00:00
+2020-06-25 19:45:39,384 Executing finally bllock
+2020-06-25 19:45:39,385 No More Aricle
+2020-06-25 19:45:39,385 Newsroom : Run Succesfully
+2020-06-25 19:45:39,500 Executing finally bllock
+2020-06-25 19:45:39,501 Accesswire Job Completed
+2020-06-25 19:47:32,236 :Running..
+2020-06-25 19:47:32,236 2020-06-25 10:17:32.236144
+2020-06-25 19:47:32,237 Accesswire Job Started
+2020-06-25 19:47:32,237 Newsroom : Scrapping..
+2020-06-25 19:47:41,352 News:Reading txt tile
+2020-06-25 19:47:41,353 Newsroom : Opening Website
+2020-06-25 19:47:41,464 Newsroom : Iterating Article
+2020-06-25 19:47:41,464 Iterating...
+2020-06-25 19:47:41,557 2020-06-25 10:00:00
+2020-06-25 19:47:41,581 Executing finally bllock
+2020-06-25 19:47:41,581 No More Aricle
+2020-06-25 19:47:41,581 Newsroom : Run Succesfully
+2020-06-25 19:47:41,695 Executing finally bllock
+2020-06-25 19:47:41,696 Accesswire Job Completed
+2020-06-25 19:49:32,237 :Running..
+2020-06-25 19:49:32,238 2020-06-25 10:19:32.237391
+2020-06-25 19:49:32,238 Accesswire Job Started
+2020-06-25 19:49:32,238 Newsroom : Scrapping..
+2020-06-25 19:49:41,928 News:Reading txt tile
+2020-06-25 19:49:41,929 Newsroom : Opening Website
+2020-06-25 19:49:42,034 Newsroom : Iterating Article
+2020-06-25 19:49:42,034 Iterating...
+2020-06-25 19:49:42,132 2020-06-25 10:00:00
+2020-06-25 19:49:42,155 Executing finally bllock
+2020-06-25 19:49:42,155 No More Aricle
+2020-06-25 19:49:42,155 Newsroom : Run Succesfully
+2020-06-25 19:49:42,272 Executing finally bllock
+2020-06-25 19:49:42,273 Accesswire Job Completed
+2020-06-25 19:51:32,236 :Running..
+2020-06-25 19:51:32,236 2020-06-25 10:21:32.236024
+2020-06-25 19:51:32,237 Accesswire Job Started
+2020-06-25 19:51:32,237 Newsroom : Scrapping..
+2020-06-25 19:51:39,224 News:Reading txt tile
+2020-06-25 19:51:39,225 Newsroom : Opening Website
+2020-06-25 19:51:39,342 Newsroom : Iterating Article
+2020-06-25 19:51:39,342 Iterating...
+2020-06-25 19:51:39,437 2020-06-25 10:00:00
+2020-06-25 19:51:39,463 Executing finally bllock
+2020-06-25 19:51:39,464 No More Aricle
+2020-06-25 19:51:39,464 Newsroom : Run Succesfully
+2020-06-25 19:51:39,581 Executing finally bllock
+2020-06-25 19:51:39,582 Accesswire Job Completed
+2020-06-25 19:53:32,237 :Running..
+2020-06-25 19:53:32,237 2020-06-25 10:23:32.236915
+2020-06-25 19:53:32,237 Accesswire Job Started
+2020-06-25 19:53:32,238 Newsroom : Scrapping..
+2020-06-25 19:53:38,634 Heartbeat blocked for more than 5 seconds.
+2020-06-25 19:53:39,741 News:Reading txt tile
+2020-06-25 19:53:39,742 Newsroom : Opening Website
+2020-06-25 19:53:39,847 Newsroom : Iterating Article
+2020-06-25 19:53:39,847 Iterating...
+2020-06-25 19:53:39,945 2020-06-25 10:00:00
+2020-06-25 19:53:39,973 Executing finally bllock
+2020-06-25 19:53:39,973 No More Aricle
+2020-06-25 19:53:39,973 Newsroom : Run Succesfully
+2020-06-25 19:53:40,092 Executing finally bllock
+2020-06-25 19:53:40,092 Accesswire Job Completed
+2020-06-25 19:55:32,237 :Running..
+2020-06-25 19:55:32,237 2020-06-25 10:25:32.236748
+2020-06-25 19:55:32,239 Accesswire Job Started
+2020-06-25 19:55:32,239 Newsroom : Scrapping..
+2020-06-25 19:55:43,769 News:Reading txt tile
+2020-06-25 19:55:43,770 Newsroom : Opening Website
+2020-06-25 19:55:48,848 Heartbeat blocked for more than 5 seconds.
+2020-06-25 19:55:53,849 Heartbeat blocked for more than 10 seconds.
+2020-06-25 19:55:58,850 Heartbeat blocked for more than 15 seconds.
+2020-06-25 19:56:03,852 Heartbeat blocked for more than 20 seconds.
+2020-06-25 19:56:04,027 Exception
+2020-06-25 19:56:04,027 Message: 
+
+2020-06-25 19:56:04,142 Newsroom : Scrapping..
+2020-06-25 19:56:08,852 Heartbeat blocked for more than 25 seconds.
+2020-06-25 19:56:13,853 Heartbeat blocked for more than 30 seconds.
+2020-06-25 19:56:13,883 News:Reading txt tile
+2020-06-25 19:56:13,883 Newsroom : Opening Website
+2020-06-25 19:56:13,985 Newsroom : Iterating Article
+2020-06-25 19:56:13,986 Iterating...
+2020-06-25 19:56:14,084 2020-06-25 10:00:00
+2020-06-25 19:56:14,108 Executing finally bllock
+2020-06-25 19:56:14,108 No More Aricle
+2020-06-25 19:56:14,108 Newsroom : Run Succesfully
+2020-06-25 19:56:14,225 Executing finally bllock
+2020-06-25 19:56:14,225 Executing finally bllock
+2020-06-25 19:56:14,226 Accesswire Job Completed
+2020-06-25 19:56:14,233 Websocket closed with 1000 (), cannot reconnect.
+2020-06-25 19:56:14,234 Attempting a reconnect in 1.51s
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 470, in poll_event
+    msg = await self.recv()
+  File "/home/maddy/.local/lib/python3.6/site-packages/websockets/protocol.py", line 509, in recv
+    await self.ensure_open()
+  File "/home/maddy/.local/lib/python3.6/site-packages/websockets/protocol.py", line 803, in ensure_open
+    raise self.connection_closed_exc()
+websockets.exceptions.ConnectionClosedOK: code = 1000 (OK), no reason
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 499, in connect
+    await self._connect()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/client.py", line 463, in _connect
+    await self.ws.poll_event()
+  File "/home/maddy/.local/lib/python3.6/site-packages/discord/gateway.py", line 478, in poll_event
+    raise ConnectionClosed(exc, shard_id=self.shard_id) from exc
+discord.errors.ConnectionClosed: code = 1000 (OK), no reason
+2020-06-25 19:56:16,505 Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2020-06-25 19:56:16,508 Shard ID None has sent the IDENTIFY payload.
+2020-06-25 19:56:16,907 Shard ID None has connected to Gateway: ["gateway-prd-main-wv1j",{"micros":110339,"calls":["discord-sessions-prd-1-32",{"micros":107057,"calls":["start_session",{"micros":105445,"calls":["api-prd-main-ml6d",{"micros":101397,"calls":["get_user",{"micros":6767},"add_authorized_ip",{"micros":3679},"get_guilds",{"micros":13594},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":3,"calls":[]},"presence_connect",{"micros":631,"calls":[]}]}]}] (Session ID: 999c14ed592b28189dbe51e16d702695).
+2020-06-25 19:56:55,480 Shard ID None has stopped responding to the gateway. Closing and restarting.
+2020-06-25 19:57:32,236 :Running..
+2020-06-25 19:57:32,237 2020-06-25 10:27:32.236141
+2020-06-25 19:57:32,237 Accesswire Job Started
+2020-06-25 19:57:32,237 Newsroom : Scrapping..
+2020-06-25 19:57:44,010 Heartbeat blocked for more than 5 seconds.
+2020-06-25 19:57:49,011 Heartbeat blocked for more than 10 seconds.
+2020-06-25 19:57:54,012 Heartbeat blocked for more than 15 seconds.
+2020-06-25 19:57:59,013 Heartbeat blocked for more than 20 seconds.
+2020-06-26 19:46:52,144 Heartbeat blocked for more than 25 seconds.
+2020-06-26 19:46:57,144 Heartbeat blocked for more than 30 seconds.
+2020-06-26 19:47:02,144 Heartbeat blocked for more than 35 seconds.
+2020-06-26 19:47:07,145 Heartbeat blocked for more than 40 seconds.
+2020-06-26 19:47:12,145 Heartbeat blocked for more than 45 seconds.
+2020-06-26 19:47:17,146 Heartbeat blocked for more than 50 seconds.
+2020-06-26 19:47:22,147 Heartbeat blocked for more than 55 seconds.
+2020-06-26 19:47:27,147 Heartbeat blocked for more than 60 seconds.
+2020-06-26 19:47:32,148 Heartbeat blocked for more than 65 seconds.
+2020-06-26 19:47:37,149 Heartbeat blocked for more than 70 seconds.
+2020-06-26 19:47:42,149 Heartbeat blocked for more than 75 seconds.
+2020-06-26 19:47:47,150 Heartbeat blocked for more than 80 seconds.
+2020-06-26 19:47:52,151 Heartbeat blocked for more than 85 seconds.
+2020-06-26 19:47:57,152 Heartbeat blocked for more than 90 seconds.
+2020-06-26 19:48:02,153 Heartbeat blocked for more than 95 seconds.
+2020-06-26 19:48:07,154 Heartbeat blocked for more than 100 seconds.
+2020-06-26 19:48:12,154 Heartbeat blocked for more than 105 seconds.
+2020-06-26 19:48:20,142 Heartbeat blocked for more than 110 seconds.
+2020-06-26 19:48:25,142 Heartbeat blocked for more than 115 seconds.
+2020-06-26 19:48:30,142 Heartbeat blocked for more than 120 seconds.
+2020-06-26 19:48:35,143 Heartbeat blocked for more than 125 seconds.
+2020-06-26 19:48:40,144 Heartbeat blocked for more than 130 seconds.
+2020-06-26 19:48:45,144 Heartbeat blocked for more than 135 seconds.
+2020-06-26 19:48:50,145 Heartbeat blocked for more than 140 seconds.
+2020-06-26 19:48:55,147 Heartbeat blocked for more than 145 seconds.
+2020-06-26 19:49:00,148 Heartbeat blocked for more than 150 seconds.
+2020-06-26 19:49:05,148 Heartbeat blocked for more than 155 seconds.
+2020-06-26 19:49:10,149 Heartbeat blocked for more than 160 seconds.
+2020-06-26 19:49:15,150 Heartbeat blocked for more than 165 seconds.
+2020-06-26 19:49:20,151 Heartbeat blocked for more than 170 seconds.

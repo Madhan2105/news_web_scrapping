@@ -49,6 +49,7 @@ async def my_background_task1():
         print("prnnewswire Job Started",last_run_time,us_curr_time)
         my_list = scrap_prnewswire(us_curr_time,last_run_time,logger)        
         print(my_list)
+        logger.info(my_list)
         # global last_run_list
         # print("last_run_list",last_run_list)        
         # if(my_list):

@@ -1,2 +1,5 @@
 chromedriver
+*.txt
+*.og
 *.log
+**/logs/*.log

@@ -1,0 +1,17 @@
+2020-06-30 12:38:22,443 :Running..
+2020-06-30 12:38:22,443 2020-06-30 03:08:22.442954
+2020-06-30 12:38:22,443 prnnewswire Job Started
+2020-06-30 12:38:22,443 Prn:Scrapping....
+2020-06-30 12:38:31,486 Exception
+2020-06-30 12:38:31,486 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2020-06-30 12:38:31,487 Prn:Scrapping....
+2020-06-30 12:38:32,494 Exception
+2020-06-30 12:38:32,495 Message: Service chromedriver unexpectedly exited. Status code was: -2
+
+2020-06-30 12:38:32,495 Prn:Scrapping....
+2020-06-30 12:38:33,860 Exception
+2020-06-30 12:38:33,861 ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+2020-06-30 12:38:33,861 prnnewswire Job completed
+2020-06-30 12:38:33,863 Cleaning up tasks.
+2020-06-30 12:38:33,864 Cleaning up after 5 tasks.
+2020-06-30 12:38:34,149 Closing the event loop.
