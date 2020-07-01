@@ -12,6 +12,7 @@ import re
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import logging
+import os
 
 last_run_list = []
 def scrap_globenewswire(us_curr_time,temp_minute,logger):
@@ -27,7 +28,8 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         # options.add_argument('--proxy-server=%s' % proxy)
         options.add_argument('-headless')
         options.add_argument("--log-level=3")
-        driver = webdriver.Chrome(options=options)
+        cwd = os.getcwd()
+        driver = webdriver.Chrome(cwd+"/Driver/chromedriver_globe",options=options)
         wait = WebDriverWait(driver, 20)
         eastern = timezone('US/Eastern')
         minutes = temp_minute

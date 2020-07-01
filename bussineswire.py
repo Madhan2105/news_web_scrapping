@@ -2,14 +2,15 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time 
 from datetime import datetime,timedelta
-import pytz
 from pytz import timezone
+import pytz
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import logging
+import os
 
 my_list = []
 run_count = 0
@@ -22,7 +23,8 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         options  = webdriver.ChromeOptions()        
         options.add_argument('-headless')
         options.add_argument("--log-level=3")        
-        driver = webdriver.Chrome(options=options)
+        cwd = os.getcwd()
+        driver = webdriver.Chrome(cwd+"/Driver/chromedriver_buss",options=options)
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
         driver.get("https://www.businesswire.com/portal/site/home/news/")        
