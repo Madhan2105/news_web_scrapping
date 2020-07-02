@@ -28,7 +28,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         options  = webdriver.ChromeOptions()        
         options.add_argument("--start-maximized")
         options.binary_location = "/usr/bin/chromium-browser"
-        # options.add_argument('--headless')
+        options.add_argument('--headless')
         options.add_argument("--log-level=3")        
         cwd = os.getcwd()
         driver = webdriver.Chrome(cwd+"/Driver/chromedriver_globe",options=options)
@@ -58,7 +58,6 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             # sys.exit()
             # stock = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@id="facet-stockExchange"]')))
             # stock.click
-            main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]/asdsd')))
             main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]')))
             article = driver.find_elements_by_xpath('//div[@class="rl-container"]')
             my_list = []                        
