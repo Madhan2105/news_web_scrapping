@@ -18,14 +18,18 @@ my_list = []
 run_count = 0
 def scrap_prnewswire(us_curr_time,last_run_time,logger):
     try:
+        driver_flag = False        
         global my_list,run_count   
         run_count = run_count + 1 
         logger.info("Prn:Scrapping....")
         options  = webdriver.ChromeOptions()        
-        options.add_argument('-headless')
+        options.add_argument("--start-maximized")
+        options.binary_location = "/usr/bin/chromium-browser"
+        options.add_argument('--headless')
         options.add_argument("--log-level=3")        
         cwd = os.getcwd()
         driver = webdriver.Chrome(cwd+"/Driver/chromedriver_prn",options=options)        
+        driver_flag = True       
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
         if(run_count<=1):
@@ -54,7 +58,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         article1 = driver.find_elements_by_xpath('//div[@class="col-sm-12 card"]')
         for a in article:
             print("inside first")
-            # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
+            # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')            
             link = a.find_element_by_xpath('.//h3/a')
             head = link.text
             print(head)
@@ -175,6 +179,8 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         print("Something went Wrong!!",e)
         logger.info("Exception")
         logger.info(e)
+        if(driver_flag):
+            driver.close()        
         if(run_count<=2):
             scrap_prnewswire(us_curr_time,last_run_time,logger)
         
@@ -183,7 +189,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         run_count = 0            
 
 if( __name__ == "__main__"):    
-    temp_minute = 6
+    temp_minute = 5
     eastern = timezone('US/Eastern')        
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)

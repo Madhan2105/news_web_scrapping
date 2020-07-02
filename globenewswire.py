@@ -15,21 +15,24 @@ import logging
 import os
 
 last_run_list = []
+run_count = 0
 def scrap_globenewswire(us_curr_time,temp_minute,logger):
     try:
-        global last_run_list 
+        driver_flag = False        
+        global my_list,run_count   
+        run_count = run_count + 1 
         print(last_run_list)
         logger.info("Globe:Scrapping...")
         print("Did changes 4",us_curr_time)
         print("temp_minute",temp_minute)
         options  = webdriver.ChromeOptions()        
         options.add_argument("--start-maximized")
-        # proxy = "191.96.253.19:12345"
-        # options.add_argument('--proxy-server=%s' % proxy)
-        options.add_argument('--headless')
-        options.add_argument("--log-level=3")
+        options.binary_location = "/usr/bin/chromium-browser"
+        # options.add_argument('--headless')
+        options.add_argument("--log-level=3")        
         cwd = os.getcwd()
         driver = webdriver.Chrome(cwd+"/Driver/chromedriver_globe",options=options)
+        driver_flag = True       
         wait = WebDriverWait(driver, 20)
         eastern = timezone('US/Eastern')
         minutes = temp_minute
@@ -55,6 +58,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             # sys.exit()
             # stock = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@id="facet-stockExchange"]')))
             # stock.click
+            main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]/asdsd')))
             main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//div[@class="rl-master-container"]')))
             article = driver.find_elements_by_xpath('//div[@class="rl-container"]')
             my_list = []                        
@@ -125,8 +129,10 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
         logger.info("Exception")        
         logger.info(e)
         print("time ---",us_curr_time)
-        # driver.close()
-        my_list = scrap_globenewswire(us_curr_time,10,logger)
+        if(driver_flag):
+            driver.close()                
+        if(run_count<=2):            
+            my_list = scrap_globenewswire(us_curr_time,10,logger)
         # driver.close()
         # scrap_globenewswire(us_curr_time,temp_min ute,logger)
     finally:

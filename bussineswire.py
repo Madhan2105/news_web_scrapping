@@ -16,15 +16,19 @@ my_list = []
 run_count = 0
 def scrap_bussinewire(us_curr_time,last_run_time,logger):
     try:
+        driver_flag = False        
         global my_list,run_count
         run_count = run_count + 1 
         print("run_count",run_count)
         logger.info("Buss:Scrapping...")
         options  = webdriver.ChromeOptions()        
+        options.add_argument("--start-maximized")
+        options.binary_location = "/usr/bin/chromium-browser"
         options.add_argument('--headless')
         options.add_argument("--log-level=3")        
         cwd = os.getcwd()
         driver = webdriver.Chrome(cwd+"/Driver/chromedriver_buss",options=options)
+        driver_flag = True        
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
         driver.get("https://www.businesswire.com/portal/site/home/news/")        
@@ -44,7 +48,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
             last_run = []
         for row in range(1,20):
             logger.info(row)
-            print("-----"+str(row)+"-----")
+            print("-----"+str(row)+"-----")            
             main_div = wait.until(ec.visibility_of_element_located((By.XPATH,'//ul[@class="bwNewsList"]')))
             print(main_div) 
             # time.sleep(10)
@@ -121,6 +125,8 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         print("Something went Wrong!!",e)
         logger.info("Exception")
         logger.info(e)
+        if(driver_flag):
+            driver.close()        
         # driver.close()
         if(run_count<=2):
             scrap_bussinewire(us_curr_time,last_run_time,logger)
@@ -133,12 +139,11 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
 
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')     
-    temp_minute = 6
+    temp_minute = 3
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
     log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
     print(log_file)        
-
     logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
     logger=logging.getLogger()
     logger.setLevel(logging.INFO)    

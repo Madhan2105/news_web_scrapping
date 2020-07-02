@@ -20,15 +20,19 @@ my_list = []
 run_count = 0
 def newsroom_scrap(us_curr_time,last_run_time,logger):
     try:     
+        driver_flag = False        
         global my_list,run_count   
         run_count = run_count + 1 
         print(datetime.now())
         logger.info("Newsroom : Scrapping..")
         options  = webdriver.ChromeOptions()        
-        options.add_argument('-headless')
+        options.add_argument("--start-maximized")
+        options.binary_location = "/usr/bin/chromium-browser"
+        options.add_argument('--headless')
         options.add_argument("--log-level=3")        
         cwd = os.getcwd()
         driver = webdriver.Chrome(cwd+"/Driver/chromedriver_news",options=options)        
+        driver_flag = True        
         wait = WebDriverWait(driver, 20)
         print(us_curr_time)
         # last_run_time = last_run_time.time().replace(second=0, microsecond=0)
@@ -65,7 +69,7 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
             logger.info(str(link.text))
             keyword = ["nasdaq","nyse","amex"]
             print(link.text)
-            logger.info("Executing finally bllock")
+            # logger.info("Executing finally bllock")
             if(last_run_time<=news_date):
                 if(last_run):     
                     logger.info("checking for value in last run")     
@@ -116,8 +120,10 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
         print("Something went Wrong!!",e)
         logger.info("Exception")
         logger.info(e)
-        # driver.close()
-        newsroom_scrap(us_curr_time,last_run_time,logger)
+        if(driver_flag):
+            driver.close()
+        if(run_count<=2):
+            newsroom_scrap(us_curr_time,last_run_time,logger)
     finally:
         my_list = []
         run_count = 0        
@@ -126,7 +132,7 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
 
 if( __name__ == "__main__"):
     eastern = timezone('US/Eastern')     
-    temp_minute = 3000
+    temp_minute = 3
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
     log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
