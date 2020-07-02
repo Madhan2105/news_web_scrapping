@@ -116,7 +116,7 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
         print("Something went Wrong!!",e)
         logger.info("Exception")
         logger.info(e)
-        driver.close()
+        # driver.close()
         newsroom_scrap(us_curr_time,last_run_time,logger)
     finally:
         my_list = []

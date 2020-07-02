@@ -21,7 +21,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         print("run_count",run_count)
         logger.info("Buss:Scrapping...")
         options  = webdriver.ChromeOptions()        
-        options.add_argument('-headless')
+        options.add_argument('--headless')
         options.add_argument("--log-level=3")        
         cwd = os.getcwd()
         driver = webdriver.Chrome(cwd+"/Driver/chromedriver_buss",options=options)
@@ -121,7 +121,7 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         print("Something went Wrong!!",e)
         logger.info("Exception")
         logger.info(e)
-        driver.close()
+        # driver.close()
         if(run_count<=2):
             scrap_bussinewire(us_curr_time,last_run_time,logger)
         logger.info("Tried more the twice")

@@ -32,7 +32,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
             us_curr_time = us_curr_time.time()
             # last_run_time = last_run_time.time()
             last_run_time = last_run_time.time().replace(second=0, microsecond=0)
-            print(last_run_time)
+            print(last_run_time)    
         driver.get("https://www.prnewswire.com/news-releases/news-releases-list/?page=1&pagesize=50")
         try:
             print("Reading txt tile")
