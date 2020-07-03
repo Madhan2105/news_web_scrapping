@@ -41,7 +41,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         try:
             print("Reading txt tile")
             logger.info("Reading txt tile")
-            f = open("news.txt", "r")
+            f = open("prn.txt", "r")
             last_run = f.read()
             last_run = last_run.split(";")
             print(last_run)
@@ -56,6 +56,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         logger.info("Prn:Iterating Article")
         article = driver.find_elements_by_xpath('//div[@class="col-sm-8 col-lg-9 pull-left card"]')
         article1 = driver.find_elements_by_xpath('//div[@class="col-sm-12 card"]')
+        logger.info("------------First Loop------------")        
         for a in article:
             print("inside first")
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')            
@@ -65,8 +66,8 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
             news_date = a.find_element_by_xpath('.//h3/small')
             # print(link)
             news_date = news_date.text
-            logger.info(news_date)
             logger.info(head)
+            logger.info(news_date)
             ans = re.search("^\d\d:\d\d ET$",news_date)
             if(ans):        
                 logger.info("Prn:Found Article")
@@ -101,18 +102,19 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                     content = content.lower()
                     logger.info("Prn:Searching for Keyword")
                     if any(x in content for x in keyword):
-                        print(head)
+                        # print(head)
                         my_list.append([link,head])                        
-                        print(link)
+                        # print(link)
                 else:
                     break
-            print("outer")
+            print("--------------------------outer")
             try:
-                f = open("news.txt", "a")
+                f = open("prn.txt", "a")
                 f.write(str(head)+";")                        
                 f.close()            
             except:
                 pass            
+        logger.info("------------Second Loop------------")        
         for a in article1:
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
             link = a.find_element_by_xpath('.//h3/a')
@@ -157,13 +159,15 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                     content = content.lower()
                     logger.info("Prn:Searching for Keyword")
                     if any(x in content for x in keyword):
-                        print(head)
+                        print("Value found")
+                        # print(head)
                         my_list.append([link,head])                        
-                        print(link)
+                        # print(link)
                 else:
                     break           
+            print("--------------------------outer")
             try:
-                f = open("news.txt", "a")
+                f = open("prn.txt", "a")
                 f.write(str(head)+";")                        
                 f.close()            
             except:
@@ -182,14 +186,14 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         if(driver_flag):
             driver.close()        
         if(run_count<=2):
-            scrap_prnewswire(us_curr_time,last_run_time,logger)
-        
+            scrap_prnewswire(us_curr_time,last_run_time,logger)        
     finally:
         my_list = []
         run_count = 0            
+        open('prn.txt', 'w').close()
 
 if( __name__ == "__main__"):    
-    temp_minute = 5
+    temp_minute = 60
     eastern = timezone('US/Eastern')        
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)

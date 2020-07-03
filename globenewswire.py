@@ -115,6 +115,7 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
                         data_list.append(content)
                         last_run_list.append(content)
                         print(content[1])            
+                    # print(sdfs)
             if(flag):
                 break
         driver.close()
@@ -147,7 +148,7 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,10,logger)
+        my_list = scrap_globenewswire(us_curr_time,60,logger)
         print(my_list)
 
 # cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[6]/div/div')))
