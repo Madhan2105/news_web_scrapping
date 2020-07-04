@@ -23,7 +23,8 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
         logger.info("Buss:Scrapping...")
         options  = webdriver.ChromeOptions()        
         options.add_argument("--start-maximized")
-        options.binary_location = "/usr/bin/chromium-browser"
+        # options.binary_location = "/usr/bin/chromium-browser"
+        options.add_argument("--no-sandbox")
         options.add_argument('--headless')
         options.add_argument("--log-level=3")        
         cwd = os.getcwd()
