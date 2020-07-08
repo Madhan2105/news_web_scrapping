@@ -12,9 +12,6 @@ from dotenv import load_dotenv
 from discord.ext import commands, tasks
 import asyncio
 import os
-from newsroom1 import newsroom_scrap
-from bussineswire import scrap_bussinewire
-from prnewswire import scrap_prnewswire
 from globenewswire import scrap_globenewswire
 import logging
 

@@ -12,10 +12,7 @@ from dotenv import load_dotenv
 from discord.ext import commands, tasks
 import asyncio
 import os
-from newsroom1 import newsroom_scrap
-from bussineswire import scrap_bussinewire
-from prnewswire import scrap_prnewswire
-from globenewswire import scrap_globenewswire
+from prnewswire import scrap_prnewswire,my_list
 import logging
 
 
@@ -43,11 +40,11 @@ async def my_background_task1():
     channel = client.get_channel(727482213909659709) #connect with the given channel id 
     print(channel)
     if channel is not None:
-        temp_minute = 2
+        temp_minute = 10
         last_run_time = us_curr_time - timedelta(minutes=temp_minute)
         logger.info("prnnewswire Job Started")
         print("prnnewswire Job Started",last_run_time,us_curr_time)
-        my_list = scrap_prnewswire(us_curr_time,last_run_time,logger)        
+        scrap_prnewswire(us_curr_time,last_run_time,logger)        
         print(my_list)
         # logger.info(my_list)
         # global last_run_list

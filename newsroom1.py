@@ -111,7 +111,6 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
                 f.close()            
             except:
                 pass
-                
         logger.info("Newsroom : Run Succesfully")
         print("Run Succesfully")
         print(us_curr_time)
@@ -126,14 +125,13 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
         if(run_count<=2):
             newsroom_scrap(us_curr_time,last_run_time,logger)
     finally:
-        my_list = []
         run_count = 0        
-        open('news.txt', 'w').close()
+        open('news.txt', 'w').close
         logger.info("Executing finally bllock")
 
 if( __name__ == "__main__"):
     eastern = timezone('US/Eastern')     
-    temp_minute = 3
+    temp_minute = 15
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
     log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
@@ -141,5 +139,5 @@ if( __name__ == "__main__"):
     logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
     logger=logging.getLogger()
     logger.setLevel(logging.INFO)    
-    my_list = newsroom_scrap(us_curr_time,last_run_time,logger)
+    newsroom_scrap(us_curr_time,last_run_time,logger)
     print(my_list)

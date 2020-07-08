@@ -148,7 +148,7 @@ if( __name__ == "__main__"):
         logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
         logger=logging.getLogger()
         logger.setLevel(logging.INFO)    
-        my_list = scrap_globenewswire(us_curr_time,100,logger)
+        my_list = scrap_globenewswire(us_curr_time,1000,logger)
         print(my_list)
 
 # cookies = wait.until(ec.visibility_of_element_located((By.XPATH,'/html/body/div[6]/div/div')))

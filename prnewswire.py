@@ -114,7 +114,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                 f.write(str(head)+";")                        
                 f.close()            
             except:
-                pass            
+                pass                            
         logger.info("------------Second Loop------------")        
         for a in article1:
             # left_card = a.find_element_by_xpath('.//div[@class="col-sm-8 col-lg-9 pull-left card"]')
@@ -172,7 +172,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                 f.write(str(head)+";")                        
                 f.close()            
             except:
-                pass    
+                pass  
             # break
             # print(my_list)
         print("Current time",us_curr_time)        
@@ -189,12 +189,11 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
         if(run_count<=2):
             scrap_prnewswire(us_curr_time,last_run_time,logger)        
     finally:
-        my_list = []
         run_count = 0            
         open('prn.txt', 'w').close()
 
 if( __name__ == "__main__"):    
-    temp_minute = 60
+    temp_minute = 4
     eastern = timezone('US/Eastern')        
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
@@ -203,5 +202,5 @@ if( __name__ == "__main__"):
     logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
     logger=logging.getLogger()
     logger.setLevel(logging.INFO)    
-    my_list = scrap_prnewswire(us_curr_time,last_run_time,logger)
+    scrap_prnewswire(us_curr_time,last_run_time,logger)
     print(my_list)    

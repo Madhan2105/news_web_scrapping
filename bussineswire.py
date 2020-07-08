@@ -119,28 +119,30 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
             next.click()
                 # print(link.get_attribute("href"))
             # break
-        # print(my_list)
-        driver.close()    
-        return my_list    
+        driver.close()
+        print("*******")
+        print(my_list)            
+        return my_list            
+        # return temp_list            
     except Exception as e:
         print("Something went Wrong!!",e)
+        print(my_list)
         logger.info("Exception")
         logger.info(e)
         if(driver_flag):
             driver.close()        
         # driver.close()
-        if(run_count<=2):
+        if(run_count<=2):            
             scrap_bussinewire(us_curr_time,last_run_time,logger)
         logger.info("Tried more the twice")
     finally:
-        my_list = []
         run_count = 0        
         open('buss.txt', 'w').close()
         logger.info("Executing finally bllock")
 
 if( __name__ == "__main__"):    
     eastern = timezone('US/Eastern')     
-    temp_minute = 3
+    temp_minute = 2
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
     log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
@@ -148,5 +150,5 @@ if( __name__ == "__main__"):
     logging.basicConfig(filename=log_file, filemode='a', format='%(asctime)s %(message)s')
     logger=logging.getLogger()
     logger.setLevel(logging.INFO)    
-    my_list = scrap_bussinewire(us_curr_time,last_run_time,logger)
+    scrap_bussinewire(us_curr_time,last_run_time,logger)
     print(my_list)

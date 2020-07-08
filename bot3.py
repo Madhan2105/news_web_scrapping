@@ -12,10 +12,8 @@ from dotenv import load_dotenv
 from discord.ext import commands, tasks
 import asyncio
 import os
-from newsroom1 import newsroom_scrap
-from bussineswire import scrap_bussinewire
-from prnewswire import scrap_prnewswire
-from globenewswire import scrap_globenewswire
+from newsroom1 import newsroom_scrap,my_list
+from bussineswire import scrap_bussinewire,my_list
 import logging
 
 load_dotenv() #loading environment variable
@@ -50,7 +48,7 @@ async def my_background_task2():
         last_run_time = last_run_time.replace(second=0, microsecond=0)
         logger.info("Bussieswire Job Started")
         print("Bussieswire Job Started",last_run_time,us_curr_time)
-        my_list = scrap_bussinewire(us_curr_time,last_run_time,logger)
+        scrap_bussinewire(us_curr_time,last_run_time,logger)
         # global last_run_list
         # print("last_run_list",last_run_list)        
         # if(my_list):
@@ -59,6 +57,7 @@ async def my_background_task2():
         #     my_list = list(set(my_list)- set(last_run_list))
         #     print("difference",my_list)
         #     last_run_list = my_list
+        print(my_list)
         if(my_list):
             logger.info(str(my_list))
             await channel.send(my_list)
