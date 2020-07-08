@@ -205,4 +205,5 @@ if( __name__ == "__main__"):
     logger=logging.getLogger()
     logger.setLevel(logging.INFO)    
     scrap_prnewswire(us_curr_time,last_run_time,logger)
+    print("********")
     print(my_list)    
