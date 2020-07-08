@@ -23,6 +23,8 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
         driver_flag = False        
         global my_list,run_count   
         run_count = run_count + 1 
+        if(run_count==1):
+            my_list = []        
         print(datetime.now())
         logger.info("Newsroom : Scrapping..")
         options  = webdriver.ChromeOptions()        
