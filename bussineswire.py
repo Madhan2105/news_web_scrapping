@@ -11,16 +11,14 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import logging
 import os
+import setting
 
-my_list = []
 run_count = 0
 def scrap_bussinewire(us_curr_time,last_run_time,logger):
     try:
         driver_flag = False        
-        global my_list,run_count
+        global run_count
         run_count = run_count + 1 
-        if(run_count==1):
-            my_list = []
         print("run_count",run_count)
         logger.info("Buss:Scrapping...")
         options  = webdriver.ChromeOptions()        
@@ -102,9 +100,9 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
                     logger.info("Buss:Searching keyword")
                     # print(data)
                     if any(x in data for x in keyword):
-                        my_list.append([link,head])
+                        setting.buss_my_list.append([link,head])
                     print("------------------------------------------------")
-                    print(my_list)
+                    print(setting.buss_my_list)
                 else:
                     logger.info("Buss:No More Articles")                    
                     flag = True
@@ -123,12 +121,12 @@ def scrap_bussinewire(us_curr_time,last_run_time,logger):
             # break
         driver.close()
         print("*******")
-        print(my_list)            
-        return my_list            
+        print(setting.buss_my_list)            
+        return setting.buss_my_list            
         # return temp_list            
     except Exception as e:
         print("Something went Wrong!!",e)
-        print(my_list)
+        print(setting.buss_my_list)
         logger.info("Exception")
         logger.info(e)
         if(driver_flag):
@@ -153,4 +151,4 @@ if( __name__ == "__main__"):
     logger=logging.getLogger()
     logger.setLevel(logging.INFO)    
     scrap_bussinewire(us_curr_time,last_run_time,logger)
-    print(my_list)
+    print(setting.buss_my_list)

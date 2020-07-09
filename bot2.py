@@ -12,8 +12,10 @@ from dotenv import load_dotenv
 from discord.ext import commands, tasks
 import asyncio
 import os
-from prnewswire import scrap_prnewswire,my_list
+import setting
+from prnewswire import scrap_prnewswire
 import logging
+import setting
 
 
 load_dotenv() #loading environment variable
@@ -44,8 +46,9 @@ async def my_background_task1():
         last_run_time = us_curr_time - timedelta(minutes=temp_minute)
         logger.info("prnnewswire Job Started")
         print("prnnewswire Job Started",last_run_time,us_curr_time)
+        setting.prn_init()
         scrap_prnewswire(us_curr_time,last_run_time,logger)        
-        print(my_list)
+        print(setting.prn_my_list)
         # logger.info(my_list)
         # global last_run_list
         # print("last_run_list",last_run_list)        
@@ -55,9 +58,9 @@ async def my_background_task1():
         #     my_list = list(set(my_list)- set(last_run_list))
         #     print("difference",my_list)
         #     last_run_list = my_list
-        if(my_list):
-            logger.info(str(my_list))
-            await channel.send(my_list)
+        if(setting.prn_my_list):
+            logger.info(str(setting.prn_my_list))
+            await channel.send(setting.prn_my_list)
         # else:
             # last_run_list = []
         print("prnnewswire Job completed")            

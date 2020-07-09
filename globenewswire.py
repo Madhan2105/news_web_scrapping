@@ -64,7 +64,6 @@ def scrap_globenewswire(us_curr_time,temp_minute,logger):
             my_list = []                        
             logger.info("Globe:Iterating Article")
             print("Iterating Article")
-            # keyword = ["nasdaq","nyse","amex"]
             keyword = ["nasdaq","nyse","amex"]
             for a in article:               
                 logger.info("Globe:Iterating...")                

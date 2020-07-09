@@ -9,20 +9,18 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 import itertools  
 import re
+import setting
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import logging
 import os
 
-my_list = []
 run_count = 0
 def scrap_prnewswire(us_curr_time,last_run_time,logger):
     try:
         driver_flag = False        
-        global my_list,run_count   
+        global run_count   
         run_count = run_count + 1 
-        if(run_count==1):
-            my_list = []        
         logger.info("Prn:Scrapping....")
         options  = webdriver.ChromeOptions()        
         options.add_argument("--start-maximized")
@@ -106,7 +104,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                     logger.info("Prn:Searching for Keyword")
                     if any(x in content for x in keyword):
                         # print(head)
-                        my_list.append([link,head])                        
+                        setting.prn_my_list.append([link,head])                        
                         # print(link)
                 else:
                     break
@@ -164,7 +162,7 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
                     if any(x in content for x in keyword):
                         print("Value found")
                         # print(head)
-                        my_list.append([link,head])                        
+                        setting.prn_my_list.append([link,head])                        
                         # print(link)
                 else:
                     break           
@@ -176,11 +174,11 @@ def scrap_prnewswire(us_curr_time,last_run_time,logger):
             except:
                 pass  
             # break
-            # print(my_list)
+            # print(setting.prn_my_list)
         print("Current time",us_curr_time)        
         logger.info("Prn:Run Complete")
         driver.close()
-        return my_list
+        # return setting.prn_my_list
 
     except Exception as e:
         print("Something went Wrong!!",e)
@@ -206,4 +204,4 @@ if( __name__ == "__main__"):
     logger.setLevel(logging.INFO)    
     scrap_prnewswire(us_curr_time,last_run_time,logger)
     print("********")
-    print(my_list)    
+    print(setting.prn_my_list)    

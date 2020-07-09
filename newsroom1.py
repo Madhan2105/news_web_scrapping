@@ -15,16 +15,15 @@ import os
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import logging
+import setting
 
-my_list = []
+# my_list = []
 run_count = 0
 def newsroom_scrap(us_curr_time,last_run_time,logger):
     try:     
-        driver_flag = False        
-        global my_list,run_count   
-        run_count = run_count + 1 
-        if(run_count==1):
-            my_list = []        
+        driver_flag = False       
+        global run_count    
+        run_count = run_count + 1        
         print(datetime.now())
         logger.info("Newsroom : Scrapping..")
         options  = webdriver.ChromeOptions()        
@@ -101,8 +100,8 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
                 data = data.lower()
                 logger.info("Newsroom : Searching for keyword")
                 if any(x in data for x in keyword):
-                    my_list.append([link,head])
-                print(my_list)
+                    setting.my_list.append([link,head])
+                print(setting.my_list)
             else:                
                 logger.info("No More Aricle")
                 break
@@ -117,7 +116,8 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
         print("Run Succesfully")
         print(us_curr_time)
         driver.close()    
-        return my_list
+        print(setting.my_list)
+        # return setting.my_list
     except Exception as e:
         print("Something went Wrong!!",e)
         logger.info("Exception")
@@ -133,7 +133,7 @@ def newsroom_scrap(us_curr_time,last_run_time,logger):
 
 if( __name__ == "__main__"):
     eastern = timezone('US/Eastern')     
-    temp_minute = 15
+    temp_minute = 200
     us_curr_time = datetime.now().astimezone(eastern).replace(tzinfo=None)    
     last_run_time = us_curr_time - timedelta(minutes=temp_minute)
     log_file  = "log/" + us_curr_time.date().strftime("%d_%m_%y") + ".log"
